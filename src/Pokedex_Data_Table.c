@@ -10874,6 +10874,18 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 282,
 		.trainerOffset = 0,
 	},
+	[NATIONAL_DEX_ENAMORUS] =
+	{
+		.categoryName = {_L, _o, _v, _e, _SPACE, _H, _a, _t, _e, _END, _SPACE, _SPACE},
+		.height = 15,
+		.weight = 680,
+		.description = DEX_ENTRY_ENAMORUS,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
 };
 
 //Certain Pokemon forms can have alternate dex entries when viewed
