@@ -3818,8 +3818,23 @@ Voltorb
 #org @NAME_ELECTRODE_H
 Electrode
 
+#org @NAME_SCYTHER_H
+Scyther
+
+#org @NAME_CYNDAQUIL_H
+Cyndaquil
+
+#org @NAME_QUILAVA_H
+Quilava
+
 #org @NAME_TYPHLOSION_H
 Typhlosion
+
+#org @NAME_TEDDIURSA_H
+Teddiursa
+
+#org @NAME_URSARING_H
+Ursaring
 
 #org @NAME_QWILFISH_H
 Qwilfish
@@ -3827,14 +3842,26 @@ Qwilfish
 #org @NAME_SNEASEL_H
 Sneasel
 
+#org @NAME_STANTLER_H
+Stantler
+
 #org @NAME_DIALGAO
 Dialga
 
 #org @NAME_PALKIAO
 Palkia
 
+#org @NAME_OSHAWOTT_H
+Oshawott
+
+#org @NAME_DEWOTT_H
+Dewott
+
 #org @NAME_SAMUROTT_H
 Samurott
+
+#org @NAME_PETILIL_H
+Petilil
 
 #org @NAME_LILLIGANT_H
 Lilligant
@@ -3848,8 +3875,14 @@ Zorua
 #org @NAME_ZOROARK_H
 Zoroark
 
+#org @NAME_RUFFLET_H
+Rufflet
+
 #org @NAME_BRAVIARY_H
 Braviary
+
+#org @NAME_GOOMY_H
+Goomy
 
 #org @NAME_SLIGGOO_H
 Sliggoo
@@ -3857,8 +3890,17 @@ Sliggoo
 #org @NAME_GOODRA_H
 Goodra
 
+#org @NAME_BERGMITE_H
+Bergmite
+
 #org @NAME_AVALUGG_H
 Avalugg
+
+#org @NAME_ROWLET_H
+Rowlet
+
+#org @NAME_DARTRIX_H
+Dartrix
 
 #org @NAME_DECIDUEYE_H
 Decidueye
