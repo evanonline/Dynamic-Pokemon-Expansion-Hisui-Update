@@ -3806,17 +3806,17 @@ Urshifu
 #org @NAME_URSHIFU_RAPID_GIGA
 Urshifu
 
-#org @NAME_VOLTORB_H
-Voltorb
-
-#org @NAME_ELECTRODE_H
-Electrode
-
 #org @NAME_GROWLITHE_H
 Growlithe
 
 #org @NAME_ARCANINE_H
 Arcanine
+
+#org @NAME_VOLTORB_H
+Voltorb
+
+#org @NAME_ELECTRODE_H
+Electrode
 
 #org @NAME_TYPHLOSION_H
 Typhlosion
