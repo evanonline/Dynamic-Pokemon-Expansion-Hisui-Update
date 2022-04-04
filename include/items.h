@@ -846,7 +846,13 @@ enum
 #define ITEM_RUSTED_SWORD 0x2C6
 #define ITEM_RUSTED_SHIELD 0x2C7
 
-#define ITEMS_COUNT (ITEM_STAR_SWEET + 1)
+// Legends: Arceus items
+#define ITEM_BLACK_AUGURITE 0x2CA
+#define ITEM_PEAT_BLOCK 0x2CB
+#define ITEM_LEGEND_PLATE 0x2CC
+
+#define ITEMS_COUNT (ITEM_LEGEND_PLATE + 1)
+// was previously set as ITEM_STAR_SWEET + 1 despite that not being the last item, not sure if that is intentional?
 
 //For Pokemon Unbound
 #ifdef UNBOUND
