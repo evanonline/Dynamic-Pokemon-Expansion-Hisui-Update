@@ -1624,4 +1624,3 @@ extern const u8 DEX_ENTRY_SLIGGOO_H[];
 extern const u8 DEX_ENTRY_GOODRA_H[];
 extern const u8 DEX_ENTRY_AVALUGG_H[];
 extern const u8 DEX_ENTRY_DECIDUEYE_H[];
-extern const u8 DEX_ENTRY_BASCULEGION_FEMALE[];

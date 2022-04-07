@@ -14910,7 +14910,91 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GROWLITHE_H] =
+	[SPECIES_WYRDEER] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryWyrdeer,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_KLEAVOR] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryKleavor,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_URSALUNA] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryUrsaluna,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_BASCULEGION] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryBasculegion,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_SNEASLER] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCrySneasler,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_OVERQWIL] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryOverqwil,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_ENAMORUS] = 
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryEnamorus,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+		[SPECIES_GROWLITHE_H] =
 	{
 		.type = 0x20,
 		.key = 0x3c,
@@ -14994,30 +15078,6 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DIALGA_ORIGIN] = 
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryDialga,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_PALKIA_ORIGIN] = 
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryPalkia,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
 	[SPECIES_SAMUROTT_H] = 
 	{	
 		.type = 0x20,
@@ -15037,18 +15097,6 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = gCryLilligant,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_BASCULIN_WHITE] = 
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryBasculin,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -15138,43 +15186,31 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WYRDEER] = 
+	[SPECIES_PIKACHU_CAP_WORLD] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryWyrdeer,
+		.wav = (u8*) 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KLEAVOR] = 
+	[SPECIES_BASCULIN_WHITE] = 
 	{	
 		.type = 0x20,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryKleavor,
+		.wav = gCryBasculin,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_URSALUNA] = 
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryUrsaluna,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_BASCULEGION] = 
+	[SPECIES_BASCULEGION_FEMALE] = 
 	{	
 		.type = 0x20,
 		.key = 0x3c,
@@ -15186,37 +15222,25 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SNEASLER] = 
+	[SPECIES_DIALGA_ORIGIN] = 
 	{	
 		.type = 0x20,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCrySneasler,
+		.wav = gCryDialga,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_OVERQWIL] = 
+	[SPECIES_PALKIA_ORIGIN] = 
 	{	
 		.type = 0x20,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryOverqwil,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_ENAMORUS] = 
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryEnamorus,
+		.wav = gCryPalkia,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
