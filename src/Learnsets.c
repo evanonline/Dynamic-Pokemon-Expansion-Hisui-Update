@@ -19607,7 +19607,7 @@ static const struct LevelUpMove sBraviaryHLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(49, MOVE_OMINOUSWIND),
 	LEVEL_UP_MOVE(53, MOVE_SKYDROP),
 	LEVEL_UP_MOVE(58, MOVE_PSYSHOCK),
-	LEVEL_UP_MOVE(62, MOVE_POWERSHIFT),
+	LEVEL_UP_MOVE(62, MOVE_PSYCHOSHIFT),
 	LEVEL_UP_MOVE(66, MOVE_FUTURESIGHT),
 	LEVEL_UP_END
 };
@@ -21001,7 +21001,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_GOODRA_H] = sGoodraHLevelUpLearnset,
 	[SPECIES_AVALUGG_H] = sAvaluggHLevelUpLearnset,
 	[SPECIES_DECIDUEYE_H] = sDecidueyeHLevelUpLearnset,
-	[SPECIES_PIKACHU_CAP_PARTNER] = sPikachuLevelUpLearnset,
+	[SPECIES_PIKACHU_CAP_WORLD] = sPikachuLevelUpLearnset,
 	[SPECIES_BASCULIN_WHITE] = sBasculinLevelUpLearnset,
 	[SPECIES_BASCULEGION_FEMALE] = sBasculegionLevelUpLearnset,
 	[SPECIES_DIALGA_ORIGIN] = sDialgaLevelUpLearnset,

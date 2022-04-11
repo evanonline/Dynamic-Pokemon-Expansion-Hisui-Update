@@ -41722,7 +41722,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 	
-		[SPECIES_BASCULEGION_F] =
+		[SPECIES_BASCULEGION_FEMALE] =
 	{
 		.baseHP 		= 120,
 		.baseAttack 	= 92,
@@ -41854,4 +41854,3 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 };
-
