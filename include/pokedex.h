@@ -1601,6 +1601,8 @@ extern const u8 DEX_ENTRY_URSHIFU_RAPID[];
 extern const u8 DEX_ENTRY_ZARUDE_DADA[];
 extern const u8 DEX_ENTRY_CALYREX_ICE_RIDER[];
 extern const u8 DEX_ENTRY_CALYREX_SHADOW_RIDER[];
+
+//Legends: Arceus (Hisui)
 extern const u8 DEX_ENTRY_WYRDEER[];
 extern const u8 DEX_ENTRY_KLEAVOR[];
 extern const u8 DEX_ENTRY_URSALUNA[];
@@ -1608,6 +1610,7 @@ extern const u8 DEX_ENTRY_BASCULEGION[];
 extern const u8 DEX_ENTRY_SNEASLER[];
 extern const u8 DEX_ENTRY_OVERQWIL[];
 extern const u8 DEX_ENTRY_ENAMORUS[];
+
 extern const u8 DEX_ENTRY_GROWLITHE_H[];
 extern const u8 DEX_ENTRY_ARCANINE_H[];
 extern const u8 DEX_ENTRY_VOLTORB_H[];
