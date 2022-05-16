@@ -62,7 +62,8 @@ enum MegaEvoVariants
 	MEGA_VARIANT_ULTRA_BURST, //Necrozma
 };
 
-#define MB_SHALLOW_WATER 0x17 //For Alolan Raichu
+//#define MB_SHALLOW_WATER 0x17 //For Alolan Raichu
 
 #define MAPSEC_POWER_PLANT 0x8E
 #define MAPSEC_ICEFALL_CAVE 0xB1
+#define MAPSEC_MINNESOTA_LODGE 0xAB // Replaces "Sevii island 22"

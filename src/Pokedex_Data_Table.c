@@ -10886,6 +10886,32 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
+	
+	[NATIONAL_DEX_PROTOCEUS] =
+	{
+		.categoryName = {_P, _r, _o, _t, _o, _f, _o, _r, _m, _END, _SPACE, _SPACE},
+		.height = 32,
+		.weight = 1,
+		.description = DEX_ENTRY_ARCEUS,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
+	
+	[NATIONAL_DEX_MISSINGNO] =
+	{
+		.categoryName = {_G, _l, _i, _t, _c, _h, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 16,
+		.weight = 9999,
+		.description = DEX_ENTRY_GLASTRIER,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
 };
 
 //Certain Pokemon forms can have alternate dex entries when viewed

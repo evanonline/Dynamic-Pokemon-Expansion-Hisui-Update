@@ -189,6 +189,282 @@ u16 TryGetFemaleGenderedSpecies(u16 species, u32 personality)
 			case SPECIES_PYROAR:
 				species = SPECIES_PYROAR_FEMALE;
 				break;
+			case SPECIES_VENUSAUR:
+				species = SPECIES_VENUSAUR_F;
+				break;
+			case SPECIES_BUTTERFREE:
+				species = SPECIES_BUTTERFREE_F;
+				break;	
+			case SPECIES_RATTATA:
+				species = SPECIES_RATTATA_F;
+				break;
+			case SPECIES_RATICATE:
+				species = SPECIES_RATICATE_F;
+				break;
+			case SPECIES_PIKACHU:
+				species = SPECIES_PIKACHU_F;
+				break;
+			case SPECIES_RAICHU:
+				species = SPECIES_RAICHU_F;
+				break;
+			case SPECIES_ZUBAT:
+				species = SPECIES_ZUBAT_F;
+				break;
+			case SPECIES_GOLBAT:
+				species = SPECIES_GOLBAT_F;
+				break;
+			case SPECIES_GLOOM:
+				species = SPECIES_GLOOM_F;
+				break;
+			case SPECIES_VILEPLUME:
+				species = SPECIES_VILEPLUME_F;
+				break;
+			case SPECIES_KADABRA:
+				species = SPECIES_KADABRA_F;
+				break;
+			case SPECIES_ALAKAZAM:
+				species = SPECIES_ALAKAZAM_F;
+				break;
+			case SPECIES_DODUO:
+				species = SPECIES_DODUO_F;
+				break;
+			case SPECIES_DODRIO:
+				species = SPECIES_DODRIO_F;
+				break;
+			case SPECIES_HYPNO:
+				species = SPECIES_HYPNO_F;
+				break;
+			case SPECIES_RHYHORN:
+				species = SPECIES_RHYHORN_F;
+				break;
+			case SPECIES_RHYDON:
+				species = SPECIES_RHYDON_F;
+				break;
+			case SPECIES_GOLDEEN:
+				species = SPECIES_GOLDEEN_F;
+				break;
+			case SPECIES_SEAKING:
+				species = SPECIES_SEAKING_F;
+				break;
+			case SPECIES_SCYTHER:
+				species = SPECIES_SCYTHER_F;
+				break;
+			case SPECIES_MAGIKARP:
+				species = SPECIES_MAGIKARP_F;
+				break;
+			case SPECIES_GYARADOS:
+				species = SPECIES_GYARADOS_F;
+				break;		
+			case SPECIES_EEVEE:
+				species = SPECIES_EEVEE_F;
+				break;
+			case SPECIES_MEGANIUM:
+				species = SPECIES_MEGANIUM_F;
+				break;
+			case SPECIES_LEDYBA:
+				species = SPECIES_LEDYBA_F;
+				break;
+			case SPECIES_LEDIAN:
+				species = SPECIES_LEDIAN_F;
+				break;
+			case SPECIES_XATU:
+				species = SPECIES_XATU_F;
+				break;		
+			case SPECIES_SUDOWOODO:
+				species = SPECIES_SUDOWOODO_F;
+				break;
+			case SPECIES_POLITOED:
+				species = SPECIES_POLITOED_F;
+				break;
+			case SPECIES_AIPOM:
+				species = SPECIES_AIPOM_F;
+				break;
+			case SPECIES_WOOPER:
+				species = SPECIES_WOOPER_F;
+				break;						
+			case SPECIES_QUAGSIRE:
+				species = SPECIES_QUAGSIRE_F;
+				break;							
+			case SPECIES_MURKROW:
+				species = SPECIES_MURKROW_F;
+				break;
+			case SPECIES_WOBBUFFET:
+				species = SPECIES_WOBBUFFET_F;
+				break;
+			case SPECIES_GIRAFARIG:
+				species = SPECIES_GIRAFARIG_F;
+				break;							
+			case SPECIES_GLIGAR:
+				species = SPECIES_GLIGAR_F;
+				break;			
+			case SPECIES_STEELIX:
+				species = SPECIES_STEELIX_F;
+				break;			
+			case SPECIES_SCIZOR:
+				species = SPECIES_SCIZOR_F;
+				break;			
+			case SPECIES_HERACROSS:
+				species = SPECIES_HERACROSS_F;
+				break;			
+			case SPECIES_SNEASEL:
+				species = SPECIES_SNEASEL_F;
+				break;
+			case SPECIES_URSARING:
+				species = SPECIES_URSARING_F;
+				break;			
+			case SPECIES_PILOSWINE:
+				species = SPECIES_PILOSWINE_F;
+				break;			
+			case SPECIES_OCTILLERY:
+				species = SPECIES_OCTILLERY_F;
+				break;	
+			case SPECIES_HOUNDOOM:
+				species = SPECIES_HOUNDOOM_F;
+				break;						
+			case SPECIES_DONPHAN:
+				species = SPECIES_DONPHAN_F;
+				break;		
+			case SPECIES_TORCHIC:
+				species = SPECIES_TORCHIC_F;
+				break;			
+			case SPECIES_COMBUSKEN:
+				species = SPECIES_COMBUSKEN_F;
+				break;	
+			case SPECIES_BLAZIKEN:
+				species = SPECIES_BLAZIKEN_F;
+				break;						
+			case SPECIES_BEAUTIFLY:
+				species = SPECIES_BEAUTIFLY_F;
+				break;						
+			case SPECIES_DUSTOX:
+				species = SPECIES_DUSTOX_F;
+				break;						
+			case SPECIES_LUDICOLO:
+				species = SPECIES_LUDICOLO_F;
+				break;						
+			case SPECIES_NUZLEAF:
+				species = SPECIES_NUZLEAF_F;
+				break;						
+			case SPECIES_SHIFTRY:
+				species = SPECIES_SHIFTRY_F;
+				break;			
+			case SPECIES_MILOTIC:
+				species = SPECIES_MILOTIC_F;
+				break;		
+			case SPECIES_NUMEL:
+				species = SPECIES_NUMEL_F;
+				break;		
+			case SPECIES_CAMERUPT:
+				species = SPECIES_CAMERUPT_F;
+				break;				
+			case SPECIES_CACTURNE:
+				species = SPECIES_CACTURNE_F;
+				break;	
+			case SPECIES_MEDITITE:
+				species = SPECIES_MEDITITE_F;
+				break;						
+			case SPECIES_MEDICHAM:
+				species = SPECIES_MEDICHAM_F;
+				break;
+			case SPECIES_ROSELIA:
+				species = SPECIES_ROSELIA_F;
+				break;		
+			case SPECIES_GULPIN:
+				species = SPECIES_GULPIN_F;	
+				break;					
+			case SPECIES_SWALOT:
+				species = SPECIES_SWALOT_F;
+				break;		
+			case SPECIES_RELICANTH:
+				species = SPECIES_RELICANTH_F;
+				break;		
+			case SPECIES_STARLY:
+				species = SPECIES_STARLY_F;
+				break;			
+			case SPECIES_STARAVIA:
+				species = SPECIES_STARAVIA_F;
+				break;					
+			case SPECIES_STARAPTOR:
+				species = SPECIES_STARAPTOR_F;
+				break;	
+			case SPECIES_BIDOOF:
+				species = SPECIES_BIDOOF_F;
+				break;
+			case SPECIES_BIBAREL:
+				species = SPECIES_BIBAREL_F;
+				break;
+			case SPECIES_KRICKETOT:
+				species = SPECIES_KRICKETOT_F;
+				break;
+			case SPECIES_KRICKETUNE:
+				species = SPECIES_KRICKETUNE_F;
+				break;
+			case SPECIES_SHINX:
+				species = SPECIES_SHINX_F;
+				break;
+			case SPECIES_LUXIO:
+				species = SPECIES_LUXIO_F;
+				break;		
+			case SPECIES_LUXRAY:
+				species = SPECIES_LUXRAY_F;
+				break;		
+			case SPECIES_COMBEE:
+				species = SPECIES_COMBEE_F;
+				break;				
+			case SPECIES_PACHIRISU:
+				species = SPECIES_PACHIRISU_F;
+				break;	
+			case SPECIES_BUIZEL:
+				species = SPECIES_BUIZEL_F;
+				break;						
+			case SPECIES_FLOATZEL:
+				species = SPECIES_FLOATZEL_F;
+				break;
+			case SPECIES_AMBIPOM:
+				species = SPECIES_AMBIPOM_F;
+				break;
+			case SPECIES_GIBLE:
+				species = SPECIES_GIBLE_F;
+				break;
+			case SPECIES_GABITE:
+				species = SPECIES_GABITE_F;
+				break;		
+			case SPECIES_GARCHOMP:
+				species = SPECIES_GARCHOMP_F;
+				break;				
+			case SPECIES_CROAGUNK:
+				species = SPECIES_CROAGUNK_F;
+				break;	
+			case SPECIES_TOXICROAK:
+				species = SPECIES_TOXICROAK_F;
+				break;						
+			case SPECIES_FINNEON:
+				species = SPECIES_FINNEON_F;
+				break;						
+			case SPECIES_LUMINEON:
+				species = SPECIES_LUMINEON_F;
+				break;						
+			case SPECIES_SNOVER:
+				species = SPECIES_SNOVER_F;
+				break;						
+			case SPECIES_ABOMASNOW:
+				species = SPECIES_ABOMASNOW_F;
+				break;	
+			case SPECIES_WEAVILE:
+				species = SPECIES_WEAVILE_F;
+				break;		
+			case SPECIES_RHYPERIOR:
+				species = SPECIES_RHYPERIOR_F;
+				break;					
+			case SPECIES_TANGROWTH:
+				species = SPECIES_TANGROWTH_F;
+				break;						
+			case SPECIES_MAMOSWINE:
+				species = SPECIES_MAMOSWINE_F;
+				break;						
+			case SPECIES_SNEASEL_H:
+				species = SPECIES_SNEASEL_H_F;
+				break;
 		}
 	}
 	else if (species == SPECIES_XERNEAS && !gMain.inBattle)
