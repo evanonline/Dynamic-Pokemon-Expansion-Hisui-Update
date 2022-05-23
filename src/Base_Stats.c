@@ -44960,22 +44960,39 @@ const struct BaseStats gBaseStats[] =
 	
 	[SPECIES_MISSINGNO] =
 	{
+<<<<<<< Updated upstream
 		.baseHP 		= 176,
 		.baseAttack 	= 121,
 		.baseDefense 	= 5,
 		.baseSpAttack 	= 137,
 		.baseSpDefense 	= 123,
 		.baseSpeed 		= 39,
+=======
+		.baseHP 		= 178,
+		.baseAttack 	= 136,
+		.baseDefense 	= 11,
+		.baseSpAttack 	= 23,
+		.baseSpDefense 	= 123,
+		.baseSpeed 		= 29,
+>>>>>>> Stashed changes
 		.type1 = TYPE_FLYING,
 		.type2 = TYPE_FLYING,
 		.catchRate = 30,
 		.expYield = 165,
 		.evYield_HP 		= 1,
+<<<<<<< Updated upstream
 		.evYield_Attack 	= 0,
 		.evYield_Defense 	= 0,
 		.evYield_SpAttack 	= 0,
 		.evYield_SpDefense 	= 0,
 		.evYield_Speed 		= 1,
+=======
+		.evYield_Attack 	= 1,
+		.evYield_Defense 	= 0,
+		.evYield_SpAttack 	= 0,
+		.evYield_SpDefense 	= 0,
+		.evYield_Speed 		= 0,
+>>>>>>> Stashed changes
 		.item1 = ITEM_NONE,
 		.item2 = ITEM_NONE,
 		.genderRatio = MON_GENDERLESS,

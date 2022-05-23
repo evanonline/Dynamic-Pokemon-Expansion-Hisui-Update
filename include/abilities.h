@@ -256,3 +256,7 @@
 #define ABILITY_SCREENCLEANER 0xFD
 #define ABILITY_PASTELVEIL 0xFE
 #define ABILITY_UNSEENFIST 0xFF
+<<<<<<< Updated upstream
+=======
+#define ABILITY_ASONE 0x100
+>>>>>>> Stashed changes
