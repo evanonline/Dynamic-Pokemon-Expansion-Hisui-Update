@@ -1616,5 +1616,24 @@ extern const u8 DEX_ENTRY_SNEASLER[];
 extern const u8 DEX_ENTRY_OVERQWIL[];
 extern const u8 DEX_ENTRY_ENAMORUS[];
 
+extern const u8 DEX_ENTRY_GROWLITHE_H[];
+extern const u8 DEX_ENTRY_ARCANINE_H[];
+extern const u8 DEX_ENTRY_VOLTORB_H[];
+extern const u8 DEX_ENTRY_ELECTRODE_H[];
+extern const u8 DEX_ENTRY_TYPHLOSION_H[];
+extern const u8 DEX_ENTRY_QWILFISH_H[];
+extern const u8 DEX_ENTRY_SNEASEL_H[];
+extern const u8 DEX_ENTRY_SAMUROTT_H[];
+extern const u8 DEX_ENTRY_LILLIGANT_H[];
+extern const u8 DEX_ENTRY_ZORUA_H[];
+extern const u8 DEX_ENTRY_ZOROARK_H[];
+extern const u8 DEX_ENTRY_BRAVIARY_H[];
+extern const u8 DEX_ENTRY_SLIGGOO_H[];
+extern const u8 DEX_ENTRY_GOODRA_H[];
+extern const u8 DEX_ENTRY_AVALUGG_H[];
+extern const u8 DEX_ENTRY_DECIDUEYE_H[];
+
+//Extra
+
 extern const u8 DEX_ENTRY_PROTOCEUS[];
 extern const u8 DEX_ENTRY_MISSINGNO[];

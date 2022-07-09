@@ -780,7 +780,6 @@ enum
 #define ITEM_BLACK_AUGURITE 0x2E0 //Kleavor evo
 #define ITEM_PEAT_BLOCK 0x2E1 //Ursaluna evo
 #define ITEM_LEGEND_PLATE 0x2E2 //New Arceus plate
-<<<<<<< Updated upstream
 #define ITEM_FREE_SPACE11 0x2E3
 #define ITEM_FREE_SPACE12 0x2E4
 #define ITEM_FREE_SPACE13 0x2E5
@@ -789,16 +788,6 @@ enum
 #define ITEM_FREE_SPACE16 0x2E8
 #define ITEM_FREE_SPACE17 0x2E9
 #define ITEM_FREE_SPACE18 0x2EA
-=======
-#define ITEM_GROWTH_TAPPER 0x2E3 //Power booster for Pokemon who have regional forms that further evolve, but cannot evolve themselves.
-#define ITEM_SPIRIT_MOTOR 0x2E4 //Powers up base Rotom. Gift from Zak Bagon
-#define ITEM_OLD_POKE_BALL 0x2E5
-#define ITEM_OLD_GREAT_BALL 0x2E6
-#define ITEM_OLD_ULTRA_BALL 0x2E7
-#define ITEM_GIGATON_BALL 0x2E8
-#define ITEM_JET_BALL 0x2E9
-#define ITEM_STRANGE_BALL 0x2EA
->>>>>>> Stashed changes
 #define ITEM_FREE_SPACE19 0x2EB
 #define ITEM_FREE_SPACE20 0x2EC
 #define ITEM_FREE_SPACE21 0x2ED

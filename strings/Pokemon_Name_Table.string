@@ -2120,6 +2120,9 @@ Frillish
 #org @NAME_JELLICENTF
 Jellicent
 
+#org @NAME_MISSINGNO
+Missingno
+
 #org @NAME_BURMYS
 Burmy
 
@@ -2759,6 +2762,9 @@ Diancie
 #org @NAME_PDIALGA
 Dialga
 
+#org @NAME_PROTOCEUS
+Protoceus
+
 #org @NAME_VIVILLON2
 Vivillon
 
@@ -3104,14 +3110,14 @@ Grimer
 #org @NAME_AMUK
 Muk
 
-#org @NAME_AEXEGGCUTE
-Exeggcute
+#org @NAME_STOUTLAND_ETERNAL
+Stoutland
 
 #org @NAME_AEXEGGUTOR
 Exeggutor
 
-#org @NAME_ACUBONE
-Cubone
+#org @NAME_CHARIZARD_MONO
+Charizard
 
 #org @NAME_AMAROWAK
 Marowak
@@ -3647,11 +3653,11 @@ Slowpoke
 #org @NAME_SLOWBRO_G
 Slowbro
 
+#org @NAME_KOFFING_G
+Blank
+
 #org @NAME_FARFETCHD_G
 Farfetch'd
-
-#org @NAME_KOFFING_G
-Koffing
 
 #org @NAME_WEEZING_G
 Weezing
@@ -3680,8 +3686,8 @@ Zigzagoon
 #org @NAME_LINOONE_G
 Linoone
 
-#org @NAME_MIME_JR_G
-Mime Jr.
+#org @NAME_ROTOM_ROTOMI
+Rotom
 
 #org @NAME_DARUMAKA_G
 Darumaka
@@ -3801,73 +3807,73 @@ Urshifu
 Urshifu
 
 #org @NAME_WYRDEER
-WYRDEER
+Wyrdeer
 
 #org @NAME_KLEAVOR
-KLEAVOR
+Kkleavor
 
 #org @NAME_URSALUNA
-URSALUNA
+Ursaluna
 
 #org @NAME_BASCULEGION
-BASCLEGION
+Basclegion
 
 #org @NAME_SNEASLER
-SNEASLER
+Sneasler
 
 #org @NAME_OVERQWIL
-OVERQWIL
+Overqwil
 
 #org @NAME_ENAMORUS
-ENAMORUS
+Enamorus
 
 #org @NAME_GROWLITHE_H
-GROWLITHE
+Growlithe
 
 #org @NAME_ARCANINE_H
-ARCANINE
+Arcanine
 
 #org @NAME_VOLTORB_H
-VOLTORB
+Voltorb
 
 #org @NAME_ELECTRODE_H
-ELECTRODE
+Electrode
 
 #org @NAME_TYPHLOSION_H
-TYPHLOSION
+Typhlosion
 
 #org @NAME_QWILFISH_H
-QWILFISH
+Qwilfish
 
 #org @NAME_SNEASEL_H
-SNEASEL
+Sneasel
 
 #org @NAME_SAMUROTT_H
-SAMUROTT
+Samurott
 
 #org @NAME_LILLIGANT_H
-LILLIGANT
+Lilligant
 
 #org @NAME_ZORUA_H
-ZORUA
+Zorua
 
 #org @NAME_ZOROARK_H
-ZOROARK
+Zoroark
 
 #org @NAME_BRAVIARY_H
-BRAVIARY
+Braviary
 
 #org @NAME_SLIGGOO_H
-SLIGGOO
+Sliggoo
 
 #org @NAME_GOODRA_H
-GOODRA
+Goodra
 
 #org @NAME_AVALUGG_H
-AVALUGG
+Avalugg
 
 #org @NAME_DECIDUEYE_H
-DECIDUEYE
+Decidueye
 
 #org @NAME_PIKACHU_CAP_WORLD
 Pikachu
@@ -3887,17 +3893,283 @@ Palkia
 #org @NAME_ENAMORUS_THERIAN
 Enamorus
 
-#org @NAME_PROTOCEUS
-Protoceus
 
-#org @NAME_MISSINGNO
-Missingno
 
-#org @NAME_ROTOM_ROTOMI
-Rotom
+#org @NAME_VENUSAUR_F
+Venusaur
 
-#org @NAME_STOUTLAND_ETERNAL
-Stoutland
+#org @NAME_RATTATA_F
+Rattata
 
-#org @NAME_CHARIZARD_MONO
-Charizard
+#org @NAME_RATICATE_F
+Raticate
+
+#org @NAME_PIKACHU_F
+Pikachu
+
+#org @NAME_RAICHU_F
+Raichu
+
+#org @NAME_ZUBAT_F
+Zubat
+
+#org @NAME_GOLBAT_F
+Golbat
+
+#org @NAME_GLOOM_F
+Gloom
+
+#org @NAME_VILEPLUME_F
+Vileplume
+
+#org @NAME_KADABRA_F
+Kadabra
+
+#org @NAME_ALAKAZAM_F
+Alakazam
+
+#org @NAME_DODUO_F
+Doduo
+
+#org @NAME_DODRIO_F
+Dodrio
+
+#org @NAME_HYPNO_F
+Hypno
+
+#org @NAME_RHYHORN_F
+Rhyhorn
+
+#org @NAME_RHYDON_F
+Rhydon
+
+#org @NAME_GOLDEEN_F
+Goldeen
+
+#org @NAME_SEAKING_F
+Seaking
+
+#org @NAME_SCYTHER_F
+Scyther
+
+#org @NAME_MAGIKARP_F
+Magikarp
+
+#org @NAME_GYARADOS_F
+Gyarados
+
+#org @NAME_EEVEE_F
+Eevee
+
+#org @NAME_MEGANIUM_F
+Meganium
+
+#org @NAME_LEDYBA_F
+Ledyba
+
+#org @NAME_LEDIAN_F
+Ledian
+
+#org @NAME_XATU_F
+Xatu
+
+#org @NAME_SUDOWOODO_F
+Sudowoodo
+
+#org @NAME_POLITOED_F
+Politoed
+
+#org @NAME_AIPOM_F
+Aipom
+
+#org @NAME_WOOPER_F
+Wooper
+
+#org @NAME_QUAGSIRE_F
+Quagsire
+
+#org @NAME_MURKROW_F
+Murkrow
+
+#org @NAME_WOBBUFFET_F
+Wobbuffet
+
+#org @NAME_GIRAFARIG_F
+Girafarig
+
+#org @NAME_GLIGAR_F
+Gligar
+
+#org @NAME_STEELIX_F
+Steelix
+
+#org @NAME_SCIZOR_F
+Scizor
+
+#org @NAME_HERACROSS_F
+Heracross
+
+#org @NAME_SNEASEL_F
+Sneasel
+
+#org @NAME_URSARING_F
+Ursaring
+
+#org @NAME_PILOSWINE_F
+Piloswine
+
+#org @NAME_OCTILLERY_F
+Octillery
+
+#org @NAME_HOUNDOOM_F
+Houndoom
+
+#org @NAME_DONPHAN_F
+Donphan
+
+#org @NAME_TORCHIC_F
+Torchic
+
+#org @NAME_COMBUSKEN_F
+Combusken
+
+#org @NAME_BLAZIKEN_F
+Blaziken
+
+#org @NAME_BEAUTIFLY_F
+Beautifly
+
+#org @NAME_DUSTOX_F
+Dustox
+
+#org @NAME_LUDICOLO_F
+Ludicolo
+
+#org @NAME_NUZLEAF_F
+Nuzleaf
+
+#org @NAME_SHIFTRY_F
+Shiftry
+
+#org @NAME_MILOTIC_F
+Milotic
+
+#org @NAME_NUMEL_F
+Numel
+
+#org @NAME_CAMERUPT_F
+Camerupt
+
+#org @NAME_CACTURNE_F
+Cacturne
+
+#org @NAME_MEDITITE_F
+Meditite
+
+#org @NAME_MEDICHAM_F
+Medicham
+
+#org @NAME_ROSELIA_F
+Roselia
+
+#org @NAME_GULPIN_F
+Gulpin
+
+#org @NAME_SWALOT_F
+Swalot
+
+#org @NAME_RELICANTH_F
+Relicanth
+
+#org @NAME_STARLY_F
+Starly
+
+#org @NAME_STARAVIA_F
+Staravia
+
+#org @NAME_STARAPTOR_F
+Staraptor
+
+#org @NAME_BIDOOF_F
+Bidoof
+
+#org @NAME_BIBAREL_F
+Bibarel
+
+#org @NAME_KRICKETOT_F
+Kricketot
+
+#org @NAME_KRICKETUNE_F
+Kricketune
+
+#org @NAME_SHINX_F
+Shinx
+
+#org @NAME_LUXIO_F
+Luxio
+
+#org @NAME_LUXRAY_F
+Luxray
+
+#org @NAME_ROSERADE_F
+Roserade
+
+#org @NAME_COMBEE_F
+Combee
+
+#org @NAME_PACHIRISU_F
+Pachirisu
+
+#org @NAME_BUIZEL_F
+Buizel
+
+#org @NAME_FLOATZEL_F
+Floatzel
+
+#org @NAME_AMBIPOM_F
+Ambipom
+
+#org @NAME_GIBLE_F
+Gible
+
+#org @NAME_GABITE_F
+Gabite
+
+#org @NAME_GARCHOMP_F
+Garchomp
+
+#org @NAME_CROAGUNK_F
+Croagunk
+
+#org @NAME_TOXICROAK_F
+Toxicroak
+
+#org @NAME_FINNEON_F
+Finneon
+
+#org @NAME_LUMINEON_F
+Lumineon
+
+#org @NAME_SNOVER_F
+Snover
+
+#org @NAME_ABOMASNOW_F
+Abomasnow
+
+#org @NAME_WEAVILE_F
+Weavile
+
+#org @NAME_TANGROWTH_F
+Tangrowth
+
+#org @NAME_MAMOSWINE_F
+Mamoswine
+
+#org @NAME_SNEASEL_H_F
+Sneasel
+
+#org @NAME_RHYPERIOR_F
+Rhyperior
+
+#org @NAME_BUTTERFREE_F
+Butterfree
