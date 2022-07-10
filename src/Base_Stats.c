@@ -23741,10 +23741,10 @@ const struct BaseStats gBaseStats[] =
 	[SPECIES_CHERRIM_SUN] =
 	{
 		.baseHP 		= 70,
-		.baseAttack 	= 60,
+		.baseAttack 	= 90,
 		.baseDefense 	= 70,
 		.baseSpAttack 	= 87,
-		.baseSpDefense 	= 78,
+		.baseSpDefense 	= 117,
 		.baseSpeed 		= 85,
 		.type1 = TYPE_GRASS,
 		.type2 = TYPE_GRASS,
