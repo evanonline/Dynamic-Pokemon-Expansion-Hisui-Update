@@ -77,7 +77,7 @@
 #define ABILITY_NEUTRALIZINGGAS 0x4A
 #define ABILITY_SHELLARMOR 0x4B
 #define ABILITY_HUNGERSWITCH 0x4C
-#define ABILITY_AIRLOCK 0x4D
+#define ABILITY_TRANSISTOR 0x4D //Was Air Lock
 #define ABILITY_SWEETVEIL 0x4E
 #define ABILITY_SKILLLINK 0x4F
 #define ABILITY_MOTORDRIVE 0x50
@@ -208,7 +208,7 @@
 #define ABILITY_FLOWERGIFT 0xCD
 #define ABILITY_BADDREAMS 0xCE
 #define ABILITY_PICKPOCKET 0xCF
-#define ABILITY_PORTALPOWER 0xD0
+#define ABILITY_DRAGONSMAW 0xD0 //Was Portal Power
 #define ABILITY_POISONTOUCH 0xD1
 #define ABILITY_MAGICIAN 0xD2
 #define ABILITY_STANCECHANGE 0xD3
@@ -257,15 +257,15 @@
 #define ABILITY_PASTELVEIL 0xFE
 #define ABILITY_UNSEENFIST 0xFF
 
-//#define ABILITY_ASONE 0x100
-//#define ABILITY_QUICKDRAW 0x101
-//#define ABILITY_CURIOUSMEDICINE 0x102
-//#define ABILITY_TRANSISTOR
-//#define ABILITY_DRAGONSMAW
+//#define ABILITY_ASONE_GRIM
+//#define ABILITY_ASONE_CHILLING
+//#define ABILITY_QUICKDRAW
+//#define ABILITY_CURIOUSMEDICINE
 
 //Extra abilities are
 //Pure Power
 //Libero
 //Wimp Out
 //Chilling Neigh
-//Need to be written differently in CFRU as they have been condensed into similar abilities
+//Iron Barbs
+//Air Lock
