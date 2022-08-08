@@ -6374,7 +6374,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_OVERQWIL] = 
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_ENAMORUS] = 
 	{
@@ -6394,12 +6394,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_VOLTORB_H] = 
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0xa,
 	},
 	[SPECIES_ELECTRODE_H] = 
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_TYPHLOSION_H] = 
 	{
@@ -6409,7 +6409,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_QWILFISH_H] = 
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x1,
 	},
 	[SPECIES_SNEASEL_H] = 
 	{
@@ -6476,15 +6476,15 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
-	[SPECIES_DIALGA_ORIGIN] = 
-	{
-		.size = 0x0,
-		.y_offset = 0x0,
-	},
 	[SPECIES_PALKIA_ORIGIN] = 
 	{
 		.size = 0x0,
 		.y_offset = 0x3,
+	},
+	[SPECIES_DIALGA_ORIGIN] = 
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
 	},
 	[SPECIES_ENAMORUS_THERIAN] = 
 	{
@@ -6654,7 +6654,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_MURKROW_F] = 
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0xa,
 	},
 	[SPECIES_WOBBUFFET_F] = 
 	{
@@ -6959,7 +6959,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_PROTOCEUS] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,	
+		.y_offset = 0x4,	
 	},
 	[SPECIES_MISSINGNO] =
 	{
@@ -6969,7 +6969,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_ROTOM_ROTOMI] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0xe,
 	},
 	[SPECIES_STOUTLAND_ETERNAL] =
 	{
