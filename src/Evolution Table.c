@@ -646,10 +646,10 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 	[SPECIES_SILICOBRA] =        {{EVO_LEVEL, 36, SPECIES_SANDACONDA, 0}},
 	[SPECIES_SANDACONDA] =       {{EVO_GIGANTAMAX, TRUE, SPECIES_SANDACONDA_GIGA, 0}},
 	[SPECIES_ARROKUDA] =         {{EVO_LEVEL, 26, SPECIES_BARRASKEWDA, 0}},
-	[SPECIES_TOXEL] =            {{EVO_LEVEL_CASCOON, 30, SPECIES_TOXTRICITY, 0},	//Personality values are the closest to nature I can think of. Cascoon has a high personality value, btw
-								  {EVO_LEVEL_SILCOON, 30, SPECIES_TOXTRICITY_LOW_KEY, 0}/*
+	[SPECIES_TOXEL] =            {/*{EVO_LEVEL_CASCOON, 30, SPECIES_TOXTRICITY, 0},	//Personality values are the closest to nature I can think of. Cascoon has a high personality value, btw
+								  {EVO_LEVEL_SILCOON, 30, SPECIES_TOXTRICITY_LOW_KEY, 0}*/
 								  {EVO_NATURE_HIGH, 30, SPECIES_TOXTRICITY, 0},
-								  {EVO_NATURE_LOW, 30, SPECIES_TOXTRICITY_LOW_KEY, 0}*/}, 
+								  {EVO_NATURE_LOW, 30, SPECIES_TOXTRICITY_LOW_KEY, 0}}, 
 	[SPECIES_TOXTRICITY] =       {{EVO_GIGANTAMAX, TRUE, SPECIES_TOXTRICITY_GIGA, 0}},
 	[SPECIES_SIZZLIPEDE] =       {{EVO_LEVEL, 28, SPECIES_CENTISKORCH, 0}},
 	[SPECIES_CENTISKORCH] =      {{EVO_GIGANTAMAX, TRUE, SPECIES_CENTISKORCH_GIGA, 0}},
