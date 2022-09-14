@@ -3884,11 +3884,11 @@ Basculin
 #org @NAME_BASCULEGION_FEMALE
 Basclegion
 
-#org @NAME_DIALGA_ORIGIN
-Dialga
-
 #org @NAME_PALKIA_ORIGIN
 Palkia
+
+#org @NAME_DIALGA_ORIGIN
+Dialga
 
 #org @NAME_ENAMORUS_THERIAN
 Enamorus

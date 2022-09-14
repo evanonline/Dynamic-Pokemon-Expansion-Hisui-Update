@@ -780,12 +780,12 @@ enum
 #define ITEM_BLACK_AUGURITE 0x2E0 //Kleavor evo
 #define ITEM_PEAT_BLOCK 0x2E1 //Ursaluna evo
 #define ITEM_LEGEND_PLATE 0x2E2 //New Arceus plate
-#define ITEM_FREE_SPACE11 0x2E3
-#define ITEM_FREE_SPACE12 0x2E4
-#define ITEM_FREE_SPACE13 0x2E5
-#define ITEM_FREE_SPACE14 0x2E6
-#define ITEM_FREE_SPACE15 0x2E7
-#define ITEM_FREE_SPACE16 0x2E8
+#define ITEM_GROWTH_TAPPER 0x2E3 //Power booster for Pokemon who have regional forms that further evolve, but cannot evolve themselves.
+#define ITEM_SPIRIT_MOTOR 0x2E4 //Powers up base Rotom. Gift from Zak Bagon
+#define ITEM_ADAMANT_CRYSTAL 0x2E5 //transforms Dialga to Origin Form
+#define ITEM_LUSTROUS_GLOBE 0x2E6 //transforms Palkia to Origin Form
+#define ITEM_REINS_OF_UNITY 0x2E7 //Fuses Calyrex to Spectrier and Glastrier
+#define ITEM_LOADED_DICE 0x2E8 //"If a Pokémon uses a multistrike move, that move will be more likely to hit more times."
 #define ITEM_FREE_SPACE17 0x2E9
 #define ITEM_FREE_SPACE18 0x2EA
 #define ITEM_FREE_SPACE19 0x2EB
