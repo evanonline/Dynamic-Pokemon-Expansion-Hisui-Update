@@ -9523,6 +9523,7 @@ static const struct LevelUpMove sPorygonZLevelUpLearnset[] = {
 static const struct LevelUpMove sGalladeLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 0, MOVE_SLASH),
 	LEVEL_UP_MOVE( 1, MOVE_SLASH),
+	LEVEL_UP_MOVE( 1, MOVE_SACREDSWORD),
 	LEVEL_UP_MOVE( 1, MOVE_STOREDPOWER),
 	LEVEL_UP_MOVE( 1, MOVE_CLOSECOMBAT),
 	LEVEL_UP_MOVE( 1, MOVE_LEAFBLADE),
