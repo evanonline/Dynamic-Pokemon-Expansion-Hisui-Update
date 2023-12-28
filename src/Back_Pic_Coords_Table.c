@@ -6981,4 +6981,46 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x87,
 		.y_offset = 0x1,
 	},
+	[SPECIES_SPRIGATITO] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_FLORAGATO] =
+	{
+		.size = 0x0,
+		.y_offset = 0x6,
+	},
+	[SPECIES_MEOWSCARADA] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	
+	
+	[SPECIES_BRUTE_BONNET] =
+	{
+		.size = 0x0,
+		.y_offset = 0xc,
+	},
+	
+	[SPECIES_SCREAM_TAIL] =
+	{
+		.size = 0x0,
+		.y_offset = 0xc,
+	},
+	
+	
+	[SPECIES_WO_CHIEN] =
+	{
+		.size = 0x0,
+		.y_offset = 0x3,
+	},
+	
+	
+	[SPECIES_WALKING_WAKE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x3,
+	},
 };

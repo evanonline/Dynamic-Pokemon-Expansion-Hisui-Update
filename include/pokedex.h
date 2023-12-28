@@ -1120,6 +1120,23 @@ enum
 #define NATIONAL_DEX_IRON_VALIANT 1006
 #define NATIONAL_DEX_KORAIDON 1007
 #define NATIONAL_DEX_MIRAIDON 1008
+#define NATIONAL_DEX_WALKING_WAKE 1009
+#define NATIONAL_DEX_IRON_LEAVES 1010
+#define NATIONAL_DEX_DIPPLIN 1011
+#define NATIONAL_DEX_POLTCHAGEIST 1012
+#define NATIONAL_DEX_SINISTCHA 1013
+#define NATIONAL_DEX_OKIDOGI 1014
+#define NATIONAL_DEX_MUNKIDORI 1015
+#define NATIONAL_DEX_FEZANDIPITI 1016
+#define NATIONAL_DEX_OGERPON 1017
+#define NATIONAL_DEX_ARCHALUDON 1018
+#define NATIONAL_DEX_HYDRAPPLE 1019
+#define NATIONAL_DEX_GOUGING_FIRE 1020
+#define NATIONAL_DEX_RAGING_BOLT 1021
+#define NATIONAL_DEX_IRON_BOULDER 1022
+#define NATIONAL_DEX_IRON_CROWN 1023
+#define NATIONAL_DEX_TERAPAGOS 1024
+#define NATIONAL_DEX_PECHARUNT 1025
 
 //Extra
 
@@ -1752,98 +1769,98 @@ extern const u8 DEX_ENTRY_QUAXWELL[];
 extern const u8 DEX_ENTRY_QUAQUAVAL[];
 extern const u8 DEX_ENTRY_LECHONK[];
 extern const u8 DEX_ENTRY_OINKOLOGNE[];
-extern const u8 DEX_ENTRY_DUDUNSPARCE[];
 extern const u8 DEX_ENTRY_TAROUNTULA[];
 extern const u8 DEX_ENTRY_SPIDOPS[];
 extern const u8 DEX_ENTRY_NYMBLE[];
 extern const u8 DEX_ENTRY_LOKIX[];
-extern const u8 DEX_ENTRY_RELLOR[];
-extern const u8 DEX_ENTRY_RABSCA[];
-extern const u8 DEX_ENTRY_GREAVARD[];
-extern const u8 DEX_ENTRY_HOUNDSTONE[];
-extern const u8 DEX_ENTRY_FLITTLE[];
-extern const u8 DEX_ENTRY_ESPATHRA[];
-extern const u8 DEX_ENTRY_FARIGIRAF[];
-extern const u8 DEX_ENTRY_WIGLETT[];
-extern const u8 DEX_ENTRY_WUGTRIO[];
-extern const u8 DEX_ENTRY_DONDOZO[];
-extern const u8 DEX_ENTRY_VELUZA[];
-extern const u8 DEX_ENTRY_FINIZEN[];
-extern const u8 DEX_ENTRY_PALAFIN[];
-extern const u8 DEX_ENTRY_SMOLIV[];
-extern const u8 DEX_ENTRY_DOLLIV[];
-extern const u8 DEX_ENTRY_ARBOLIVA[];
-extern const u8 DEX_ENTRY_CAPSAKID[];
-extern const u8 DEX_ENTRY_SCOVILLAIN[];
-extern const u8 DEX_ENTRY_TADBULB[];
-extern const u8 DEX_ENTRY_BELLIBOLT[];
-extern const u8 DEX_ENTRY_VAROOM[];
-extern const u8 DEX_ENTRY_REVAVROOM[];
-extern const u8 DEX_ENTRY_ORTHWORM[];
-extern const u8 DEX_ENTRY_TANDEMAUS[];
-extern const u8 DEX_ENTRY_MAUSHOLD[];
-extern const u8 DEX_ENTRY_CETODDLE[];
-extern const u8 DEX_ENTRY_CETITAN[];
-extern const u8 DEX_ENTRY_FRIGIBAX[];
-extern const u8 DEX_ENTRY_ARCTIBAX[];
-extern const u8 DEX_ENTRY_BAXCALIBUR[];
-extern const u8 DEX_ENTRY_TATSUGIRI[];
-extern const u8 DEX_ENTRY_CYCLIZAR[];
 extern const u8 DEX_ENTRY_PAWMI[];
 extern const u8 DEX_ENTRY_PAWMO[];
 extern const u8 DEX_ENTRY_PAWMOT[];
-extern const u8 DEX_ENTRY_WATTREL[];
-extern const u8 DEX_ENTRY_KILOWATTREL[];
-extern const u8 DEX_ENTRY_BOMBIRDIER[];
+extern const u8 DEX_ENTRY_TANDEMAUS[];
+extern const u8 DEX_ENTRY_MAUSHOLD[];
+extern const u8 DEX_ENTRY_FIDOUGH[];
+extern const u8 DEX_ENTRY_DACHSBUN[];
+extern const u8 DEX_ENTRY_SMOLIV[];
+extern const u8 DEX_ENTRY_DOLLIV[];
+extern const u8 DEX_ENTRY_ARBOLIVA[];
 extern const u8 DEX_ENTRY_SQUAWKABILLY[];
-extern const u8 DEX_ENTRY_FLAMIGO[];
-extern const u8 DEX_ENTRY_KLAWF[];
 extern const u8 DEX_ENTRY_NACLI[];
 extern const u8 DEX_ENTRY_NACLSTACK[];
 extern const u8 DEX_ENTRY_GARGANACL[];
-extern const u8 DEX_ENTRY_GLIMMET[];
-extern const u8 DEX_ENTRY_GLIMMORA[];
-extern const u8 DEX_ENTRY_SHROODLE[];
-extern const u8 DEX_ENTRY_GRAFAIAI[];
-extern const u8 DEX_ENTRY_FIDOUGH[];
-extern const u8 DEX_ENTRY_DACHSBUN[];
-extern const u8 DEX_ENTRY_MASCHIFF[];
-extern const u8 DEX_ENTRY_MABOSSTIFF[];
-extern const u8 DEX_ENTRY_BRAMBLIN[];
-extern const u8 DEX_ENTRY_BRAMBLEGHAST[];
-extern const u8 DEX_ENTRY_GIMMIGHOUL[];
-extern const u8 DEX_ENTRY_GHOLDENGO[];
-extern const u8 DEX_ENTRY_GREAT_TUSK[];
-extern const u8 DEX_ENTRY_BRUTE_BONNET[];
-extern const u8 DEX_ENTRY_SANDY_SHOCKS[];
-extern const u8 DEX_ENTRY_SCREAM_TAIL[];
-extern const u8 DEX_ENTRY_FLUTTER_MANE[];
-extern const u8 DEX_ENTRY_SLITHER_WING[];
-extern const u8 DEX_ENTRY_ROARING_MOON[];
-extern const u8 DEX_ENTRY_IRON_TREADS[];
-extern const u8 DEX_ENTRY_IRON_MOTH[];
-extern const u8 DEX_ENTRY_IRON_HANDS[];
-extern const u8 DEX_ENTRY_IRON_JUGULIS[];
-extern const u8 DEX_ENTRY_IRON_THORNS[];
-extern const u8 DEX_ENTRY_IRON_BUNDLE[];
-extern const u8 DEX_ENTRY_IRON_VALIANT[];
-extern const u8 DEX_ENTRY_TING_LU[];
-extern const u8 DEX_ENTRY_CHIEN_PAO[];
-extern const u8 DEX_ENTRY_WO_CHIEN[];
-extern const u8 DEX_ENTRY_CHI_YU[];
-extern const u8 DEX_ENTRY_KORAIDON[];
-extern const u8 DEX_ENTRY_MIRAIDON[];
-extern const u8 DEX_ENTRY_TINKATINK[];
-extern const u8 DEX_ENTRY_TINKATUFF[];
-extern const u8 DEX_ENTRY_TINKATON[];
 extern const u8 DEX_ENTRY_CHARCADET[];
 extern const u8 DEX_ENTRY_ARMAROUGE[];
 extern const u8 DEX_ENTRY_CERULEDGE[];
+extern const u8 DEX_ENTRY_TADBULB[];
+extern const u8 DEX_ENTRY_BELLIBOLT[];
+extern const u8 DEX_ENTRY_WATTREL[];
+extern const u8 DEX_ENTRY_KILOWATTREL[];
+extern const u8 DEX_ENTRY_MASCHIFF[];
+extern const u8 DEX_ENTRY_MABOSSTIFF[];
+extern const u8 DEX_ENTRY_SHROODLE[];
+extern const u8 DEX_ENTRY_GRAFAIAI[];
+extern const u8 DEX_ENTRY_BRAMBLIN[];
+extern const u8 DEX_ENTRY_BRAMBLEGHAST[];
 extern const u8 DEX_ENTRY_TOEDSCOOL[];
 extern const u8 DEX_ENTRY_TOEDSCRUEL[];
-extern const u8 DEX_ENTRY_KINGAMBIT[];
-extern const u8 DEX_ENTRY_CLODSIRE[];
+extern const u8 DEX_ENTRY_KLAWF[];
+extern const u8 DEX_ENTRY_CAPSAKID[];
+extern const u8 DEX_ENTRY_SCOVILLAIN[];
+extern const u8 DEX_ENTRY_RELLOR[];
+extern const u8 DEX_ENTRY_RABSCA[];
+extern const u8 DEX_ENTRY_FLITTLE[];
+extern const u8 DEX_ENTRY_ESPATHRA[];
+extern const u8 DEX_ENTRY_TINKATINK[];
+extern const u8 DEX_ENTRY_TINKATUFF[];
+extern const u8 DEX_ENTRY_TINKATON[];
+extern const u8 DEX_ENTRY_WIGLETT[];
+extern const u8 DEX_ENTRY_WUGTRIO[];
+extern const u8 DEX_ENTRY_BOMBIRDIER[];
+extern const u8 DEX_ENTRY_FINIZEN[];
+extern const u8 DEX_ENTRY_PALAFIN[];
+extern const u8 DEX_ENTRY_VAROOM[];
+extern const u8 DEX_ENTRY_REVAVROOM[];
+extern const u8 DEX_ENTRY_CYCLIZAR[];
+extern const u8 DEX_ENTRY_ORTHWORM[];
+extern const u8 DEX_ENTRY_GLIMMET[];
+extern const u8 DEX_ENTRY_GLIMMORA[];
+extern const u8 DEX_ENTRY_GREAVARD[];
+extern const u8 DEX_ENTRY_HOUNDSTONE[];
+extern const u8 DEX_ENTRY_FLAMIGO[];
+extern const u8 DEX_ENTRY_CETODDLE[];
+extern const u8 DEX_ENTRY_CETITAN[];
+extern const u8 DEX_ENTRY_VELUZA[];
+extern const u8 DEX_ENTRY_DONDOZO[];
+extern const u8 DEX_ENTRY_TATSUGIRI[];
 extern const u8 DEX_ENTRY_ANNIHILAPE[];
+extern const u8 DEX_ENTRY_CLODSIRE[];
+extern const u8 DEX_ENTRY_FARIGIRAF[];
+extern const u8 DEX_ENTRY_DUDUNSPARCE[];
+extern const u8 DEX_ENTRY_KINGAMBIT[];
+extern const u8 DEX_ENTRY_GREAT_TUSK[];
+extern const u8 DEX_ENTRY_SCREAM_TAIL[];
+extern const u8 DEX_ENTRY_BRUTE_BONNET[];
+extern const u8 DEX_ENTRY_FLUTTER_MANE[];
+extern const u8 DEX_ENTRY_SLITHER_WING[];
+extern const u8 DEX_ENTRY_SANDY_SHOCKS[];
+extern const u8 DEX_ENTRY_IRON_TREADS[];
+extern const u8 DEX_ENTRY_IRON_BUNDLE[];
+extern const u8 DEX_ENTRY_IRON_MOTH[];
+extern const u8 DEX_ENTRY_IRON_JUGULIS[];
+extern const u8 DEX_ENTRY_IRON_HANDS[];
+extern const u8 DEX_ENTRY_IRON_THORNS[];
+extern const u8 DEX_ENTRY_FRIGIBAX[];
+extern const u8 DEX_ENTRY_ARCTIBAX[];
+extern const u8 DEX_ENTRY_BAXCALIBUR[];
+extern const u8 DEX_ENTRY_GIMMIGHOUL[];
+extern const u8 DEX_ENTRY_GHOLDENGO[];
+extern const u8 DEX_ENTRY_WO_CHIEN[];
+extern const u8 DEX_ENTRY_CHIEN_PAO[];
+extern const u8 DEX_ENTRY_TING_LU[];
+extern const u8 DEX_ENTRY_CHI_YU[];
+extern const u8 DEX_ENTRY_ROARING_MOON[];
+extern const u8 DEX_ENTRY_IRON_VALIANT[];
+extern const u8 DEX_ENTRY_KORAIDON[];
+extern const u8 DEX_ENTRY_MIRAIDON[];
 
 extern const u8 DEX_ENTRY_WOOPER_P[];
 extern const u8 DEX_ENTRY_TAUROS_P_1[];
@@ -1860,6 +1877,24 @@ extern const u8 DEX_ENTRY_SQUAWKABILLY_2[];
 extern const u8 DEX_ENTRY_SQUAWKABILLY_3[];
 extern const u8 DEX_ENTRY_SQUAWKABILLY_4[];
 extern const u8 DEX_ENTRY_GIMMIGHOUL_ROAMING[];
+
+extern const u8 DEX_ENTRY_WALKING_WAKE[];
+extern const u8 DEX_ENTRY_IRON_LEAVES[];
+extern const u8 DEX_ENTRY_DIPPLIN[];
+extern const u8 DEX_ENTRY_POLTCHAGEIST[];
+extern const u8 DEX_ENTRY_SINISTCHA[];
+extern const u8 DEX_ENTRY_OKIDOGI[];
+extern const u8 DEX_ENTRY_MUNKIDORI[];
+extern const u8 DEX_ENTRY_FEZANDIPITI[];
+extern const u8 DEX_ENTRY_OGERPON[];
+extern const u8 DEX_ENTRY_ARCHALUDON[];
+extern const u8 DEX_ENTRY_HYDRAPPLE[];
+extern const u8 DEX_ENTRY_GOUGING_FIRE[];
+extern const u8 DEX_ENTRY_RAGING_BOLT[];
+extern const u8 DEX_ENTRY_IRON_BOULDER[];
+extern const u8 DEX_ENTRY_IRON_CROWN[];
+extern const u8 DEX_ENTRY_TERAPAGOS[];
+extern const u8 DEX_ENTRY_PECHARUNT[];
 
 //Extra
 

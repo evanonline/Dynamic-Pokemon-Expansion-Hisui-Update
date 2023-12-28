@@ -1,69 +1,60 @@
-# Dynamic-Pokemon-Expansion [FR]
+#Pokemon Trails and Gen 9 additions
+This is the repo branch specific to my own personal romhack: Pokemon Trails. You'll notice stupid gags like Charizard with one horn from the old Ken Sugimori art, or a entries for a smattering of pathetic TCG card moves, or references to Minnesota (where vikings live in the Pokemon world!). There's also a few other odd changes here and there that I've made over vanilla DPE, such as changes to how Pokemon evolve when they have two different regional forms (Mime Jr., Exeggcute etc).
 
-## What is this:
-A dynamic data insertion tool for expanding Pokemon data in FireRed.
+HOWEVER, I've noticed there are no public branches or forks that I'm aware of which feature Gen 9 Pokemon, so I've decided to make my unfinished work on this public with the hopes that CFRU's community can come together to help me finalize this. As such, unlike my Hisui branch, this branch is less "generalized" and will still include stuff specific to my romhack, for the sake of my own personal ease. You can feel free to ignore all of this extraneous stuff I've done, revert it, or use it yourself - but I hope you can understand that it'd be a bit of trouble for me to do it myself right now and my focus is primarily on getting Gen 9 stuff added for the community. It's easier to delete stuff you won't use than to add things, after all.
 
-## Features:
-* Dynamic insertion, meaning no worrying about repointing ever!
-* Support for as many different Pokemon (regular Pokemon, forms, etc.) as you'd like.
-* Support for different gendered forms.
-* Support for different form Pokedex entries like in Sun/Moon.
-* Support for up to 999 different Pokedex entries (not including alternate forms).
-* Support for FRLG habitats.
-* Support for Pokemon sprite and icon insertion.
-* Support for cry insertion.
-* Support for up to 128 TM/HM's and 128 Move Tutors
+#Here's what this Github repo DOES have:
 
-**NOTE** It is highly recommended to apply the [Complete Fire Red Upgrade](https://github.com/Skeli789/Complete-Fire-Red-Upgrade) following the insertion of this hack. Otherwise, make sure to comment out the  line ``#define EXPAND_LEARNSETS`` in the defines file or your game will crash (unless you have expanded movesets manually).  Additionally, if you're **not** using the Complete Fire Red Upgrade, in [bytereplacement](https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/master/bytereplacement), find the changes for the seen  and caught flag ram, and change it to some free  save space. Make sure to apply a saveblock hack first and a TM/Tutor expansion first, though.
+	* Complete icon sprites for all Gen 9 Pokemon, including DLC and forms. Many of these are reworked from Ezerart's icons to fit the Gen 3 palette limitations. https://www.deviantart.com/ezerart/art/Pokemon-Gen-9-Icon-sprites-3DS-Style-944211258 I tried to add animation frames for many of the icons. (There may still be a few that don't have proper second frames and just copy the first frame)
+	* Front and Back Sprites for MOST Gen 9 Pokemon - I omitted a few due to a lack of availability for 64x64 sprites that meet my own personal standards. I've included a few touched up sprites of my own - the Scream Tail sprites are my own work and have been publicly available for a year, but I made new front sprites for Quaxly and Toedscool myself. Most of these sprites are taken from pokeemerald-expansion, with a few from Pokecommunity or by King-of-the-x-Roads on DeviantArt. https://www.deviantart.com/kingofthe-x-roads/art/Gen-9-Sprites-Pokemon-Scarlet-and-Violet-908341834
+	* I've also taken the liberty of adding sprites and entries for an near-identical Rockruff form that can have Own Tempo and thus evolve into Dusk Lycanroc, with the intention of reflecting how Scarlet & Violet handles Own Tempo Rockruff.
+	* include/items.h updated with evo items. (A few are fabricated, like Gimmighoul's, and this extends past the Leon's Base "free spaces" for items - I'm not sure if that might cause problems, but we'll cross that bridge when we get to it.)
+	* include/moves.h updated with all Gen 9 moves.
+	* include/pokedex.h has defines for all Gen 9 Pokemon.
+	* include/species.h has all Gen 9 Pokemon and forms.
+	* src/Species_To_Pokdex_Table.c is done up to Miraidon, but the order in the file is wildly out of order based on an an early internal Pokemon listing from Scarlet & Violet.
+	* strings/Pokemon_Name_Table.string has all Pokemon up to Miraidon, but again, they're out of order following the Sc/Vi internal listing.
+	* strings/Pokedex_Data.string has entries up to Miraidon, but yet again, these are out of order, and may possibly need a second pass.
 
-## Installation Instructions:
-```
-1. Download devkitpro. Follow the instructions.
-(Note: you can only install devkitARM)
-For Windows users, follow steps 4-6 from this tutorial:
-https://www.pokecommunity.com/showpost.php?p=8825585&postcount=96
+#Here's what this repo still needs:
+	* Sprites for these Pokemon:
+		* Iron Bundle
+		* Iron Hands
+		* Iron Jugulis
+		* Iron Moth
+		* Roaring Moon
+		* Iron Valiant
+		* Miraidon
+		* Poltchageist (Unremarkable & Masterpiece)
+		* Sinistcha (Unremarkable & Masterpiece)
+		* Okidogi
+		* Munkidori
+		* Ogerpon (All forms)
+		* Archaludon (Back sprite only, currently using a placeholder)
+		* Hydrapple
+		* Gouging Fire
+		* Raging Bolt
+		* Iron Boulder
+		* Iron Crown
+		* Terapagos (All forms)
+		* Pecharunt
+	* Reorganization of work I did last year based on early datamined content and internal Pokemon ordering, as mentioned above.
+	* include/abilities.h needs the new abilities. I'm still working off of the older, pre-dev branch abilities structure; this will need to change in order to accomodate the Gen 9 abilities!
+	* All new Pokemon added to TM and Tutor files.
+	* Base stats for all Pokemon except the Sprigatito line.
+	* Evolution methods. (Likely the next thing I will work on)
+	* I've included a folder with all Gen 9 cries except DLC Pokemon; these need to be renamed, placed into the main audio folder, and added to the Cry Table. The cries themselves also likely need some condensing. (The Enamorus cry I've been using is also... huge. Need to fix that probably.)
+	* Egg moves.
+	* Elevation table data.
+	* Evolution table data. (Will likely be what I work on next.)
+	* Footprints. (Usually this is just a copypaste job, but it still needs to be done.)
+	* Front & Back Pic tables and their coord tables.
+	* Habitat table.
+	* Icon Palette table & Icon table.
+	* Learnsets.
+	* Palette table & Shiny palette table.
+	* Pokedex data table.
+	* Pokedex order; I have a regional table that includes all Gen 9 Pokemon up to the DLC, and apparently at some point I started the weight table? But I did not finish it and I don't know where I left off, and the Pokemon who are done in that table may be wildly out of order, because I was most likely going off of an early internal Pokemon listing from Scarlet & Violet at the time when I did this.
+	* Probably more??
 
-2. Download the latest version of python (3.7.2).
-After downloading and before proceeding to install make sure that the 'add to path' 
-checkbox is ticked, otherwise you'll have to add the python path in the environment 
-variables manually.
-
-**NOTE**: If a python version lower than 3.6 is installed, you'll need to uninstall it and manually
-remove it from your path before installing the newer version of Python.
-
-3. Download the master folder from this github page.
-(click 'Clone or Download', then 'Download Zip')
-
-4. Get your ROM, rename it BPRE0.gba and 
-place it the main (master) folder.
-
-5. To decide the offsets where you want to insert the code:
-
-a) In the 'make.py' file in the folder 'scripts' change OFFSET_TO_PUT=YYY to the location 
-   you want to insert the data (let it be X). Don't worry about changing 'insert.py' also.
-   'make.py' automatically updates the 'insert.py' file and linker file.
- 
-7. Run cmd.exe in the main folder. You can do this by typing 'cmd' and hitting enter in the 
-url address or selecting 'run command prompt from here' from right clciking on empty space 
-while holding the shift key.
-
-8. Only if you would like to use the data extractor, in command prompt window,
-type 'python scripts//data_extractor.py' This extracts the graphics data from 
-BPRE0.gba and places it in the directory *extracted*. Make sure to update the
-files in *src* with this extracted data. Do not overwrite the files in *src*.
-Only replace Pokemmon that are in your hack. Leave the expanded graphics data alone.
-
-9. Once you're done editing the source files to your liking, in the command prompt window, 
-type 'python scripts//make.py'. If you have never compiled before, the first time
-compilation will take a few minutes. However, as long as you don't clean the build
-data, all following compilations will be much quicker.
-  
-A new gba file will appear named as test.gba and an offsets.ini file.
-That is your resultant file.
-```
-
-## About TM/HM & Move Tutors
-When looking in the ``src`` directory, you will notice two subdirectories, ``tm_compatibility`` (for modifying TM/HM data) and ``tutor_compatibility`` (for modifying Move Tutor data). Contained within these directories are files corresponding to each TM/HM and Move Tutor. Unlike most tools and expansions, this engine allows modification by TM/HM and Move Tutor number, as opposed to by species. To give a species a certain TM/HM or Move Tutor, simply add the species name to the appropriate file. If you want to change one of the pre-defined TM/HM's or Move Tutors, simply change the name of the file (leaving the number the same), and update the corresponding data in the files ``include/tutors.h`` and/or ``src/TM_Tutor_Tables.c``.
-
-## Extracting Old Data:
-When using this expansion, you may wish to keep using the sprites already inserted in your rom. If so you will need to extract the original graphics data pointers from your rom. To do this, overwrite the ``BRPE0.gba`` file in the root with this rom that has the graphics data (always make a backup first!). Then, open [scripts/data_extractor.py](https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/master/scripts/data_extractor.py) and change the line ``NumberOfPokemon`` to the number of species graphics data you wish to extract from your rom + 1. Go back to the root, open the command line, and type ``python scripts//data_extractor.py``. Extracted graphics data will be pulled from your rom and placed in a new folder ``extracted``. Copy the contents of the **tables** found in these files and overwrite the **tables** found in the equivalent files found in [src](https://github.com/Skeli789/Dynamic-Pokemon-Expansion/tree/master/src). Once the extraction is complete, make sure to either add ``(void*)`` to the beginning of each pointer in these extracted files, or open ``include/graphics.h`` and replace any relevant instances of ``const u8*`` with ``u32``. This will allow the files to compile warning free. Now, the next time you insert this hack, all of your graphics pointers will remain unchanged, allowing you to make changes to things such as the Pokedex data and level-up movesets without worrying about repointing anything.
+#ANY help with the data entry work needed here would be greatly appreciated. I intend to finish all of this and share it - but the more people who can chip in some of the boring stuff, the sooner we can get this branch in a compiling state!

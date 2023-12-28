@@ -769,27 +769,43 @@ enum
 #define ITEM_UTILITY_UMBRELLA 0x2D6
 #define ITEM_THROAT_SPRAY 0x2D7
 #define ITEM_ABILITY_CAPSULE 0x2D8
-//New items
-#define ITEM_CHRONO_ORB 0x2D9 //For Primal Dialga
-#define ITEM_GMAXITE 0x2DA //Gmax forms as Mega evos? Experiment slot
-#define ITEM_DARK_SCROLL 0x2DB //For Single Strike Urshifu
-#define ITEM_DAMP_SCROLL 0x2DC //For Rapid Strike Urshifu
-#define ITEM_MELTAN_CANDYJAR 0x2DD //For evolving Meltan
-#define ITEM_SWAP_ARMOR 0x2DE //For evolving Karrablast & Accelgor
-#define ITEM_ENERGY_BUSTER 0x2DF //Held item for damaging mega Pokemon
-#define ITEM_BLACK_AUGURITE 0x2E0 //Kleavor evo
-#define ITEM_PEAT_BLOCK 0x2E1 //Ursaluna evo
-#define ITEM_LEGEND_PLATE 0x2E2 //New Arceus plate
-#define ITEM_GROWTH_TAPPER 0x2E3 //Power booster for Pokemon who have regional forms that further evolve, but cannot evolve themselves.
-#define ITEM_SPIRIT_MOTOR 0x2E4 //Powers up base Rotom. Gift from Zak Bagon
-#define ITEM_ADAMANT_CRYSTAL 0x2E5 //transforms Dialga to Origin Form
-#define ITEM_LUSTROUS_GLOBE 0x2E6 //transforms Palkia to Origin Form
-#define ITEM_REINS_OF_UNITY 0x2E7 //Fuses Calyrex to Spectrier and Glastrier
-#define ITEM_LOADED_DICE 0x2E8 //"If a Pokémon uses a multistrike move, that move will be more likely to hit more times."
-#define ITEM_FREE_SPACE17 0x2E9
-#define ITEM_FREE_SPACE18 0x2EA
-#define ITEM_FREE_SPACE19 0x2EB
-#define ITEM_FREE_SPACE20 0x2EC
-#define ITEM_FREE_SPACE21 0x2ED
 
-#define ITEMS_COUNT (ITEM_FREE_SPACE21 + 1)
+//New evolution items
+
+#define ITEM_SCROLL_OF_WATERS 0x2D9 //For Single Strike Urshifu
+#define ITEM_SCROLL_OF_DARKNESS 0x2DA //For Rapid Strike Urshifu
+#define ITEM_REINS_OF_UNITY 0x2DB //Fuses Calyrex to Spectrier and Glastrier
+#define ITEM_ADAMANT_CRYSTAL 0x2DC //transforms Dialga to Origin Form
+#define ITEM_LUSTROUS_GLOBE 0x2DD //transforms Palkia to Origin Form
+#define ITEM_GRISEOUS_CORE 0x2DE //transforms Giratina to Origin Form
+
+#define ITEM_BLACK_AUGURITE 0x2DF //Kleavor evo
+#define ITEM_PEAT_BLOCK 0x2E0 //Ursaluna evo
+
+#define ITEM_AUSPICIOUS_ARMOR 0x2E1 //Charcadet -> Armarouge evo item
+#define ITEM_MALICIOUS_ARMOR 0x2E2 //Charcadet -> Ceruledge evo item
+
+#define ITEM_METAL_ALLOY 0x2E3 //Archaludon evo item
+#define ITEM_LEADERS_CREST 0x2E4 //Kingambit evo item
+
+#define ITEM_SYRUPY_APPLE 0x2E5 //Applin -> Dipplin evo item
+#define ITEM_UNREMARKABLE_TEACUP 0x2E6 //Unremarkable Poltchageist evo item 
+#define ITEM_MASTERPIECE_TEACUP 0x2E7 //Masterpiece Poltchageist evo item
+
+#define ITEM_WELLSPRING_MASK 0x2E8 //Ogerpon Wellspring mask
+#define ITEM_HEARTHFLAME_MASK 0x2E9 //Ogerpon Hearthflame mask
+#define ITEM_CORNERSTONE_MASK 0x2EA //Ogerpon Cornerstone mask
+
+#define ITEM_MELTAN_CANDYJAR 0x2EB //For evolving Meltan
+#define ITEM_GIMMIBANK 0x2EC //Gimmighoul evo item
+
+#define ITEM_LOADED_DICE 0x2EC //"If a Pokémon uses a multistrike move, that move will be more likely to hit more times."
+
+#define ITEM_SWAP_ARMOR 0x2ED //For evolving Karrablast & Accelgor
+
+#define ITEM_CHRONO_ORB 0x2EF //For Primal Dialga
+#define ITEM_ENERBUSTER 0x2F0 //Held item for damaging mega Pokemon
+#define ITEM_GROWTH_TAPPER 0x2F1 //Power booster for Pokemon who have regional forms that further evolve, but cannot evolve themselves.
+#define ITEM_SPIRIT_MOTOR 0x2F2 //Powers up base Rotom in some way I haven't decided yet
+
+#define ITEMS_COUNT (ITEM_SPIRIT_MOTOR + 1)
