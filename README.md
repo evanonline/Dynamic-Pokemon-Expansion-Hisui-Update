@@ -41,7 +41,7 @@ HOWEVER, I've noticed there are no public branches or forks that I'm aware of wh
 	* Pecharunt
 * Reorganization of work I did last year based on early datamined content and internal Pokemon ordering, as mentioned above.
 * include/abilities.h needs the new abilities. I'm still working off of the older, pre-dev branch abilities structure; this will need to change in order to accomodate the Gen 9 abilities!
-* * All new Pokemon added to TM and Tutor files.
+* All new Pokemon added to TM and Tutor files.
 * Base stats for all Pokemon except the Sprigatito line.
 * Evolution methods. (Likely the next thing I will work on)
 * I've included a folder with all Gen 9 cries except DLC Pokemon; these need to be renamed, placed into the main audio folder, and added to the Cry Table. The cries themselves also likely need some condensing. (The Enamorus cry I've been using is also... huge. Need to fix that probably.)
