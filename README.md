@@ -8,6 +8,8 @@ HOWEVER, I've noticed there are no public branches or forks that I'm aware of wh
 * Complete icon sprites for all Gen 9 Pokemon, including DLC and forms. Many of these are reworked from Ezerart's icons to fit the Gen 3 palette limitations. https://www.deviantart.com/ezerart/art/Pokemon-Gen-9-Icon-sprites-3DS-Style-944211258 I tried to add animation frames for many of the icons. (There may still be a few that don't have proper second frames and just copy the first frame)
 * Front and Back Sprites for MOST Gen 9 Pokemon - I omitted a few due to a lack of availability for 64x64 sprites that meet my own personal standards. I've included a few touched up sprites of my own - the Scream Tail sprites are my own work and have been publicly available for a year, but I made new front sprites for Quaxly and Toedscool myself. Most of these sprites are taken from pokeemerald-expansion, with a few from Pokecommunity or by King-of-the-x-Roads on DeviantArt. https://www.deviantart.com/kingofthe-x-roads/art/Gen-9-Sprites-Pokemon-Scarlet-and-Violet-908341834
 * I've also taken the liberty of adding sprites and entries for an near-identical Rockruff form that can have Own Tempo and thus evolve into Dusk Lycanroc, with the intention of reflecting how Scarlet & Violet handles Own Tempo Rockruff.
+* Base stats for all new Pokemon.
+* Evolution table set up.
 * include/items.h updated with evo items. (A few are fabricated, like Gimmighoul's, and this extends past the Leon's Base "free spaces" for items - I'm not sure if that might cause problems, but we'll cross that bridge when we get to it.)
 * include/moves.h updated with all Gen 9 moves.
 * include/pokedex.h has defines for all Gen 9 Pokemon.
