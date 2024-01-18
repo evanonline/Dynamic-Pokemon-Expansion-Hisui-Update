@@ -15,6 +15,7 @@ HOWEVER, I've noticed there are no public branches or forks that I'm aware of wh
 * src/Species_To_Pokdex_Table.c is done up to Miraidon, but the order in the file is wildly out of order based on an an early internal Pokemon listing from Scarlet & Violet.
 * strings/Pokemon_Name_Table.string has all Pokemon up to Miraidon, but again, they're out of order following the Sc/Vi internal listing.
 * strings/Pokedex_Data.string has entries up to Miraidon, but yet again, these are out of order, and may possibly need a second pass.
+* src/Learnsets.c completed.
 
 ## Here's what this repo still needs:
 
@@ -41,19 +42,12 @@ HOWEVER, I've noticed there are no public branches or forks that I'm aware of wh
 	* Pecharunt
 * Reorganization of work I did last year based on early datamined content and internal Pokemon ordering, as mentioned above.
 * include/abilities.h needs the new abilities. I'm still working off of the older, pre-dev branch abilities structure; this will need to change in order to accomodate the Gen 9 abilities!
-* All new Pokemon added to TM and Tutor files.
-* Base stats for all Pokemon except the Sprigatito line.
-* Evolution methods. (Likely the next thing I will work on)
 * I've included a folder with all Gen 9 cries except DLC Pokemon; these need to be renamed, placed into the main audio folder, and added to the Cry Table. The cries themselves also likely need some condensing. (The Enamorus cry I've been using is also... huge. Need to fix that probably.)
+* TM & Tutor moves.
 * Egg moves.
 * Elevation table data.
-* Evolution table data. (Will likely be what I work on next.)
-* Footprints. (Usually this is just a copypasting-blank-data job, but it still needs to be done.)
-* Front & Back Pic tables and their coord tables.
+* Tables related to Front, Back and Icon sprites, and their elevations/palettes.
 * Habitat table.
-* Icon Palette table & Icon table.
-* Learnsets.
-* Palette table & Shiny palette table.
 * Pokedex data table.
 * Pokedex order; I have a regional table that includes all Gen 9 Pokemon up to the DLC, and apparently at some point I started the weight table? But I did not finish it and I don't know where I left off, and the Pokemon who are done in that table may be wildly out of order, because I was most likely going off of an early internal Pokemon listing from Scarlet & Violet at the time when I did this.
 * Probably more??
