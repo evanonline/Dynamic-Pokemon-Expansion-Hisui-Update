@@ -15486,7 +15486,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAUSHOLDFAMILYOF3] =
+	[SPECIES_MAUSHOLD_FAMILYOF3] =
 	{
 		.type = 0x20,
 		.key = 0x3c,
@@ -16254,7 +16254,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DUDUNSPARCE_THREE] =
+	[SPECIES_DUDUNSPARCE_THREESEGMENT] =
 	{
 		.type = 0x20,
 		.key = 0x3c,
@@ -16626,7 +16626,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TAUROS_BLAZE_P] =
+	[SPECIES_TAUROS_P_BLAZE] =
 	{
 		.type = 0x20,
 		.key = 0x3c,
@@ -16638,7 +16638,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TAUROS_AQUA_P] =
+	[SPECIES_TAUROS_P_AQUA] =
 	{
 		.type = 0x20,
 		.key = 0x3c,
@@ -16782,7 +16782,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_OGERPON_WELLSPRING_MASK] =
+	[SPECIES_OGERPON_WELLSPRING] =
 	{
 		.type = 0x20,
 		.key = 0x3c,
@@ -16794,7 +16794,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_OGERPON_HEARTHFLAME_MASK] =
+	[SPECIES_OGERPON_HEARTHFLAME] =
 	{
 		.type = 0x20,
 		.key = 0x3c,
@@ -16806,7 +16806,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_OGERPON_CORNERSTONE_MASK] =
+	[SPECIES_OGERPON_CORNERSTONE] =
 	{
 		.type = 0x20,
 		.key = 0x3c,

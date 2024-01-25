@@ -7010,17 +7010,157 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.y_offset = 0xc,
 	},
 	
-	
 	[SPECIES_WO_CHIEN] =
 	{
 		.size = 0x0,
 		.y_offset = 0x3,
 	},
 	
-	
 	[SPECIES_WALKING_WAKE] =
 	{
 		.size = 0x0,
 		.y_offset = 0x3,
+	},
+	
+		[SPECIES_IRON_LEAVES] =
+	{
+		.size = 0x0,
+		.y_offset = 0x8,
+	},
+	
+		[SPECIES_TAUROS_P] =
+	{
+		.size = 0x0,
+		.y_offset = 0xd,
+	},
+	[SPECIES_TAUROS_P_BLAZE] =
+	{
+		.size = 0x0,
+		.y_offset = 0xd,
+	},
+	[SPECIES_TAUROS_P_AQUA] =
+	{
+		.size = 0x0,
+		.y_offset = 0xd,
+	},
+	[SPECIES_WOOPER_P] =
+	{
+		.size = 0x0,
+		.y_offset = 0xc,
+	},
+	[SPECIES_URSALUNA_BLOODMOON] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_DIPPLIN] =
+	{
+		.size = 0x0,
+		.y_offset = 0x1,
+	},
+	[SPECIES_POLTCHAGEIST] =
+	{
+		.size = 0x0,
+		.y_offset = 0x5,
+	},
+	[SPECIES_POLTCHAGEIST_ARTISAN] =
+	{
+		.size = 0x0,
+		.y_offset = 0x5,
+	},
+	[SPECIES_SINISTCHA] =
+	{
+		.size = 0x0,
+		.y_offset = 0x4,
+	},
+	[SPECIES_SINISTCHA_MASTERPIECE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x4,
+	},
+	[SPECIES_OKIDOGI] =
+	{
+		.size = 0x0,
+		.y_offset = 0x10,
+	},
+	[SPECIES_MUNKIDORI] =
+	{
+		.size = 0x0,
+		.y_offset = 0x2,
+	},
+	[SPECIES_FEZANDIPITI] =
+	{
+		.size = 0x0,
+		.y_offset = 0x4,
+	},
+	[SPECIES_OGERPON] =
+	{
+		.size = 0x0,
+		.y_offset = 10,
+	},
+	[SPECIES_OGERPON_WELLSPRING] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_OGERPON_HEARTHFLAME] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_OGERPON_CORNERSTONE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_ARCHALUDON] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_HYDRAPPLE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_GOUGING_FIRE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_RAGING_BOLT] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_IRON_BOULDER] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_IRON_CROWN] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_TERAPAGOS] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_TERAPAGOS_TERASTAL] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_TERAPAGOS_STELLAR] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_PECHARUNT] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
 	},
 };
