@@ -84,8 +84,8 @@ const u16 gGrasslandPage10[] =
 {
 	SPECIES_EKANS,
 	SPECIES_ARBOK,
-	SPECIES_SCYTHER,
-	SPECIES_SCIZOR,
+	SPECIES_LICKITUNG,
+	SPECIES_LICKILICKY,
 };
 
 const u16 gGrasslandPage11[] =
@@ -111,8 +111,9 @@ const u16 gGrasslandPage13[] =
 
 const u16 gGrasslandPage14[] =
 {
-	SPECIES_LICKITUNG,
-	SPECIES_LICKILICKY,
+	SPECIES_SCYTHER,
+	SPECIES_SCIZOR,
+	SPECIES_KLEAVOR,
 };
 
 const u16 gGrasslandPage15[] =
@@ -134,8 +135,16 @@ const u16 gGrasslandPage17[] =
 {
 	SPECIES_KANGASKHAN,
 	SPECIES_GIRAFARIG,
-	SPECIES_TAUROS,
+	SPECIES_FARIGIRAF,
 	SPECIES_MILTANK,
+};
+
+const u16 gGrasslandPage17_1[] =
+{
+	SPECIES_TAUROS,
+	SPECIES_TAUROS_P,
+	SPECIES_TAUROS_P_BLAZE,
+	SPECIES_TAUROS_P_AQUA,
 };
 
 const u16 gGrasslandPage18[] =
@@ -165,6 +174,8 @@ const u16 gGrasslandPage21[] =
 {
 	SPECIES_ZANGOOSE,
 	SPECIES_SEVIPER,
+	SPECIES_LITLEO,
+	SPECIES_PYROAR,
 };
 
 const u16 gGrasslandPage22[] =
@@ -179,8 +190,8 @@ const u16 gGrasslandPage23[] =
 {
 	SPECIES_GROWLITHE,
 	SPECIES_ARCANINE,
-	SPECIES_LITLEO,
-	SPECIES_PYROAR,
+	SPECIES_GROWLITHE_H,
+	SPECIES_ARCANINE_H,
 };
 
 const u16 gGrasslandPage24[] =
@@ -209,6 +220,7 @@ const u16 gGrasslandPage27[] =
 	SPECIES_CYNDAQUIL,
 	SPECIES_QUILAVA,
 	SPECIES_TYPHLOSION,
+	SPECIES_TYPHLOSION_H,
 };
 
 const u16 gGrasslandPage28[] =
@@ -306,7 +318,6 @@ const u16 gGrasslandPage40[] =
 	SPECIES_FLABEBE,
 	SPECIES_FLOETTE,
 	SPECIES_FLORGES,
-	SPECIES_FLOETTE_ETERNAL,
 };
 
 const u16 gGrasslandPage41[] =
@@ -435,11 +446,47 @@ const u16 gGrasslandPage57[] =
 	SPECIES_MORPEKO_HANGRY,
 };
 
-const u16 gGrasslandPage58[] = 
+const u16 gGrasslandPage58[] =
 {
-	 SPECIES_SLIGGOO_H,
-	SPECIES_GOODRA_H,
-	SPECIES_DECIDUEYE_H,
+	SPECIES_FUECOCO,
+	SPECIES_CROCALOR,
+	SPECIES_SKELEDIRGE,
+};
+
+const u16 gGrasslandPage59[] =
+{
+	SPECIES_LECHONK,
+	SPECIES_OINKOLOGNE,
+	SPECIES_OINKOLOGNE_FEMALE,
+};
+
+const u16 gGrasslandPage60[] =
+{
+	SPECIES_PAWMI,
+	SPECIES_PAWMO,
+	SPECIES_PAWMOT,
+};
+
+const u16 gGrasslandPage61[] =
+{
+	SPECIES_NYMBLE,
+	SPECIES_LOKIX,
+	SPECIES_CYCLIZAR,
+};
+
+const u16 gGrasslandPage62[] =
+{
+	SPECIES_SMOLIV,
+	SPECIES_DOLLIV,
+	SPECIES_ARBOLIVA,
+};
+
+const u16 gGrasslandPage63[] =
+{
+	SPECIES_POLTCHAGEIST,
+	SPECIES_POLTCHAGEIST_ARTISAN,
+	SPECIES_SINISTCHA,
+	SPECIES_SINISTCHA_MASTERPIECE,
 };
 
 const u16 gForestPage1[] =
@@ -605,23 +652,26 @@ const u16 gForestPage18[] =
 
 const u16 gForestPage19[] =
 {
-	SPECIES_MURKROW,
-	SPECIES_HONCHKROW,
 	SPECIES_SNEASEL,
 	SPECIES_WEAVILE,
+	SPECIES_SNEASEL_H,
+	SPECIES_SNEASLER,
 };
 
 const u16 gForestPage20[] =
 {
-	SPECIES_EXEGGCUTE,
-	SPECIES_EXEGGUTOR,
-	SPECIES_EXEGGUTOR_A,
+	SPECIES_MURKROW,
+	SPECIES_HONCHKROW,
+	SPECIES_BONSLY,
+	SPECIES_SUDOWOODO,
 };
 
 const u16 gForestPage21[] =
 {
-	SPECIES_BONSLY,
-	SPECIES_SUDOWOODO,
+	SPECIES_EXEGGCUTE,
+	SPECIES_EXEGGUTOR,
+	SPECIES_EXEGGCUTE_A,
+	SPECIES_EXEGGUTOR_A,
 };
 
 const u16 gForestPage22[] =
@@ -629,11 +679,12 @@ const u16 gForestPage22[] =
 	SPECIES_AIPOM,
 	SPECIES_AMBIPOM,
 	SPECIES_STANTLER,
-	SPECIES_KECLEON,
+	SPECIES_WYRDEER,
 };
 
 const u16 gForestPage23[] =
 {
+	SPECIES_KECLEON,
 	SPECIES_PINSIR,
 	SPECIES_HERACROSS,
 };
@@ -730,6 +781,8 @@ const u16 gForestPage36[] =
 {
 	SPECIES_PANPOUR,
 	SPECIES_SIMIPOUR,
+	SPECIES_COTTONEE,
+	SPECIES_WHIMSICOTT,
 };
 
 const u16 gForestPage37[] =
@@ -748,16 +801,17 @@ const u16 gForestPage38[] =
 
 const u16 gForestPage39[] =
 {
-	SPECIES_COTTONEE,
-	SPECIES_WHIMSICOTT,
 	SPECIES_PETILIL,
 	SPECIES_LILLIGANT,
+	SPECIES_LILLIGANT_H,
 };
 
 const u16 gForestPage40[] =
 {
 	SPECIES_ZORUA,
 	SPECIES_ZOROARK,
+	SPECIES_ZORUA_H,
+	SPECIES_ZOROARK_H,
 };
 
 const u16 gForestPage41[] =
@@ -871,6 +925,7 @@ const u16 gForestPage55[] =
 	SPECIES_ROWLET,
 	SPECIES_DARTRIX,
 	SPECIES_DECIDUEYE,
+	SPECIES_DECIDUEYE_H,
 };
 
 const u16 gForestPage56[] =
@@ -926,42 +981,39 @@ const u16 gForestPage62[] =
 
 const u16 gForestPage63[] =
 {
+	SPECIES_DIPPLIN,
+	SPECIES_HYDRAPPLE,
+};
+
+const u16 gForestPage64[] =
+{
 	SPECIES_PONYTA_G,
 	SPECIES_RAPIDASH_G,
 	SPECIES_INDEEDEE,
 	SPECIES_INDEEDEE_FEMALE,
 };
 
-const u16 gForestPage64[] =
+const u16 gForestPage65[] =
 {
 	SPECIES_HATENNA,
 	SPECIES_HATTREM,
 	SPECIES_HATTERENE,
 };
 
-const u16 gForestPage65[] =
+const u16 gForestPage66[] =
 {
 	SPECIES_IMPIDIMP,
 	SPECIES_MORGREM,
 	SPECIES_GRIMMSNARL,
-	SPECIES_WYRDEER,
 };
 
-const u16 gForestPage66[] = 
+const u16 gForestPage67[] =
 {
-	 SPECIES_KLEAVOR,
-	SPECIES_VOLTORB_H,
-	SPECIES_ELECTRODE_H,
-	SPECIES_LILLIGANT_H,
+	SPECIES_TAROUNTULA,
+	SPECIES_SPIDOPS,
+	SPECIES_SHROODLE,
+	SPECIES_GRAFAIAI,
 };
-
-const u16 gForestPage67[] = 
-{
-	 SPECIES_ZORUA_H,
-	SPECIES_ZOROARK_H,
-	SPECIES_BRAVIARY_H,
-};
-
 
 const u16 gWatersEdgePage1[] =
 {
@@ -996,14 +1048,16 @@ const u16 gWatersEdgePage5[] =
 {
 	SPECIES_SURSKIT,
 	SPECIES_MASQUERAIN,
+	SPECIES_PSYDUCK,
+	SPECIES_GOLDUCK,
 };
 
 const u16 gWatersEdgePage6[] =
 {
-	SPECIES_PSYDUCK,
-	SPECIES_GOLDUCK,
 	SPECIES_WOOPER,
 	SPECIES_QUAGSIRE,
+	SPECIES_WOOPER_P,
+	SPECIES_CLODSIRE,
 };
 
 const u16 gWatersEdgePage7[] =
@@ -1104,6 +1158,8 @@ const u16 gWatersEdgePage20[] =
 
 const u16 gWatersEdgePage21[] =
 {
+	SPECIES_CROAGUNK,
+	SPECIES_TOXICROAK,
 	SPECIES_FINNEON,
 	SPECIES_LUMINEON,
 };
@@ -1113,6 +1169,7 @@ const u16 gWatersEdgePage22[] =
 	SPECIES_OSHAWOTT,
 	SPECIES_DEWOTT,
 	SPECIES_SAMUROTT,
+	SPECIES_SAMUROTT_H,
 };
 
 const u16 gWatersEdgePage23[] =
@@ -1130,11 +1187,18 @@ const u16 gWatersEdgePage24[] =
 
 const u16 gWatersEdgePage25[] =
 {
+	SPECIES_BASCULIN_H,
+	SPECIES_BASCULEGION_M,
+	SPECIES_BASCULEGION_F,
+};
+
+const u16 gWatersEdgePage26[] =
+{
 	SPECIES_DUCKLETT,
 	SPECIES_SWANNA,
 };
 
-const u16 gWatersEdgePage26[] =
+const u16 gWatersEdgePage27[] =
 {
 	SPECIES_SHELMET,
 	SPECIES_ACCELGOR,
@@ -1142,7 +1206,7 @@ const u16 gWatersEdgePage26[] =
 	SPECIES_STUNFISK_G,
 };
 
-const u16 gWatersEdgePage27[] =
+const u16 gWatersEdgePage28[] =
 {
 	SPECIES_FROAKIE,
 	SPECIES_FROGADIER,
@@ -1150,13 +1214,13 @@ const u16 gWatersEdgePage27[] =
 	SPECIES_ASHGRENINJA,
 };
 
-const u16 gWatersEdgePage28[] =
+const u16 gWatersEdgePage29[] =
 {
 	SPECIES_BINACLE,
 	SPECIES_BARBARACLE,
 };
 
-const u16 gWatersEdgePage29[] =
+const u16 gWatersEdgePage30[] =
 {
 	SPECIES_SKRELP,
 	SPECIES_DRAGALGE,
@@ -1164,28 +1228,34 @@ const u16 gWatersEdgePage29[] =
 	SPECIES_CLAWITZER,
 };
 
-const u16 gWatersEdgePage30[] =
+const u16 gWatersEdgePage31[] =
 {
 	SPECIES_GOOMY,
 	SPECIES_SLIGGOO,
 	SPECIES_GOODRA,
 };
 
-const u16 gWatersEdgePage31[] =
+const u16 gWatersEdgePage32[] =
+{
+	SPECIES_SLIGGOO_H,
+	SPECIES_GOODRA_H,
+};
+
+const u16 gWatersEdgePage33[] =
 {
 	SPECIES_POPPLIO,
 	SPECIES_BRIONNE,
 	SPECIES_PRIMARINA,
 };
 
-const u16 gWatersEdgePage32[] =
+const u16 gWatersEdgePage34[] =
 {
 	SPECIES_DEWPIDER,
 	SPECIES_ARAQUANID,
 	SPECIES_BRUXISH,
 };
 
-const u16 gWatersEdgePage33[] =
+const u16 gWatersEdgePage35[] =
 {
 	SPECIES_WIMPOD,
 	SPECIES_GOLISOPOD,
@@ -1193,14 +1263,14 @@ const u16 gWatersEdgePage33[] =
 	SPECIES_PALOSSAND,
 };
 
-const u16 gWatersEdgePage34[] =
+const u16 gWatersEdgePage36[] =
 {
 	SPECIES_SOBBLE,
 	SPECIES_DRIZZILE,
 	SPECIES_INTELEON,
 };
 
-const u16 gWatersEdgePage35[] =
+const u16 gWatersEdgePage37[] =
 {
 	SPECIES_CHEWTLE,
 	SPECIES_DREDNAW,
@@ -1208,32 +1278,48 @@ const u16 gWatersEdgePage35[] =
 	SPECIES_BARRASKEWDA,
 };
 
-const u16 gWatersEdgePage36[] =
+const u16 gWatersEdgePage38[] =
 {
 	SPECIES_CLOBBOPUS,
 	SPECIES_GRAPPLOCT,
 	SPECIES_PINCURCHIN,
 };
 
-const u16 gWatersEdgePage37[] =
+const u16 gWatersEdgePage39[] =
 {
 	SPECIES_EISCUE,
 	SPECIES_EISCUE_NOICE,
 };
 
-const u16 gWatersEdgePage38[] =
+const u16 gWatersEdgePage40[] =
 {
 	SPECIES_DREEPY,
 	SPECIES_DRAKLOAK,
 	SPECIES_DRAGAPULT,
-	SPECIES_BASCULEGION,
 };
 
-const u16 gWatersEdgePage39[] = 
+const u16 gWatersEdgePage41[] =
 {
-	 SPECIES_SAMUROTT_H,
-	SPECIES_BASCULIN_WHITE,
-	SPECIES_BASCULEGION_FEMALE,
+	SPECIES_QUAXLY,
+	SPECIES_QUAXWELL,
+	SPECIES_QUAQUAVAL,
+	SPECIES_FLAMIGO,
+};
+
+const u16 gWatersEdgePage42[] =
+{
+	SPECIES_TADBULB,
+	SPECIES_BELLIBOLT,
+	SPECIES_WATTREL,
+	SPECIES_KILOWATTREL,
+};
+
+const u16 gWatersEdgePage43[] =
+{
+	SPECIES_TOEDSCOOL,
+	SPECIES_TOEDSCRUEL,
+	SPECIES_WIGLETT,
+	SPECIES_WUGTRIO,
 };
 
 const u16 gSeaPage1[] =
@@ -1278,9 +1364,8 @@ const u16 gSeaPage6[] =
 const u16 gSeaPage7[] =
 {
 	SPECIES_QWILFISH,
-	SPECIES_CORSOLA,
-	SPECIES_CORSOLA_G,
-	SPECIES_CURSOLA,
+	SPECIES_QWILFISH_H,
+	SPECIES_OVERQWIL,
 };
 
 const u16 gSeaPage8[] =
@@ -1322,6 +1407,9 @@ const u16 gSeaPage12[] =
 const u16 gSeaPage13[] =
 {
 	SPECIES_LAPRAS,
+	SPECIES_CORSOLA,
+	SPECIES_CORSOLA_G,
+	SPECIES_CURSOLA,
 };
 
 const u16 gSeaPage14[] =
@@ -1383,12 +1471,22 @@ const u16 gSeaPage22[] =
 	SPECIES_CRAMORANT,
 	SPECIES_CRAMORANT_GULPING,
 	SPECIES_CRAMORANT_GORGING,
-	SPECIES_OVERQWIL,
 };
 
-const u16 gSeaPage23[] = 
+const u16 gSeaPage23[] =
 {
-	 SPECIES_QWILFISH_H,
+	SPECIES_VELUZA,
+	SPECIES_FINIZEN,
+	SPECIES_PALAFIN,
+	SPECIES_PALAFIN_HERO,
+};
+
+const u16 gSeaPage24[] =
+{
+	SPECIES_DONDOZO,
+	SPECIES_TATSUGIRI_CURLY,
+	SPECIES_TATSUGIRI_STRETCHY,
+	SPECIES_TATSUGIRI_DROOPY,
 };
 
 const u16 gCavePage1[] =
@@ -1437,13 +1535,15 @@ const u16 gCavePage7[] =
 {
 	SPECIES_MISDREAVUS,
 	SPECIES_MISMAGIUS,
-	SPECIES_DUNSPARCE,
+	SPECIES_NOSEPASS,
+	SPECIES_PROBOPASS,
 };
 
 const u16 gCavePage8[] =
 {
-	SPECIES_NOSEPASS,
-	SPECIES_PROBOPASS,
+	SPECIES_DUNSPARCE,
+	SPECIES_DUDUNSPARCE,
+	SPECIES_DUDUNSPARCE_THREESEGMENT,
 };
 
 const u16 gCavePage9[] =
@@ -1593,25 +1693,29 @@ const u16 gCavePage30[] =
 {
 	SPECIES_BERGMITE,
 	SPECIES_AVALUGG,
-	SPECIES_CARBINK,
-	SPECIES_DIANCIE,
+	SPECIES_AVALUGG_H,
 };
 
 const u16 gCavePage31[] =
+{
+	SPECIES_CARBINK,
+	SPECIES_DIANCIE,
+};
+const u16 gCavePage32[] =
 {
 	SPECIES_ZYGARDE_10,
 	SPECIES_ZYGARDE,
 	SPECIES_ZYGARDE_COMPLETE,
 };
 
-const u16 gCavePage32[] =
+const u16 gCavePage33[] =
 {
 	SPECIES_JANGMO_O,
 	SPECIES_HAKAMO_O,
 	SPECIES_KOMMO_O,
 };
 
-const u16 gCavePage33[] =
+const u16 gCavePage34[] =
 {
 	SPECIES_TAPU_KOKO,
 	SPECIES_TAPU_LELE,
@@ -1619,17 +1723,31 @@ const u16 gCavePage33[] =
 	SPECIES_TAPU_FINI,
 };
 
-const u16 gCavePage34[] =
+const u16 gCavePage35[] =
 {
 	SPECIES_ROLYCOLY,
 	SPECIES_CARKOL,
 	SPECIES_COALOSSAL,
 };
 
-const u16 gCavePage35[] =
+const u16 gCavePage36[] =
 {
 	SPECIES_REGIELEKI,
 	SPECIES_REGIDRAGO,
+};
+
+const u16 gCavePage37[] =
+{
+	SPECIES_NACLI,
+	SPECIES_NACLSTACK,
+	SPECIES_GARGANACL,
+};
+
+const u16 gCavePage38[] =
+{
+	SPECIES_GLIMMET,
+	SPECIES_GLIMMORA,
+	SPECIES_ORTHWORM,
 };
 
 const u16 gMountainPage1[] =
@@ -1650,8 +1768,7 @@ const u16 gMountainPage3[] =
 {
 	SPECIES_MANKEY,
 	SPECIES_PRIMEAPE,
-	SPECIES_SPOINK,
-	SPECIES_GRUMPIG,
+	SPECIES_ANNIHILAPE,
 };
 
 const u16 gMountainPage4[] =
@@ -1707,14 +1824,15 @@ const u16 gMountainPage10[] =
 
 const u16 gMountainPage11[] =
 {
-	SPECIES_SHUCKLE,
 	SPECIES_TEDDIURSA,
 	SPECIES_URSARING,
-	SPECIES_DELIBIRD,
+	SPECIES_URSALUNA,
+	SPECIES_URSALUNA_BLOODMOON,
 };
 
 const u16 gMountainPage12[] =
 {
+	SPECIES_DELIBIRD,
 	SPECIES_GLIGAR,
 	SPECIES_GLISCOR,
 	SPECIES_SPINDA,
@@ -1737,6 +1855,7 @@ const u16 gMountainPage14[] =
 
 const u16 gMountainPage15[] =
 {
+	SPECIES_SHUCKLE,
 	SPECIES_LARVITAR,
 	SPECIES_PUPITAR,
 	SPECIES_TYRANITAR,
@@ -1746,6 +1865,8 @@ const u16 gMountainPage16[] =
 {
 	SPECIES_MUNCHLAX,
 	SPECIES_SNORLAX,
+	SPECIES_SPOINK,
+	SPECIES_GRUMPIG,
 };
 
 const u16 gMountainPage17[] =
@@ -1764,91 +1885,84 @@ const u16 gMountainPage18[] =
 
 const u16 gMountainPage19[] =
 {
-	SPECIES_MUNCHLAX,
-	SPECIES_SNORLAX,
-};
-
-const u16 gMountainPage20[] =
-{
 	SPECIES_CHARMANDER,
 	SPECIES_CHARMELEON,
 	SPECIES_CHARIZARD,
 };
 
-const u16 gMountainPage21[] =
+const u16 gMountainPage20[] =
 {
 	SPECIES_JIRACHI,
 };
 
-const u16 gMountainPage22[] =
+const u16 gMountainPage21[] =
 {
 	SPECIES_RIOLU,
 	SPECIES_LUCARIO,
-	SPECIES_CROAGUNK,
-	SPECIES_TOXICROAK,
 };
 
-const u16 gMountainPage23[] =
+const u16 gMountainPage22[] =
 {
 	SPECIES_CARNIVINE,
 	SPECIES_SNOVER,
 	SPECIES_ABOMASNOW,
 };
 
-const u16 gMountainPage24[] =
+const u16 gMountainPage23[] =
 {
 	SPECIES_TIMBURR,
 	SPECIES_GURDURR,
 	SPECIES_CONKELDURR,
 };
 
-const u16 gMountainPage25[] =
+const u16 gMountainPage24[] =
 {
 	SPECIES_THROH,
 	SPECIES_SAWK,
 };
 
-const u16 gMountainPage26[] =
+const u16 gMountainPage25[] =
 {
 	SPECIES_ARCHEN,
 	SPECIES_ARCHEOPS,
 };
 
-const u16 gMountainPage27[] =
+const u16 gMountainPage26[] =
 {
 	SPECIES_VANILLITE,
 	SPECIES_VANILLISH,
 	SPECIES_VANILLUXE,
 };
 
-const u16 gMountainPage28[] =
+const u16 gMountainPage27[] =
 {
 	SPECIES_MIENFOO,
 	SPECIES_MIENSHAO,
 	SPECIES_DRUDDIGON,
 };
 
-const u16 gMountainPage29[] =
+const u16 gMountainPage28[] =
 {
 	SPECIES_RUFFLET,
 	SPECIES_BRAVIARY,
-	SPECIES_VULLABY,
-	SPECIES_MANDIBUZZ,
+	SPECIES_BRAVIARY_H,
 };
 
-const u16 gMountainPage30[] =
+const u16 gMountainPage29[] =
 {
+	SPECIES_VULLABY,
+	SPECIES_MANDIBUZZ,
 	SPECIES_HEATMOR,
 	SPECIES_DURANT,
 };
 
-const u16 gMountainPage31[] =
+const u16 gMountainPage30[] =
 {
 	SPECIES_INKAY,
 	SPECIES_MALAMAR,
 };
 
-const u16 gMountainPage32[] =
+const u16 gMountainPage31[] =
 {
 	SPECIES_TYRUNT,
 	SPECIES_TYRANTRUM,
@@ -1856,25 +1970,25 @@ const u16 gMountainPage32[] =
 	SPECIES_AURORUS,
 };
 
-const u16 gMountainPage33[] =
+const u16 gMountainPage32[] =
 {
 	SPECIES_NOIBAT,
 	SPECIES_NOIVERN,
 };
 
-const u16 gMountainPage34[] =
+const u16 gMountainPage33[] =
 {
 	SPECIES_XERNEAS,
 	SPECIES_YVELTAL,
 };
 
-const u16 gMountainPage35[] =
+const u16 gMountainPage34[] =
 {
 	SPECIES_CRABRAWLER,
 	SPECIES_CRABOMINABLE,
 };
 
-const u16 gMountainPage36[] =
+const u16 gMountainPage35[] =
 {
 	SPECIES_ROCKRUFF,
 	SPECIES_LYCANROC,
@@ -1882,20 +1996,20 @@ const u16 gMountainPage36[] =
 	SPECIES_LYCANROC_DUSK,
 };
 
-const u16 gMountainPage37[] =
+const u16 gMountainPage36[] =
 {
 	SPECIES_SALANDIT,
 	SPECIES_SALAZZLE,
 };
 
-const u16 gMountainPage38[] =
+const u16 gMountainPage37[] =
 {
 	SPECIES_TURTONATOR,
 	SPECIES_TOGEDEMARU,
 	SPECIES_DRAMPA,
 };
 
-const u16 gMountainPage39[]=
+const u16 gMountainPage38[]=
 {
 	SPECIES_MINIOR_SHIELD,
 	SPECIES_MINIOR_RED,
@@ -1903,7 +2017,7 @@ const u16 gMountainPage39[]=
 	SPECIES_MINIOR_ORANGE,
 };
 
-const u16 gMountainPage40[]=
+const u16 gMountainPage39[]=
 {
 	SPECIES_MINIOR_YELLOW,
 	SPECIES_MINIOR_INDIGO,
@@ -1911,32 +2025,61 @@ const u16 gMountainPage40[]=
 	SPECIES_MINIOR_VIOLET,
 };
 
-const u16 gMountainPage41[] =
+const u16 gMountainPage40[] =
 {
 	SPECIES_ZERAORA,
 };
 
-const u16 gMountainPage42[] =
+const u16 gMountainPage41[] =
 {
 	SPECIES_STONJOURNER,
 	SPECIES_CUFANT,
 	SPECIES_COPPERAJAH,
+};
+
+const u16 gMountainPage42[] =
+{
 	SPECIES_DURALUDON,
+	SPECIES_ARCHALUDON,
+	SPECIES_SNOM,
+	SPECIES_FROSMOTH,
 };
 
 const u16 gMountainPage43[] =
 {
-	SPECIES_SNOM,
-	SPECIES_FROSMOTH,
-	SPECIES_SNEASLER,
-	SPECIES_GROWLITHE_H,
+	SPECIES_CHARCADET,
+	SPECIES_ARMAROUGE,
+	SPECIES_CERULEDGE,
 };
 
-const u16 gMountainPage44[] = 
+const u16 gMountainPage44[] =
 {
-	 SPECIES_ARCANINE_H,
-	SPECIES_SNEASEL_H,
-	SPECIES_AVALUGG_H,
+	SPECIES_CAPSAKID,
+	SPECIES_SCOVILLAIN,
+	SPECIES_KLAWF,
+	SPECIES_BOMBIRDIER,
+};
+
+const u16 gMountainPage45[] =
+{
+	SPECIES_TINKATINK,
+	SPECIES_TINKATUFF,
+	SPECIES_TINKATON,
+};
+
+const u16 gMountainPage46[] =
+{
+	SPECIES_GREAVARD,
+	SPECIES_HOUNDSTONE,
+	SPECIES_CETODDLE,
+	SPECIES_CETITAN,
+};
+
+const u16 gMountainPage47[] =
+{
+	SPECIES_FRIGIBAX,
+	SPECIES_ARCTIBAX,
+	SPECIES_BAXCALIBUR,
 };
 
 const u16 gRoughTerrainPage1[] =
@@ -2070,14 +2213,15 @@ const u16 gRoughTerrainPage20[] =
 {
 	SPECIES_YAMASK_G,
 	SPECIES_RUNERIGUS,
+	SPECIES_GOLETT,
+	SPECIES_GOLURK,
 };
 
 const u16 gRoughTerrainPage21[] =
 {
-	SPECIES_GOLETT,
-	SPECIES_GOLURK,
 	SPECIES_PAWNIARD,
 	SPECIES_BISHARP,
+	SPECIES_KINGAMBIT,
 };
 
 const u16 gRoughTerrainPage22[] =
@@ -2127,7 +2271,28 @@ const u16 gRoughTerrainPage28[] =
 {
 	SPECIES_DRACOZOLT,
 	SPECIES_ARCTOZOLT,
-	SPECIES_URSALUNA,
+};
+
+const u16 gRoughTerrainPage29[] =
+{
+	SPECIES_MASCHIFF,
+	SPECIES_MABOSSTIFF,
+	SPECIES_FLITTLE,
+	SPECIES_ESPATHRA,
+};
+
+const u16 gRoughTerrainPage30[] =
+{
+	SPECIES_RELLOR,
+	SPECIES_RABSCA,
+	SPECIES_BRAMBLIN,
+	SPECIES_BRAMBLEGHAST,
+};
+
+const u16 gRoughTerrainPage31[] =
+{
+	SPECIES_VAROOM,
+	SPECIES_REVAVROOM,
 };
 
 const u16 gUrbanPage1[] =
@@ -2158,6 +2323,7 @@ const u16 gUrbanPage4[] =
 {
 	SPECIES_GRIMER_A,
 	SPECIES_MUK_A,
+	SPECIES_KOFFING_G,
 	SPECIES_WEEZING_G,
 };
 
@@ -2193,11 +2359,16 @@ const u16 gUrbanPage9[] =
 {
 	SPECIES_MIME_JR,
 	SPECIES_MR_MIME,
+};
+
+const u16 gUrbanPage10[] =
+{
+	SPECIES_MIME_JR_G,
 	SPECIES_MR_MIME_G,
 	SPECIES_MR_RIME,
 };
 
-const u16 gUrbanPage10[] =
+const u16 gUrbanPage11[] =
 {
 	SPECIES_TYROGUE,
 	SPECIES_HITMONLEE,
@@ -2205,32 +2376,34 @@ const u16 gUrbanPage10[] =
 	SPECIES_HITMONTOP,
 };
 
-const u16 gUrbanPage11[] =
+const u16 gUrbanPage12[] =
 {
 	SPECIES_HAPPINY,
 	SPECIES_CHANSEY,
 	SPECIES_BLISSEY,
 };
 
-const u16 gUrbanPage12[] =
+const u16 gUrbanPage13[] =
 {
 	SPECIES_VOLTORB,
 	SPECIES_ELECTRODE,
+	SPECIES_VOLTORB_H,
+	SPECIES_ELECTRODE_H,
 };
 
-const u16 gUrbanPage13[] =
+const u16 gUrbanPage14[] =
 {
 	SPECIES_PORYGON,
 	SPECIES_PORYGON2,
 	SPECIES_PORYGON_Z,
 };
 
-const u16 gUrbanPage14[] =
+const u16 gUrbanPage15[] =
 {
 	SPECIES_DITTO,
 };
 
-const u16 gUrbanPage15[] =
+const u16 gUrbanPage16[] =
 {
 	SPECIES_EEVEE,
 	SPECIES_VAPOREON,
@@ -2238,124 +2411,123 @@ const u16 gUrbanPage15[] =
 	SPECIES_FLAREON,
 };
 
-const u16 gUrbanPage16[] =
+const u16 gUrbanPage17[] =
 {
 	SPECIES_ESPEON,
 	SPECIES_UMBREON,
 };
 
-const u16 gUrbanPage17[] =
+const u16 gUrbanPage18[] =
 {
 	SPECIES_LEAFEON,
 	SPECIES_GLACEON,
 	SPECIES_SYLVEON,
 };
 
-const u16 gUrbanPage18[] =
+const u16 gUrbanPage19[] =
 {
 	SPECIES_ROTOM,
 	SPECIES_ROTOM_HEAT,
 	SPECIES_ROTOM_WASH,
 };
 
-const u16 gUrbanPage19[] =
+const u16 gUrbanPage20[] =
 {
 	SPECIES_ROTOM_FROST,
 	SPECIES_ROTOM_FAN,
 	SPECIES_ROTOM_MOW,
-	SPECIES_ROTOM_ROTOMI,
 };
 
-const u16 gUrbanPage20[] =
+const u16 gUrbanPage21[] =
 {
 	SPECIES_TEPIG,
 	SPECIES_PIGNITE,
 	SPECIES_EMBOAR,
 };
 
-const u16 gUrbanPage21[] =
+const u16 gUrbanPage22[] =
 {
 	SPECIES_MUNNA,
 	SPECIES_MUSHARNA,
 	SPECIES_AUDINO,
 };
 
-const u16 gUrbanPage22[] =
+const u16 gUrbanPage23[] =
 {
 	SPECIES_PIDOVE,
 	SPECIES_TRANQUILL,
 	SPECIES_UNFEZANT,
 };
 
-const u16 gUrbanPage23[] =
+const u16 gUrbanPage24[] =
 {
 	SPECIES_TRUBBISH,
 	SPECIES_GARBODOR,
 };
 
-const u16 gUrbanPage24[] =
+const u16 gUrbanPage25[] =
 {
 	SPECIES_GOTHITA,
 	SPECIES_GOTHORITA,
 	SPECIES_GOTHITELLE,
 };
 
-const u16 gUrbanPage25[] =
+const u16 gUrbanPage26[] =
 {
 	SPECIES_SOLOSIS,
 	SPECIES_DUOSION,
 	SPECIES_REUNICLUS,
 };
 
-const u16 gUrbanPage26[] =
+const u16 gUrbanPage27[] =
 {
 	SPECIES_ELGYEM,
 	SPECIES_BEHEEYEM,
 };
 
-const u16 gUrbanPage27[] =
+const u16 gUrbanPage28[] =
 {
 	SPECIES_LITWICK,
 	SPECIES_LAMPENT,
 	SPECIES_CHANDELURE,
 };
 
-const u16 gUrbanPage28[] =
+const u16 gUrbanPage29[] =
 {
 	SPECIES_FENNEKIN,
 	SPECIES_BRAIXEN,
 	SPECIES_DELPHOX,
 };
 
-const u16 gUrbanPage29[] =
+const u16 gUrbanPage30[] =
 {
 	SPECIES_KLEFKI,
 	SPECIES_MIMIKYU,
 	SPECIES_MIMIKYU_BUSTED,
 };
 
-const u16 gUrbanPage30[] =
+const u16 gUrbanPage31[] =
 {
 	SPECIES_LITTEN,
 	SPECIES_TORRACAT,
 	SPECIES_INCINEROAR,
 };
 
-const u16 gUrbanPage31[] =
+const u16 gUrbanPage32[] =
 {
 	SPECIES_SCORBUNNY,
 	SPECIES_RABOOT,
 	SPECIES_CINDERACE,
 };
 
-const u16 gUrbanPage32[] =
+const u16 gUrbanPage33[] =
 {
 	SPECIES_TOXEL,
 	SPECIES_TOXTRICITY,
 	SPECIES_TOXTRICITY_LOW_KEY,
 };
 
-const u16 gUrbanPage33[] =
+const u16 gUrbanPage34[] =
 {
 	SPECIES_SINISTEA,
 	SPECIES_POLTEAGEIST,
@@ -2363,25 +2535,59 @@ const u16 gUrbanPage33[] =
 	SPECIES_POLTEAGEIST_CHIPPED,
 };
 
-const u16 gUrbanPage34[] =
+const u16 gUrbanPage35[] =
 {
 	SPECIES_MILCERY,
 	SPECIES_ALCREMIE_STRAWBERRY,
 };
 
-const u16 gUrbanPage35[] =
+const u16 gUrbanPage36[] =
 {
 	SPECIES_ALCREMIE_BERRY,
 	SPECIES_ALCREMIE_CLOVER,
 	SPECIES_ALCREMIE_FLOWER,
 };
 
-const u16 gUrbanPage36[] =
+const u16 gUrbanPage37[] =
 {
 	SPECIES_ALCREMIE_LOVE,
 	SPECIES_ALCREMIE_RIBBON,
 	SPECIES_ALCREMIE_STAR,
-	SPECIES_TYPHLOSION_H,
+};
+
+const u16 gUrbanPage38[] =
+{
+	SPECIES_SPRIGATITO,
+	SPECIES_FLORAGATO,
+	SPECIES_MEOWSCARADA,
+};
+
+const u16 gUrbanPage39[] =
+{
+	SPECIES_TANDEMAUS,
+	SPECIES_MAUSHOLD,
+	SPECIES_MAUSHOLD_FAMILYOF3,
+};
+
+const u16 gUrbanPage40[] =
+{
+	SPECIES_FIDOUGH,
+	SPECIES_DACHSBUN,
+};
+
+const u16 gUrbanPage41[] =
+{
+	SPECIES_SQUAWKABILLY,
+	SPECIES_SQUAWKABILLY_2,
+	SPECIES_SQUAWKABILLY_3,
+	SPECIES_SQUAWKABILLY_4,
+};
+
+const u16 gUrbanPage42[] =
+{
+	SPECIES_GIMMIGHOUL,
+	SPECIES_GIMMIGHOUL_ROAMING,
+	SPECIES_GHOLDENGO,
 };
 
 const u16 gRarePage1[] =
@@ -2422,12 +2628,18 @@ const u16 gRarePage6[] =
 const u16 gRarePage7[] =
 {
 	SPECIES_DIALGA,
+	SPECIES_DIALGA_ORIGIN,
 	SPECIES_PALKIA,
+	SPECIES_PALKIA_ORIGIN,
+};
+
+const u16 gRarePage8[] =
+{
 	SPECIES_GIRATINA,
 	SPECIES_GIRATINA_ORIGIN,
 };
 
-const u16 gRarePage8[] =
+const u16 gRarePage9[] =
 {
 	SPECIES_ARCEUS,
 	SPECIES_ARCEUS_FIRE,
@@ -2435,7 +2647,7 @@ const u16 gRarePage8[] =
 	SPECIES_ARCEUS_GRASS,
 };
 
-const u16 gRarePage9[] =
+const u16 gRarePage10[] =
 {
 	SPECIES_ARCEUS_ELECTRIC,
 	SPECIES_ARCEUS_ICE,
@@ -2443,7 +2655,7 @@ const u16 gRarePage9[] =
 	SPECIES_ARCEUS_POISON,
 };
 
-const u16 gRarePage10[] =
+const u16 gRarePage11[] =
 {
 	SPECIES_ARCEUS_GROUND,
 	SPECIES_ARCEUS_FLYING,
@@ -2451,60 +2663,62 @@ const u16 gRarePage10[] =
 	SPECIES_ARCEUS_BUG,
 };
 
-const u16 gRarePage11[] =
+const u16 gRarePage12[] =
 {
 	SPECIES_ARCEUS_ROCK,
 	SPECIES_ARCEUS_GHOST,
 	SPECIES_ARCEUS_DRAGON,
 };
 
-const u16 gRarePage12[] =
+const u16 gRarePage13[] =
 {
 	SPECIES_ARCEUS_DARK,
 	SPECIES_ARCEUS_STEEL,
 	SPECIES_ARCEUS_FAIRY,
 };
 
-const u16 gRarePage13[] =
+const u16 gRarePage14[] =
 {
 	SPECIES_VICTINI,
 };
 
-const u16 gRarePage14[] =
+const u16 gRarePage15[] =
 {
 	SPECIES_TORNADUS,
 	SPECIES_THUNDURUS,
 	SPECIES_LANDORUS,
+	SPECIES_ENAMORUS,
 };
 
-const u16 gRarePage15[] =
+const u16 gRarePage16[] =
 {
 	SPECIES_TORNADUS_THERIAN,
 	SPECIES_THUNDURUS_THERIAN,
 	SPECIES_LANDORUS_THERIAN,
+	SPECIES_ENAMORUS_THERIAN,
 };
 
-const u16 gRarePage16[] =
+const u16 gRarePage17[] =
 {
 	SPECIES_RESHIRAM,
 	SPECIES_ZEKROM,
 };
 
-const u16 gRarePage17[] =
+const u16 gRarePage18[] =
 {
 	SPECIES_KYUREM,
 	SPECIES_KYUREM_BLACK,
 	SPECIES_KYUREM_WHITE,
 };
 
-const u16 gRarePage18[] =
+const u16 gRarePage19[] =
 {
 	SPECIES_MELOETTA,
 	SPECIES_MELOETTA_PIROUETTE,
 	SPECIES_GENESECT,
 };
 
-const u16 gRarePage19[] =
+const u16 gRarePage20[] =
 {
 	SPECIES_GENESECT_SHOCK,
 	SPECIES_GENESECT_BURN,
@@ -2512,7 +2726,7 @@ const u16 gRarePage19[] =
 	SPECIES_GENESECT_DOUSE,
 };
 
-const u16 gRarePage20[] =
+const u16 gRarePage21[] =
 {
 	SPECIES_TYPE_NULL,
 	SPECIES_SILVALLY,
@@ -2520,7 +2734,7 @@ const u16 gRarePage20[] =
 	SPECIES_SILVALLY_FLYING,
 };
 
-const u16 gRarePage21[] =
+const u16 gRarePage22[] =
 {
 	SPECIES_SILVALLY_POISON,
 	SPECIES_SILVALLY_GROUND,
@@ -2528,7 +2742,7 @@ const u16 gRarePage21[] =
 	SPECIES_SILVALLY_BUG,
 };
 
-const u16 gRarePage22[] =
+const u16 gRarePage23[] =
 {
 	SPECIES_SILVALLY_GHOST,
 	SPECIES_SILVALLY_STEEL,
@@ -2536,7 +2750,7 @@ const u16 gRarePage22[] =
 	SPECIES_SILVALLY_WATER,
 };
 
-const u16 gRarePage23[] =
+const u16 gRarePage24[] =
 {
 	SPECIES_SILVALLY_GRASS,
 	SPECIES_SILVALLY_ELECTRIC,
@@ -2544,14 +2758,14 @@ const u16 gRarePage23[] =
 	SPECIES_SILVALLY_ICE,
 };
 
-const u16 gRarePage24[] =
+const u16 gRarePage25[] =
 {
 	SPECIES_SILVALLY_DRAGON,
 	SPECIES_SILVALLY_DARK,
 	SPECIES_SILVALLY_FAIRY,
 };
 
-const u16 gRarePage25[] =
+const u16 gRarePage26[] =
 {
 	SPECIES_COSMOG,
 	SPECIES_COSMOEM,
@@ -2559,7 +2773,7 @@ const u16 gRarePage25[] =
 	SPECIES_LUNALA,
 };
 
-const u16 gRarePage26[] =
+const u16 gRarePage27[] =
 {
 	SPECIES_NIHILEGO,
 	SPECIES_BUZZWOLE,
@@ -2567,29 +2781,14 @@ const u16 gRarePage26[] =
 	SPECIES_XURKITREE,
 };
 
-const u16 gRarePage27[] =
+const u16 gRarePage28[] =
 {
 	SPECIES_CELESTEELA,
 	SPECIES_KARTANA,
 	SPECIES_GUZZLORD,
 };
 
-const u16 gRarePage28[] =
-{
-	SPECIES_NECROZMA,
-	SPECIES_NECROZMA_DUSK_MANE,
-	SPECIES_NECROZMA_DAWN_WINGS,
-	SPECIES_NECROZMA_ULTRA,
-};
-
 const u16 gRarePage29[] =
-{
-	SPECIES_MAGEARNA,
-	SPECIES_MAGEARNA_P,
-	SPECIES_MARSHADOW,
-};
-
-const u16 gRarePage30[] =
 {
 	SPECIES_POIPOLE,
 	SPECIES_NAGANADEL,
@@ -2597,13 +2796,28 @@ const u16 gRarePage30[] =
 	SPECIES_BLACEPHALON,
 };
 
+const u16 gRarePage30[] =
+{
+	SPECIES_NECROZMA,
+	SPECIES_NECROZMA_DUSK_MANE,
+	SPECIES_NECROZMA_DAWN_WINGS,
+	SPECIES_NECROZMA_ULTRA,
+};
+
 const u16 gRarePage31[] =
+{
+	SPECIES_MAGEARNA,
+	SPECIES_MAGEARNA_P,
+	SPECIES_MARSHADOW,
+};
+
+const u16 gRarePage32[] =
 {
 	SPECIES_MELTAN,
 	SPECIES_MELMETAL,
 };
 
-const u16 gRarePage32[] =
+const u16 gRarePage33[] =
 {
 	SPECIES_ZACIAN,
 	SPECIES_ZACIAN_CROWNED,
@@ -2611,38 +2825,127 @@ const u16 gRarePage32[] =
 	SPECIES_ZAMAZENTA_CROWNED,
 };
 
-const u16 gRarePage33[] =
+const u16 gRarePage34[] =
 {
 	SPECIES_ETERNATUS,
 	SPECIES_ETERNATUS_ETERNAMAX,
-	SPECIES_ZARUDE,
-	SPECIES_CALYREX,
 };
 
-const u16 gRarePage34[] =
+const u16 gRarePage35[] =
 {
 	SPECIES_KUBFU,
 	SPECIES_URSHIFU_SINGLE,
 	SPECIES_URSHIFU_RAPID,
 };
 
-const u16 gRarePage35[] =
+const u16 gRarePage36[] =
+{
+	SPECIES_ZARUDE,
+	SPECIES_ZARUDE_DADA,
+};
+
+const u16 gRarePage37[] =
 {
 	SPECIES_GLASTRIER,
 	SPECIES_SPECTRIER,
+};
+
+const u16 gRarePage38[] =
+{
+	SPECIES_CALYREX,
 	SPECIES_CALYREX_ICE_RIDER,
 	SPECIES_CALYREX_SHADOW_RIDER,
 };
 
-const u16 gRarePage36[] = 
+const u16 gRarePage39[] =
 {
-	SPECIES_ENAMORUS,
-	SPECIES_DIALGA_ORIGIN,
-	SPECIES_PALKIA_ORIGIN,
-	SPECIES_ENAMORUS_THERIAN,
+	SPECIES_WO_CHIEN,
+	SPECIES_CHIEN_PAO,
+	SPECIES_TING_LU,
+	SPECIES_CHI_YU,
 };
 
-const u16 gRarePage37[] = 
+const u16 gRarePage40[] =
+{
+	SPECIES_GREAT_TUSK,
+	SPECIES_SCREAM_TAIL,
+	SPECIES_BRUTE_BONNET,
+	SPECIES_FLUTTER_MANE,
+};
+
+const u16 gRarePage41[] =
+{
+	SPECIES_SLITHER_WING,
+	SPECIES_SANDY_SHOCKS,
+	SPECIES_ROARING_MOON,
+};
+
+const u16 gRarePage42[] =
+{
+	SPECIES_RAGING_BOLT,
+	SPECIES_GOUGING_FIRE,
+	SPECIES_WALKING_WAKE,
+};
+
+const u16 gRarePage43[] =
+{
+	SPECIES_IRON_TREADS,
+	SPECIES_IRON_BUNDLE,
+	SPECIES_IRON_HANDS,
+	SPECIES_IRON_JUGULIS,
+};
+
+const u16 gRarePage44[] =
+{
+	SPECIES_IRON_MOTH,
+	SPECIES_IRON_THORNS,
+	SPECIES_IRON_VALIANT,
+};
+
+const u16 gRarePage45[] =
+{
+	SPECIES_IRON_CROWN,
+	SPECIES_IRON_BOULDER,
+	SPECIES_IRON_LEAVES,
+};
+
+const u16 gRarePage46[] =
+{
+	SPECIES_OKIDOGI,
+	SPECIES_MUNKIDORI,
+	SPECIES_FEZANDIPITI,
+	SPECIES_PECHARUNT,
+};
+
+const u16 gRarePage47[] =
+{
+	SPECIES_OGERPON,
+	SPECIES_OGERPON_WELLSPRING,
+	SPECIES_OGERPON_HEARTHFLAME,
+	SPECIES_OGERPON_CORNERSTONE,
+};
+
+const u16 gRarePage48[] =
+{
+	SPECIES_KORAIDON,
+	SPECIES_MIRAIDON,
+	SPECIES_TERAPAGOS,
+	SPECIES_TERAPAGOS_TERASTAL,
+};
+
+const u16 gRarePage49[] =
+{
+	SPECIES_CHARIZARD_MONO,
+	SPECIES_ROTOM_ROTOMI,
+};
+
+const u16 gRarePage50[] =
+{
+	SPECIES_FLOETTE_ETERNAL,
+	SPECIES_STOUTLAND_ETERNAL,
+};
+
+const u16 gRarePage51[] =
 {
 	SPECIES_PROTOCEUS,
 	SPECIES_MISSINGNO,
@@ -2650,132 +2953,137 @@ const u16 gRarePage37[] =
 
 const struct HabitatPage gGrasslandPages[] =
 {
-	{gGrasslandPage1, ARRAY_COUNT(gGrasslandPage1)}, 
-	{gGrasslandPage2, ARRAY_COUNT(gGrasslandPage2)}, 
-	{gGrasslandPage3, ARRAY_COUNT(gGrasslandPage3)}, 
-	{gGrasslandPage4, ARRAY_COUNT(gGrasslandPage4)}, 
-	{gGrasslandPage5, ARRAY_COUNT(gGrasslandPage5)}, 
-	{gGrasslandPage6, ARRAY_COUNT(gGrasslandPage6)}, 
-	{gGrasslandPage7, ARRAY_COUNT(gGrasslandPage7)}, 
-	{gGrasslandPage8, ARRAY_COUNT(gGrasslandPage8)}, 
-	{gGrasslandPage9, ARRAY_COUNT(gGrasslandPage9)}, 
-	{gGrasslandPage10, ARRAY_COUNT(gGrasslandPage10)}, 
-	{gGrasslandPage11, ARRAY_COUNT(gGrasslandPage11)}, 
-	{gGrasslandPage12, ARRAY_COUNT(gGrasslandPage12)}, 
-	{gGrasslandPage13, ARRAY_COUNT(gGrasslandPage13)}, 
-	{gGrasslandPage14, ARRAY_COUNT(gGrasslandPage14)}, 
-	{gGrasslandPage15, ARRAY_COUNT(gGrasslandPage15)}, 
-	{gGrasslandPage16, ARRAY_COUNT(gGrasslandPage16)}, 
-	{gGrasslandPage17, ARRAY_COUNT(gGrasslandPage17)}, 
-	{gGrasslandPage18, ARRAY_COUNT(gGrasslandPage18)}, 
-	{gGrasslandPage19, ARRAY_COUNT(gGrasslandPage19)}, 
-	{gGrasslandPage20, ARRAY_COUNT(gGrasslandPage20)}, 
-	{gGrasslandPage21, ARRAY_COUNT(gGrasslandPage21)}, 
-	{gGrasslandPage22, ARRAY_COUNT(gGrasslandPage22)}, 
-	{gGrasslandPage23, ARRAY_COUNT(gGrasslandPage23)}, 
-	{gGrasslandPage24, ARRAY_COUNT(gGrasslandPage24)}, 
-	{gGrasslandPage25, ARRAY_COUNT(gGrasslandPage25)}, 
-	{gGrasslandPage26, ARRAY_COUNT(gGrasslandPage26)}, 
-	{gGrasslandPage27, ARRAY_COUNT(gGrasslandPage27)}, 
-	{gGrasslandPage28, ARRAY_COUNT(gGrasslandPage28)}, 
-	{gGrasslandPage29, ARRAY_COUNT(gGrasslandPage29)}, 
-	{gGrasslandPage30, ARRAY_COUNT(gGrasslandPage30)}, 
-	{gGrasslandPage31, ARRAY_COUNT(gGrasslandPage31)}, 
-	{gGrasslandPage32, ARRAY_COUNT(gGrasslandPage32)}, 
-	{gGrasslandPage33, ARRAY_COUNT(gGrasslandPage33)}, 
-	{gGrasslandPage34, ARRAY_COUNT(gGrasslandPage34)}, 
-	{gGrasslandPage35, ARRAY_COUNT(gGrasslandPage35)}, 
-	{gGrasslandPage36, ARRAY_COUNT(gGrasslandPage36)}, 
-	{gGrasslandPage37, ARRAY_COUNT(gGrasslandPage37)}, 
-	{gGrasslandPage38, ARRAY_COUNT(gGrasslandPage38)}, 
-	{gGrasslandPage39, ARRAY_COUNT(gGrasslandPage39)}, 
-	{gGrasslandPage40, ARRAY_COUNT(gGrasslandPage40)}, 
-	{gGrasslandPage41, ARRAY_COUNT(gGrasslandPage41)}, 
-	{gGrasslandPage42, ARRAY_COUNT(gGrasslandPage42)}, 
-	{gGrasslandPage43, ARRAY_COUNT(gGrasslandPage43)}, 
-	{gGrasslandPage44, ARRAY_COUNT(gGrasslandPage44)}, 
-	{gGrasslandPage45, ARRAY_COUNT(gGrasslandPage45)}, 
-	{gGrasslandPage46, ARRAY_COUNT(gGrasslandPage46)}, 
-	{gGrasslandPage47, ARRAY_COUNT(gGrasslandPage47)}, 
-	{gGrasslandPage48, ARRAY_COUNT(gGrasslandPage48)}, 
-	{gGrasslandPage49, ARRAY_COUNT(gGrasslandPage49)}, 
-	{gGrasslandPage50, ARRAY_COUNT(gGrasslandPage50)}, 
-	{gGrasslandPage51, ARRAY_COUNT(gGrasslandPage51)}, 
-	{gGrasslandPage52, ARRAY_COUNT(gGrasslandPage52)}, 
-	{gGrasslandPage53, ARRAY_COUNT(gGrasslandPage53)}, 
-	{gGrasslandPage54, ARRAY_COUNT(gGrasslandPage54)}, 
-	{gGrasslandPage55, ARRAY_COUNT(gGrasslandPage55)}, 
-	{gGrasslandPage56, ARRAY_COUNT(gGrasslandPage56)}, 
+	{gGrasslandPage1, ARRAY_COUNT(gGrasslandPage1)},
+	{gGrasslandPage2, ARRAY_COUNT(gGrasslandPage2)},
+	{gGrasslandPage3, ARRAY_COUNT(gGrasslandPage3)},
+	{gGrasslandPage4, ARRAY_COUNT(gGrasslandPage4)},
+	{gGrasslandPage5, ARRAY_COUNT(gGrasslandPage5)},
+	{gGrasslandPage6, ARRAY_COUNT(gGrasslandPage6)},
+	{gGrasslandPage7, ARRAY_COUNT(gGrasslandPage7)},
+	{gGrasslandPage8, ARRAY_COUNT(gGrasslandPage8)},
+	{gGrasslandPage9, ARRAY_COUNT(gGrasslandPage9)},
+	{gGrasslandPage10, ARRAY_COUNT(gGrasslandPage10)},
+	{gGrasslandPage11, ARRAY_COUNT(gGrasslandPage11)},
+	{gGrasslandPage12, ARRAY_COUNT(gGrasslandPage12)},
+	{gGrasslandPage13, ARRAY_COUNT(gGrasslandPage13)},
+	{gGrasslandPage14, ARRAY_COUNT(gGrasslandPage14)},
+	{gGrasslandPage15, ARRAY_COUNT(gGrasslandPage15)},
+	{gGrasslandPage16, ARRAY_COUNT(gGrasslandPage16)},
+	{gGrasslandPage17, ARRAY_COUNT(gGrasslandPage17)},
+	{gGrasslandPage17_1, ARRAY_COUNT(gGrasslandPage17_1)},
+	{gGrasslandPage18, ARRAY_COUNT(gGrasslandPage18)},
+	{gGrasslandPage19, ARRAY_COUNT(gGrasslandPage19)},
+	{gGrasslandPage20, ARRAY_COUNT(gGrasslandPage20)},
+	{gGrasslandPage21, ARRAY_COUNT(gGrasslandPage21)},
+	{gGrasslandPage22, ARRAY_COUNT(gGrasslandPage22)},
+	{gGrasslandPage23, ARRAY_COUNT(gGrasslandPage23)},
+	{gGrasslandPage24, ARRAY_COUNT(gGrasslandPage24)},
+	{gGrasslandPage25, ARRAY_COUNT(gGrasslandPage25)},
+	{gGrasslandPage26, ARRAY_COUNT(gGrasslandPage26)},
+	{gGrasslandPage27, ARRAY_COUNT(gGrasslandPage27)},
+	{gGrasslandPage28, ARRAY_COUNT(gGrasslandPage28)},
+	{gGrasslandPage29, ARRAY_COUNT(gGrasslandPage29)},
+	{gGrasslandPage30, ARRAY_COUNT(gGrasslandPage30)},
+	{gGrasslandPage31, ARRAY_COUNT(gGrasslandPage31)},
+	{gGrasslandPage32, ARRAY_COUNT(gGrasslandPage32)},
+	{gGrasslandPage33, ARRAY_COUNT(gGrasslandPage33)},
+	{gGrasslandPage34, ARRAY_COUNT(gGrasslandPage34)},
+	{gGrasslandPage35, ARRAY_COUNT(gGrasslandPage35)},
+	{gGrasslandPage36, ARRAY_COUNT(gGrasslandPage36)},
+	{gGrasslandPage37, ARRAY_COUNT(gGrasslandPage37)},
+	{gGrasslandPage38, ARRAY_COUNT(gGrasslandPage38)},
+	{gGrasslandPage39, ARRAY_COUNT(gGrasslandPage39)},
+	{gGrasslandPage40, ARRAY_COUNT(gGrasslandPage40)},
+	{gGrasslandPage41, ARRAY_COUNT(gGrasslandPage41)},
+	{gGrasslandPage42, ARRAY_COUNT(gGrasslandPage42)},
+	{gGrasslandPage43, ARRAY_COUNT(gGrasslandPage43)},
+	{gGrasslandPage44, ARRAY_COUNT(gGrasslandPage44)},
+	{gGrasslandPage45, ARRAY_COUNT(gGrasslandPage45)},
+	{gGrasslandPage46, ARRAY_COUNT(gGrasslandPage46)},
+	{gGrasslandPage47, ARRAY_COUNT(gGrasslandPage47)},
+	{gGrasslandPage48, ARRAY_COUNT(gGrasslandPage48)},
+	{gGrasslandPage49, ARRAY_COUNT(gGrasslandPage49)},
+	{gGrasslandPage50, ARRAY_COUNT(gGrasslandPage50)},
+	{gGrasslandPage51, ARRAY_COUNT(gGrasslandPage51)},
+	{gGrasslandPage52, ARRAY_COUNT(gGrasslandPage52)},
+	{gGrasslandPage53, ARRAY_COUNT(gGrasslandPage53)},
+	{gGrasslandPage54, ARRAY_COUNT(gGrasslandPage54)},
+	{gGrasslandPage55, ARRAY_COUNT(gGrasslandPage55)},
+	{gGrasslandPage56, ARRAY_COUNT(gGrasslandPage56)},
 	{gGrasslandPage57, ARRAY_COUNT(gGrasslandPage57)},
 	{gGrasslandPage58, ARRAY_COUNT(gGrasslandPage58)},
-
+	{gGrasslandPage59, ARRAY_COUNT(gGrasslandPage59)},
+	{gGrasslandPage60, ARRAY_COUNT(gGrasslandPage60)},
+	{gGrasslandPage61, ARRAY_COUNT(gGrasslandPage61)},
+	{gGrasslandPage62, ARRAY_COUNT(gGrasslandPage62)},
+	{gGrasslandPage63, ARRAY_COUNT(gGrasslandPage63)},
 };
 
 const struct HabitatPage gForestPages[] =
 {
-	{gForestPage1, ARRAY_COUNT(gForestPage1)}, 
-	{gForestPage2, ARRAY_COUNT(gForestPage2)}, 
-	{gForestPage3, ARRAY_COUNT(gForestPage3)}, 
-	{gForestPage4, ARRAY_COUNT(gForestPage4)}, 
-	{gForestPage5, ARRAY_COUNT(gForestPage5)}, 
-	{gForestPage6, ARRAY_COUNT(gForestPage6)}, 
-	{gForestPage7, ARRAY_COUNT(gForestPage7)}, 
-	{gForestPage8, ARRAY_COUNT(gForestPage8)}, 
-	{gForestPage8_1, ARRAY_COUNT(gForestPage8_1)}, 
-	{gForestPage8_2, ARRAY_COUNT(gForestPage8_2)}, 
-	{gForestPage8_3, ARRAY_COUNT(gForestPage8_3)}, 
-	{gForestPage8_4, ARRAY_COUNT(gForestPage8_4)}, 
-	{gForestPage8_5, ARRAY_COUNT(gForestPage8_5)}, 
-	{gForestPage9, ARRAY_COUNT(gForestPage9)}, 
-	{gForestPage10, ARRAY_COUNT(gForestPage10)}, 
-	{gForestPage11, ARRAY_COUNT(gForestPage11)}, 
-	{gForestPage12, ARRAY_COUNT(gForestPage12)}, 
-	{gForestPage13, ARRAY_COUNT(gForestPage13)}, 
-	{gForestPage14, ARRAY_COUNT(gForestPage14)}, 
-	{gForestPage15, ARRAY_COUNT(gForestPage15)}, 
-	{gForestPage16, ARRAY_COUNT(gForestPage16)}, 
-	{gForestPage17, ARRAY_COUNT(gForestPage17)}, 
-	{gForestPage18, ARRAY_COUNT(gForestPage18)}, 
-	{gForestPage19, ARRAY_COUNT(gForestPage19)}, 
-	{gForestPage20, ARRAY_COUNT(gForestPage20)}, 
-	{gForestPage21, ARRAY_COUNT(gForestPage21)}, 
-	{gForestPage22, ARRAY_COUNT(gForestPage22)}, 
-	{gForestPage23, ARRAY_COUNT(gForestPage23)}, 
-	{gForestPage24, ARRAY_COUNT(gForestPage24)}, 
-	{gForestPage25, ARRAY_COUNT(gForestPage25)}, 
-	{gForestPage26, ARRAY_COUNT(gForestPage26)}, 
-	{gForestPage27, ARRAY_COUNT(gForestPage27)}, 
-	{gForestPage28, ARRAY_COUNT(gForestPage28)}, 
-	{gForestPage29, ARRAY_COUNT(gForestPage29)}, 
-	{gForestPage30, ARRAY_COUNT(gForestPage30)}, 
-	{gForestPage31, ARRAY_COUNT(gForestPage31)}, 
-	{gForestPage32, ARRAY_COUNT(gForestPage32)}, 
-	{gForestPage33, ARRAY_COUNT(gForestPage33)}, 
-	{gForestPage34, ARRAY_COUNT(gForestPage34)}, 
-	{gForestPage35, ARRAY_COUNT(gForestPage35)}, 
-	{gForestPage36, ARRAY_COUNT(gForestPage36)}, 
-	{gForestPage37, ARRAY_COUNT(gForestPage37)}, 
-	{gForestPage38, ARRAY_COUNT(gForestPage38)}, 
-	{gForestPage39, ARRAY_COUNT(gForestPage39)}, 
-	{gForestPage40, ARRAY_COUNT(gForestPage40)}, 
-	{gForestPage41, ARRAY_COUNT(gForestPage41)}, 
-	{gForestPage42, ARRAY_COUNT(gForestPage42)}, 
-	{gForestPage43, ARRAY_COUNT(gForestPage43)}, 
-	{gForestPage44, ARRAY_COUNT(gForestPage44)}, 
-	{gForestPage45, ARRAY_COUNT(gForestPage45)}, 
-	{gForestPage46, ARRAY_COUNT(gForestPage46)}, 
-	{gForestPage47, ARRAY_COUNT(gForestPage47)}, 
-	{gForestPage48, ARRAY_COUNT(gForestPage48)}, 
-	{gForestPage49, ARRAY_COUNT(gForestPage49)}, 
-	{gForestPage50, ARRAY_COUNT(gForestPage50)}, 
-	{gForestPage51, ARRAY_COUNT(gForestPage51)}, 
-	{gForestPage52, ARRAY_COUNT(gForestPage52)}, 
-	{gForestPage53, ARRAY_COUNT(gForestPage53)}, 
-	{gForestPage54, ARRAY_COUNT(gForestPage54)}, 
-	{gForestPage55, ARRAY_COUNT(gForestPage55)}, 
-	{gForestPage56, ARRAY_COUNT(gForestPage56)}, 
-	{gForestPage57, ARRAY_COUNT(gForestPage57)}, 
-	{gForestPage58, ARRAY_COUNT(gForestPage58)}, 
+	{gForestPage1, ARRAY_COUNT(gForestPage1)},
+	{gForestPage2, ARRAY_COUNT(gForestPage2)},
+	{gForestPage3, ARRAY_COUNT(gForestPage3)},
+	{gForestPage4, ARRAY_COUNT(gForestPage4)},
+	{gForestPage5, ARRAY_COUNT(gForestPage5)},
+	{gForestPage6, ARRAY_COUNT(gForestPage6)},
+	{gForestPage7, ARRAY_COUNT(gForestPage7)},
+	{gForestPage8, ARRAY_COUNT(gForestPage8)},
+	{gForestPage8_1, ARRAY_COUNT(gForestPage8_1)},
+	{gForestPage8_2, ARRAY_COUNT(gForestPage8_2)},
+	{gForestPage8_3, ARRAY_COUNT(gForestPage8_3)},
+	{gForestPage8_4, ARRAY_COUNT(gForestPage8_4)},
+	{gForestPage8_5, ARRAY_COUNT(gForestPage8_5)},
+	{gForestPage9, ARRAY_COUNT(gForestPage9)},
+	{gForestPage10, ARRAY_COUNT(gForestPage10)},
+	{gForestPage11, ARRAY_COUNT(gForestPage11)},
+	{gForestPage12, ARRAY_COUNT(gForestPage12)},
+	{gForestPage13, ARRAY_COUNT(gForestPage13)},
+	{gForestPage14, ARRAY_COUNT(gForestPage14)},
+	{gForestPage15, ARRAY_COUNT(gForestPage15)},
+	{gForestPage16, ARRAY_COUNT(gForestPage16)},
+	{gForestPage17, ARRAY_COUNT(gForestPage17)},
+	{gForestPage18, ARRAY_COUNT(gForestPage18)},
+	{gForestPage19, ARRAY_COUNT(gForestPage19)},
+	{gForestPage20, ARRAY_COUNT(gForestPage20)},
+	{gForestPage21, ARRAY_COUNT(gForestPage21)},
+	{gForestPage22, ARRAY_COUNT(gForestPage22)},
+	{gForestPage23, ARRAY_COUNT(gForestPage23)},
+	{gForestPage24, ARRAY_COUNT(gForestPage24)},
+	{gForestPage25, ARRAY_COUNT(gForestPage25)},
+	{gForestPage26, ARRAY_COUNT(gForestPage26)},
+	{gForestPage27, ARRAY_COUNT(gForestPage27)},
+	{gForestPage28, ARRAY_COUNT(gForestPage28)},
+	{gForestPage29, ARRAY_COUNT(gForestPage29)},
+	{gForestPage30, ARRAY_COUNT(gForestPage30)},
+	{gForestPage31, ARRAY_COUNT(gForestPage31)},
+	{gForestPage32, ARRAY_COUNT(gForestPage32)},
+	{gForestPage33, ARRAY_COUNT(gForestPage33)},
+	{gForestPage34, ARRAY_COUNT(gForestPage34)},
+	{gForestPage35, ARRAY_COUNT(gForestPage35)},
+	{gForestPage36, ARRAY_COUNT(gForestPage36)},
+	{gForestPage37, ARRAY_COUNT(gForestPage37)},
+	{gForestPage38, ARRAY_COUNT(gForestPage38)},
+	{gForestPage39, ARRAY_COUNT(gForestPage39)},
+	{gForestPage40, ARRAY_COUNT(gForestPage40)},
+	{gForestPage41, ARRAY_COUNT(gForestPage41)},
+	{gForestPage42, ARRAY_COUNT(gForestPage42)},
+	{gForestPage43, ARRAY_COUNT(gForestPage43)},
+	{gForestPage44, ARRAY_COUNT(gForestPage44)},
+	{gForestPage45, ARRAY_COUNT(gForestPage45)},
+	{gForestPage46, ARRAY_COUNT(gForestPage46)},
+	{gForestPage47, ARRAY_COUNT(gForestPage47)},
+	{gForestPage48, ARRAY_COUNT(gForestPage48)},
+	{gForestPage49, ARRAY_COUNT(gForestPage49)},
+	{gForestPage50, ARRAY_COUNT(gForestPage50)},
+	{gForestPage51, ARRAY_COUNT(gForestPage51)},
+	{gForestPage52, ARRAY_COUNT(gForestPage52)},
+	{gForestPage53, ARRAY_COUNT(gForestPage53)},
+	{gForestPage54, ARRAY_COUNT(gForestPage54)},
+	{gForestPage55, ARRAY_COUNT(gForestPage55)},
+	{gForestPage56, ARRAY_COUNT(gForestPage56)},
+	{gForestPage57, ARRAY_COUNT(gForestPage57)},
+	{gForestPage58, ARRAY_COUNT(gForestPage58)},
 	{gForestPage59, ARRAY_COUNT(gForestPage59)},
 	{gForestPage60, ARRAY_COUNT(gForestPage60)},
 	{gForestPage61, ARRAY_COUNT(gForestPage61)},
@@ -2789,150 +3097,158 @@ const struct HabitatPage gForestPages[] =
 
 const struct HabitatPage gWatersEdgePages[] =
 {
-	{gWatersEdgePage1, ARRAY_COUNT(gWatersEdgePage1)}, 
-	{gWatersEdgePage2, ARRAY_COUNT(gWatersEdgePage2)}, 
-	{gWatersEdgePage3, ARRAY_COUNT(gWatersEdgePage3)}, 
-	{gWatersEdgePage4, ARRAY_COUNT(gWatersEdgePage4)}, 
-	{gWatersEdgePage5, ARRAY_COUNT(gWatersEdgePage5)}, 
-	{gWatersEdgePage6, ARRAY_COUNT(gWatersEdgePage6)}, 
-	{gWatersEdgePage7, ARRAY_COUNT(gWatersEdgePage7)}, 
-	{gWatersEdgePage8, ARRAY_COUNT(gWatersEdgePage8)}, 
-	{gWatersEdgePage9, ARRAY_COUNT(gWatersEdgePage9)}, 
-	{gWatersEdgePage10, ARRAY_COUNT(gWatersEdgePage10)}, 
-	{gWatersEdgePage11, ARRAY_COUNT(gWatersEdgePage11)}, 
-	{gWatersEdgePage12, ARRAY_COUNT(gWatersEdgePage12)}, 
-	{gWatersEdgePage13, ARRAY_COUNT(gWatersEdgePage13)}, 
-	{gWatersEdgePage14, ARRAY_COUNT(gWatersEdgePage14)}, 
-	{gWatersEdgePage15, ARRAY_COUNT(gWatersEdgePage15)}, 
-	{gWatersEdgePage16, ARRAY_COUNT(gWatersEdgePage16)}, 
-	{gWatersEdgePage17, ARRAY_COUNT(gWatersEdgePage17)}, 
-	{gWatersEdgePage18, ARRAY_COUNT(gWatersEdgePage18)}, 
-	{gWatersEdgePage19, ARRAY_COUNT(gWatersEdgePage19)}, 
-	{gWatersEdgePage20, ARRAY_COUNT(gWatersEdgePage20)}, 
-	{gWatersEdgePage21, ARRAY_COUNT(gWatersEdgePage21)}, 
-	{gWatersEdgePage22, ARRAY_COUNT(gWatersEdgePage22)}, 
-	{gWatersEdgePage23, ARRAY_COUNT(gWatersEdgePage23)}, 
-	{gWatersEdgePage24, ARRAY_COUNT(gWatersEdgePage24)}, 
-	{gWatersEdgePage25, ARRAY_COUNT(gWatersEdgePage25)}, 
-	{gWatersEdgePage26, ARRAY_COUNT(gWatersEdgePage26)}, 
-	{gWatersEdgePage27, ARRAY_COUNT(gWatersEdgePage27)}, 
-	{gWatersEdgePage28, ARRAY_COUNT(gWatersEdgePage28)}, 
-	{gWatersEdgePage29, ARRAY_COUNT(gWatersEdgePage29)}, 
-	{gWatersEdgePage30, ARRAY_COUNT(gWatersEdgePage30)}, 
-	{gWatersEdgePage31, ARRAY_COUNT(gWatersEdgePage31)}, 
-	{gWatersEdgePage32, ARRAY_COUNT(gWatersEdgePage32)}, 
-	{gWatersEdgePage33, ARRAY_COUNT(gWatersEdgePage33)}, 
-	{gWatersEdgePage34, ARRAY_COUNT(gWatersEdgePage34)}, 
-	{gWatersEdgePage35, ARRAY_COUNT(gWatersEdgePage35)}, 
+	{gWatersEdgePage1, ARRAY_COUNT(gWatersEdgePage1)},
+	{gWatersEdgePage2, ARRAY_COUNT(gWatersEdgePage2)},
+	{gWatersEdgePage3, ARRAY_COUNT(gWatersEdgePage3)},
+	{gWatersEdgePage4, ARRAY_COUNT(gWatersEdgePage4)},
+	{gWatersEdgePage5, ARRAY_COUNT(gWatersEdgePage5)},
+	{gWatersEdgePage6, ARRAY_COUNT(gWatersEdgePage6)},
+	{gWatersEdgePage7, ARRAY_COUNT(gWatersEdgePage7)},
+	{gWatersEdgePage8, ARRAY_COUNT(gWatersEdgePage8)},
+	{gWatersEdgePage9, ARRAY_COUNT(gWatersEdgePage9)},
+	{gWatersEdgePage10, ARRAY_COUNT(gWatersEdgePage10)},
+	{gWatersEdgePage11, ARRAY_COUNT(gWatersEdgePage11)},
+	{gWatersEdgePage12, ARRAY_COUNT(gWatersEdgePage12)},
+	{gWatersEdgePage13, ARRAY_COUNT(gWatersEdgePage13)},
+	{gWatersEdgePage14, ARRAY_COUNT(gWatersEdgePage14)},
+	{gWatersEdgePage15, ARRAY_COUNT(gWatersEdgePage15)},
+	{gWatersEdgePage16, ARRAY_COUNT(gWatersEdgePage16)},
+	{gWatersEdgePage17, ARRAY_COUNT(gWatersEdgePage17)},
+	{gWatersEdgePage18, ARRAY_COUNT(gWatersEdgePage18)},
+	{gWatersEdgePage19, ARRAY_COUNT(gWatersEdgePage19)},
+	{gWatersEdgePage20, ARRAY_COUNT(gWatersEdgePage20)},
+	{gWatersEdgePage21, ARRAY_COUNT(gWatersEdgePage21)},
+	{gWatersEdgePage22, ARRAY_COUNT(gWatersEdgePage22)},
+	{gWatersEdgePage23, ARRAY_COUNT(gWatersEdgePage23)},
+	{gWatersEdgePage24, ARRAY_COUNT(gWatersEdgePage24)},
+	{gWatersEdgePage25, ARRAY_COUNT(gWatersEdgePage25)},
+	{gWatersEdgePage26, ARRAY_COUNT(gWatersEdgePage26)},
+	{gWatersEdgePage27, ARRAY_COUNT(gWatersEdgePage27)},
+	{gWatersEdgePage28, ARRAY_COUNT(gWatersEdgePage28)},
+	{gWatersEdgePage29, ARRAY_COUNT(gWatersEdgePage29)},
+	{gWatersEdgePage30, ARRAY_COUNT(gWatersEdgePage30)},
+	{gWatersEdgePage31, ARRAY_COUNT(gWatersEdgePage31)},
+	{gWatersEdgePage32, ARRAY_COUNT(gWatersEdgePage32)},
+	{gWatersEdgePage33, ARRAY_COUNT(gWatersEdgePage33)},
+	{gWatersEdgePage34, ARRAY_COUNT(gWatersEdgePage34)},
+	{gWatersEdgePage35, ARRAY_COUNT(gWatersEdgePage35)},
 	{gWatersEdgePage36, ARRAY_COUNT(gWatersEdgePage36)},
-	{gWatersEdgePage37, ARRAY_COUNT(gWatersEdgePage37)}, 
-	{gWatersEdgePage38, ARRAY_COUNT(gWatersEdgePage38)}, 
+	{gWatersEdgePage37, ARRAY_COUNT(gWatersEdgePage37)},
+	{gWatersEdgePage38, ARRAY_COUNT(gWatersEdgePage38)},
 	{gWatersEdgePage39, ARRAY_COUNT(gWatersEdgePage39)},
+	{gWatersEdgePage40, ARRAY_COUNT(gWatersEdgePage40)},
+	{gWatersEdgePage41, ARRAY_COUNT(gWatersEdgePage41)},
+	{gWatersEdgePage42, ARRAY_COUNT(gWatersEdgePage42)},
+	{gWatersEdgePage43, ARRAY_COUNT(gWatersEdgePage43)},
 };
 
 const struct HabitatPage gSeaPages[] =
 {
-	{gSeaPage1, ARRAY_COUNT(gSeaPage1)}, 
-	{gSeaPage2, ARRAY_COUNT(gSeaPage2)}, 
-	{gSeaPage3, ARRAY_COUNT(gSeaPage3)}, 
-	{gSeaPage4, ARRAY_COUNT(gSeaPage4)}, 
-	{gSeaPage5, ARRAY_COUNT(gSeaPage5)}, 
-	{gSeaPage6, ARRAY_COUNT(gSeaPage6)}, 
-	{gSeaPage7, ARRAY_COUNT(gSeaPage7)}, 
-	{gSeaPage8, ARRAY_COUNT(gSeaPage8)}, 
-	{gSeaPage9, ARRAY_COUNT(gSeaPage9)}, 
-	{gSeaPage10, ARRAY_COUNT(gSeaPage10)}, 
-	{gSeaPage11, ARRAY_COUNT(gSeaPage11)}, 
-	{gSeaPage12, ARRAY_COUNT(gSeaPage12)}, 
-	{gSeaPage13, ARRAY_COUNT(gSeaPage13)}, 
-	{gSeaPage14, ARRAY_COUNT(gSeaPage14)}, 
-	{gSeaPage15, ARRAY_COUNT(gSeaPage15)}, 
-	{gSeaPage16, ARRAY_COUNT(gSeaPage16)}, 
-	{gSeaPage17, ARRAY_COUNT(gSeaPage17)}, 
-	{gSeaPage18, ARRAY_COUNT(gSeaPage18)}, 
-	{gSeaPage19, ARRAY_COUNT(gSeaPage19)}, 
-	{gSeaPage20, ARRAY_COUNT(gSeaPage20)}, 
-	{gSeaPage21, ARRAY_COUNT(gSeaPage21)}, 
-	{gSeaPage22, ARRAY_COUNT(gSeaPage22)}, 
+	{gSeaPage1, ARRAY_COUNT(gSeaPage1)},
+	{gSeaPage2, ARRAY_COUNT(gSeaPage2)},
+	{gSeaPage3, ARRAY_COUNT(gSeaPage3)},
+	{gSeaPage4, ARRAY_COUNT(gSeaPage4)},
+	{gSeaPage5, ARRAY_COUNT(gSeaPage5)},
+	{gSeaPage6, ARRAY_COUNT(gSeaPage6)},
+	{gSeaPage7, ARRAY_COUNT(gSeaPage7)},
+	{gSeaPage8, ARRAY_COUNT(gSeaPage8)},
+	{gSeaPage9, ARRAY_COUNT(gSeaPage9)},
+	{gSeaPage10, ARRAY_COUNT(gSeaPage10)},
+	{gSeaPage11, ARRAY_COUNT(gSeaPage11)},
+	{gSeaPage12, ARRAY_COUNT(gSeaPage12)},
+	{gSeaPage13, ARRAY_COUNT(gSeaPage13)},
+	{gSeaPage14, ARRAY_COUNT(gSeaPage14)},
+	{gSeaPage15, ARRAY_COUNT(gSeaPage15)},
+	{gSeaPage16, ARRAY_COUNT(gSeaPage16)},
+	{gSeaPage17, ARRAY_COUNT(gSeaPage17)},
+	{gSeaPage18, ARRAY_COUNT(gSeaPage18)},
+	{gSeaPage19, ARRAY_COUNT(gSeaPage19)},
+	{gSeaPage20, ARRAY_COUNT(gSeaPage20)},
+	{gSeaPage21, ARRAY_COUNT(gSeaPage21)},
+	{gSeaPage22, ARRAY_COUNT(gSeaPage22)},
 	{gSeaPage23, ARRAY_COUNT(gSeaPage23)},
+	{gSeaPage24, ARRAY_COUNT(gSeaPage24)},
 };
 
 const struct HabitatPage gCavePages[] =
 {
-	{gCavePage1, ARRAY_COUNT(gCavePage1)}, 
-	{gCavePage2, ARRAY_COUNT(gCavePage2)}, 
-	{gCavePage3, ARRAY_COUNT(gCavePage3)}, 
-	{gCavePage4, ARRAY_COUNT(gCavePage4)}, 
-	{gCavePage5, ARRAY_COUNT(gCavePage5)}, 
-	{gCavePage6, ARRAY_COUNT(gCavePage6)}, 
-	{gCavePage7, ARRAY_COUNT(gCavePage7)}, 
-	{gCavePage8, ARRAY_COUNT(gCavePage8)}, 
-	{gCavePage9, ARRAY_COUNT(gCavePage9)}, 
-	{gCavePage10, ARRAY_COUNT(gCavePage10)}, 
-	{gCavePage11, ARRAY_COUNT(gCavePage11)}, 
-	{gCavePage12, ARRAY_COUNT(gCavePage12)}, 
-	{gCavePage13, ARRAY_COUNT(gCavePage13)}, 
-	{gCavePage14, ARRAY_COUNT(gCavePage14)}, 
-	{gCavePage15, ARRAY_COUNT(gCavePage15)}, 
-	{gCavePage16, ARRAY_COUNT(gCavePage16)}, 
-	{gCavePage17, ARRAY_COUNT(gCavePage17)}, 
-	{gCavePage18, ARRAY_COUNT(gCavePage18)}, 
-	{gCavePage19, ARRAY_COUNT(gCavePage19)}, 
-	{gCavePage20, ARRAY_COUNT(gCavePage20)}, 
-	{gCavePage21, ARRAY_COUNT(gCavePage21)}, 
-	{gCavePage22, ARRAY_COUNT(gCavePage22)}, 
-	{gCavePage23, ARRAY_COUNT(gCavePage23)}, 
-	{gCavePage24, ARRAY_COUNT(gCavePage24)}, 
-	{gCavePage25, ARRAY_COUNT(gCavePage25)}, 
-	{gCavePage26, ARRAY_COUNT(gCavePage26)}, 
-	{gCavePage27, ARRAY_COUNT(gCavePage27)}, 
-	{gCavePage28, ARRAY_COUNT(gCavePage28)}, 
-	{gCavePage29, ARRAY_COUNT(gCavePage29)}, 
-	{gCavePage30, ARRAY_COUNT(gCavePage30)}, 
-	{gCavePage31, ARRAY_COUNT(gCavePage31)}, 
-	{gCavePage32, ARRAY_COUNT(gCavePage32)}, 
-	{gCavePage33, ARRAY_COUNT(gCavePage33)}, 
-	{gCavePage34, ARRAY_COUNT(gCavePage34)}, 
-	{gCavePage35, ARRAY_COUNT(gCavePage35)}, 
+	{gCavePage1, ARRAY_COUNT(gCavePage1)},
+	{gCavePage2, ARRAY_COUNT(gCavePage2)},
+	{gCavePage3, ARRAY_COUNT(gCavePage3)},
+	{gCavePage4, ARRAY_COUNT(gCavePage4)},
+	{gCavePage5, ARRAY_COUNT(gCavePage5)},
+	{gCavePage6, ARRAY_COUNT(gCavePage6)},
+	{gCavePage7, ARRAY_COUNT(gCavePage7)},
+	{gCavePage8, ARRAY_COUNT(gCavePage8)},
+	{gCavePage9, ARRAY_COUNT(gCavePage9)},
+	{gCavePage10, ARRAY_COUNT(gCavePage10)},
+	{gCavePage11, ARRAY_COUNT(gCavePage11)},
+	{gCavePage12, ARRAY_COUNT(gCavePage12)},
+	{gCavePage13, ARRAY_COUNT(gCavePage13)},
+	{gCavePage14, ARRAY_COUNT(gCavePage14)},
+	{gCavePage15, ARRAY_COUNT(gCavePage15)},
+	{gCavePage16, ARRAY_COUNT(gCavePage16)},
+	{gCavePage17, ARRAY_COUNT(gCavePage17)},
+	{gCavePage18, ARRAY_COUNT(gCavePage18)},
+	{gCavePage19, ARRAY_COUNT(gCavePage19)},
+	{gCavePage20, ARRAY_COUNT(gCavePage20)},
+	{gCavePage21, ARRAY_COUNT(gCavePage21)},
+	{gCavePage22, ARRAY_COUNT(gCavePage22)},
+	{gCavePage23, ARRAY_COUNT(gCavePage23)},
+	{gCavePage24, ARRAY_COUNT(gCavePage24)},
+	{gCavePage25, ARRAY_COUNT(gCavePage25)},
+	{gCavePage26, ARRAY_COUNT(gCavePage26)},
+	{gCavePage27, ARRAY_COUNT(gCavePage27)},
+	{gCavePage28, ARRAY_COUNT(gCavePage28)},
+	{gCavePage29, ARRAY_COUNT(gCavePage29)},
+	{gCavePage30, ARRAY_COUNT(gCavePage30)},
+	{gCavePage31, ARRAY_COUNT(gCavePage31)},
+	{gCavePage32, ARRAY_COUNT(gCavePage32)},
+	{gCavePage33, ARRAY_COUNT(gCavePage33)},
+	{gCavePage34, ARRAY_COUNT(gCavePage34)},
+	{gCavePage35, ARRAY_COUNT(gCavePage35)},
+	{gCavePage36, ARRAY_COUNT(gCavePage36)},
+	{gCavePage37, ARRAY_COUNT(gCavePage37)},
+	{gCavePage38, ARRAY_COUNT(gCavePage38)},
 };
 
 const struct HabitatPage gMountainPages[] =
 {
-	{gMountainPage1, ARRAY_COUNT(gMountainPage1)}, 
-	{gMountainPage2, ARRAY_COUNT(gMountainPage2)}, 
-	{gMountainPage3, ARRAY_COUNT(gMountainPage3)}, 
-	{gMountainPage4, ARRAY_COUNT(gMountainPage4)}, 
-	{gMountainPage5, ARRAY_COUNT(gMountainPage5)}, 
-	{gMountainPage6, ARRAY_COUNT(gMountainPage6)}, 
-	{gMountainPage7, ARRAY_COUNT(gMountainPage7)}, 
-	{gMountainPage8, ARRAY_COUNT(gMountainPage8)}, 
-	{gMountainPage9, ARRAY_COUNT(gMountainPage9)}, 
-	{gMountainPage10, ARRAY_COUNT(gMountainPage10)}, 
-	{gMountainPage11, ARRAY_COUNT(gMountainPage11)}, 
-	{gMountainPage12, ARRAY_COUNT(gMountainPage12)}, 
-	{gMountainPage13, ARRAY_COUNT(gMountainPage13)}, 
-	{gMountainPage14, ARRAY_COUNT(gMountainPage14)}, 
-	{gMountainPage15, ARRAY_COUNT(gMountainPage15)}, 
-	{gMountainPage16, ARRAY_COUNT(gMountainPage16)}, 
-	{gMountainPage17, ARRAY_COUNT(gMountainPage17)}, 
-	{gMountainPage18, ARRAY_COUNT(gMountainPage18)}, 
-	{gMountainPage19, ARRAY_COUNT(gMountainPage19)}, 
-	{gMountainPage20, ARRAY_COUNT(gMountainPage20)}, 
-	{gMountainPage21, ARRAY_COUNT(gMountainPage21)}, 
-	{gMountainPage22, ARRAY_COUNT(gMountainPage22)}, 
-	{gMountainPage23, ARRAY_COUNT(gMountainPage23)}, 
-	{gMountainPage24, ARRAY_COUNT(gMountainPage24)}, 
-	{gMountainPage25, ARRAY_COUNT(gMountainPage25)}, 
-	{gMountainPage26, ARRAY_COUNT(gMountainPage26)}, 
-	{gMountainPage27, ARRAY_COUNT(gMountainPage27)}, 
-	{gMountainPage28, ARRAY_COUNT(gMountainPage28)}, 
-	{gMountainPage29, ARRAY_COUNT(gMountainPage29)}, 
-	{gMountainPage30, ARRAY_COUNT(gMountainPage30)}, 
-	{gMountainPage31, ARRAY_COUNT(gMountainPage31)}, 
-	{gMountainPage32, ARRAY_COUNT(gMountainPage32)}, 
-	{gMountainPage33, ARRAY_COUNT(gMountainPage33)}, 
-	{gMountainPage34, ARRAY_COUNT(gMountainPage34)}, 
-	{gMountainPage35, ARRAY_COUNT(gMountainPage35)}, 
+	{gMountainPage1, ARRAY_COUNT(gMountainPage1)},
+	{gMountainPage2, ARRAY_COUNT(gMountainPage2)},
+	{gMountainPage3, ARRAY_COUNT(gMountainPage3)},
+	{gMountainPage4, ARRAY_COUNT(gMountainPage4)},
+	{gMountainPage5, ARRAY_COUNT(gMountainPage5)},
+	{gMountainPage6, ARRAY_COUNT(gMountainPage6)},
+	{gMountainPage7, ARRAY_COUNT(gMountainPage7)},
+	{gMountainPage8, ARRAY_COUNT(gMountainPage8)},
+	{gMountainPage9, ARRAY_COUNT(gMountainPage9)},
+	{gMountainPage10, ARRAY_COUNT(gMountainPage10)},
+	{gMountainPage11, ARRAY_COUNT(gMountainPage11)},
+	{gMountainPage12, ARRAY_COUNT(gMountainPage12)},
+	{gMountainPage13, ARRAY_COUNT(gMountainPage13)},
+	{gMountainPage14, ARRAY_COUNT(gMountainPage14)},
+	{gMountainPage15, ARRAY_COUNT(gMountainPage15)},
+	{gMountainPage16, ARRAY_COUNT(gMountainPage16)},
+	{gMountainPage17, ARRAY_COUNT(gMountainPage17)},
+	{gMountainPage18, ARRAY_COUNT(gMountainPage18)},
+	{gMountainPage19, ARRAY_COUNT(gMountainPage19)},
+	{gMountainPage20, ARRAY_COUNT(gMountainPage20)},
+	{gMountainPage21, ARRAY_COUNT(gMountainPage21)},
+	{gMountainPage22, ARRAY_COUNT(gMountainPage22)},
+	{gMountainPage23, ARRAY_COUNT(gMountainPage23)},
+	{gMountainPage24, ARRAY_COUNT(gMountainPage24)},
+	{gMountainPage25, ARRAY_COUNT(gMountainPage25)},
+	{gMountainPage26, ARRAY_COUNT(gMountainPage26)},
+	{gMountainPage27, ARRAY_COUNT(gMountainPage27)},
+	{gMountainPage28, ARRAY_COUNT(gMountainPage28)},
+	{gMountainPage29, ARRAY_COUNT(gMountainPage29)},
+	{gMountainPage30, ARRAY_COUNT(gMountainPage30)},
+	{gMountainPage31, ARRAY_COUNT(gMountainPage31)},
+	{gMountainPage32, ARRAY_COUNT(gMountainPage32)},
+	{gMountainPage33, ARRAY_COUNT(gMountainPage33)},
+	{gMountainPage34, ARRAY_COUNT(gMountainPage34)},
+	{gMountainPage35, ARRAY_COUNT(gMountainPage35)},
 	{gMountainPage36, ARRAY_COUNT(gMountainPage36)},
 	{gMountainPage37, ARRAY_COUNT(gMountainPage37)},
 	{gMountainPage38, ARRAY_COUNT(gMountainPage38)},
@@ -2942,99 +3258,111 @@ const struct HabitatPage gMountainPages[] =
 	{gMountainPage42, ARRAY_COUNT(gMountainPage42)},
 	{gMountainPage43, ARRAY_COUNT(gMountainPage43)},
 	{gMountainPage44, ARRAY_COUNT(gMountainPage44)},
+	{gMountainPage45, ARRAY_COUNT(gMountainPage45)},
+	{gMountainPage46, ARRAY_COUNT(gMountainPage46)},
+	{gMountainPage47, ARRAY_COUNT(gMountainPage47)},
 };
 
 const struct HabitatPage gRoughTerrainPages[] =
 {
-	{gRoughTerrainPage1, ARRAY_COUNT(gRoughTerrainPage1)}, 
-	{gRoughTerrainPage2, ARRAY_COUNT(gRoughTerrainPage2)}, 
-	{gRoughTerrainPage3, ARRAY_COUNT(gRoughTerrainPage3)}, 
-	{gRoughTerrainPage4, ARRAY_COUNT(gRoughTerrainPage4)}, 
-	{gRoughTerrainPage5, ARRAY_COUNT(gRoughTerrainPage5)}, 
-	{gRoughTerrainPage6, ARRAY_COUNT(gRoughTerrainPage6)}, 
-	{gRoughTerrainPage7, ARRAY_COUNT(gRoughTerrainPage7)}, 
-	{gRoughTerrainPage8, ARRAY_COUNT(gRoughTerrainPage8)}, 
-	{gRoughTerrainPage9, ARRAY_COUNT(gRoughTerrainPage9)}, 
-	{gRoughTerrainPage10, ARRAY_COUNT(gRoughTerrainPage10)}, 
-	{gRoughTerrainPage11, ARRAY_COUNT(gRoughTerrainPage11)}, 
-	{gRoughTerrainPage12, ARRAY_COUNT(gRoughTerrainPage12)}, 
-	{gRoughTerrainPage13, ARRAY_COUNT(gRoughTerrainPage13)}, 
-	{gRoughTerrainPage14, ARRAY_COUNT(gRoughTerrainPage14)}, 
-	{gRoughTerrainPage15, ARRAY_COUNT(gRoughTerrainPage15)}, 
-	{gRoughTerrainPage16, ARRAY_COUNT(gRoughTerrainPage16)}, 
-	{gRoughTerrainPage17, ARRAY_COUNT(gRoughTerrainPage17)}, 
-	{gRoughTerrainPage18, ARRAY_COUNT(gRoughTerrainPage18)}, 
-	{gRoughTerrainPage19, ARRAY_COUNT(gRoughTerrainPage19)}, 
-	{gRoughTerrainPage20, ARRAY_COUNT(gRoughTerrainPage20)}, 
-	{gRoughTerrainPage21, ARRAY_COUNT(gRoughTerrainPage21)}, 
-	{gRoughTerrainPage22, ARRAY_COUNT(gRoughTerrainPage22)}, 
-	{gRoughTerrainPage23, ARRAY_COUNT(gRoughTerrainPage23)}, 
-	{gRoughTerrainPage24, ARRAY_COUNT(gRoughTerrainPage24)}, 
-	{gRoughTerrainPage25, ARRAY_COUNT(gRoughTerrainPage25)}, 
-	{gRoughTerrainPage26, ARRAY_COUNT(gRoughTerrainPage26)}, 
-	{gRoughTerrainPage27, ARRAY_COUNT(gRoughTerrainPage27)}, 
-	{gRoughTerrainPage28, ARRAY_COUNT(gRoughTerrainPage28)}, 
+	{gRoughTerrainPage1, ARRAY_COUNT(gRoughTerrainPage1)},
+	{gRoughTerrainPage2, ARRAY_COUNT(gRoughTerrainPage2)},
+	{gRoughTerrainPage3, ARRAY_COUNT(gRoughTerrainPage3)},
+	{gRoughTerrainPage4, ARRAY_COUNT(gRoughTerrainPage4)},
+	{gRoughTerrainPage5, ARRAY_COUNT(gRoughTerrainPage5)},
+	{gRoughTerrainPage6, ARRAY_COUNT(gRoughTerrainPage6)},
+	{gRoughTerrainPage7, ARRAY_COUNT(gRoughTerrainPage7)},
+	{gRoughTerrainPage8, ARRAY_COUNT(gRoughTerrainPage8)},
+	{gRoughTerrainPage9, ARRAY_COUNT(gRoughTerrainPage9)},
+	{gRoughTerrainPage10, ARRAY_COUNT(gRoughTerrainPage10)},
+	{gRoughTerrainPage11, ARRAY_COUNT(gRoughTerrainPage11)},
+	{gRoughTerrainPage12, ARRAY_COUNT(gRoughTerrainPage12)},
+	{gRoughTerrainPage13, ARRAY_COUNT(gRoughTerrainPage13)},
+	{gRoughTerrainPage14, ARRAY_COUNT(gRoughTerrainPage14)},
+	{gRoughTerrainPage15, ARRAY_COUNT(gRoughTerrainPage15)},
+	{gRoughTerrainPage16, ARRAY_COUNT(gRoughTerrainPage16)},
+	{gRoughTerrainPage17, ARRAY_COUNT(gRoughTerrainPage17)},
+	{gRoughTerrainPage18, ARRAY_COUNT(gRoughTerrainPage18)},
+	{gRoughTerrainPage19, ARRAY_COUNT(gRoughTerrainPage19)},
+	{gRoughTerrainPage20, ARRAY_COUNT(gRoughTerrainPage20)},
+	{gRoughTerrainPage21, ARRAY_COUNT(gRoughTerrainPage21)},
+	{gRoughTerrainPage22, ARRAY_COUNT(gRoughTerrainPage22)},
+	{gRoughTerrainPage23, ARRAY_COUNT(gRoughTerrainPage23)},
+	{gRoughTerrainPage24, ARRAY_COUNT(gRoughTerrainPage24)},
+	{gRoughTerrainPage25, ARRAY_COUNT(gRoughTerrainPage25)},
+	{gRoughTerrainPage26, ARRAY_COUNT(gRoughTerrainPage26)},
+	{gRoughTerrainPage27, ARRAY_COUNT(gRoughTerrainPage27)},
+	{gRoughTerrainPage28, ARRAY_COUNT(gRoughTerrainPage28)},
+	{gRoughTerrainPage29, ARRAY_COUNT(gRoughTerrainPage29)},
+	{gRoughTerrainPage30, ARRAY_COUNT(gRoughTerrainPage30)},
+	{gRoughTerrainPage31, ARRAY_COUNT(gRoughTerrainPage31)},
 };
 
 const struct HabitatPage gUrbanPages[] =
 {
-	{gUrbanPage1, ARRAY_COUNT(gUrbanPage1)}, 
-	{gUrbanPage2, ARRAY_COUNT(gUrbanPage2)}, 
-	{gUrbanPage3, ARRAY_COUNT(gUrbanPage3)}, 
-	{gUrbanPage4, ARRAY_COUNT(gUrbanPage4)}, 
-	{gUrbanPage5, ARRAY_COUNT(gUrbanPage5)}, 
-	{gUrbanPage6, ARRAY_COUNT(gUrbanPage6)}, 
-	{gUrbanPage7, ARRAY_COUNT(gUrbanPage7)}, 
-	{gUrbanPage8, ARRAY_COUNT(gUrbanPage8)}, 
-	{gUrbanPage9, ARRAY_COUNT(gUrbanPage9)}, 
-	{gUrbanPage10, ARRAY_COUNT(gUrbanPage10)}, 
-	{gUrbanPage11, ARRAY_COUNT(gUrbanPage11)}, 
-	{gUrbanPage12, ARRAY_COUNT(gUrbanPage12)}, 
-	{gUrbanPage13, ARRAY_COUNT(gUrbanPage13)}, 
-	{gUrbanPage14, ARRAY_COUNT(gUrbanPage14)}, 
-	{gUrbanPage15, ARRAY_COUNT(gUrbanPage15)}, 
-	{gUrbanPage16, ARRAY_COUNT(gUrbanPage16)}, 
-	{gUrbanPage17, ARRAY_COUNT(gUrbanPage17)}, 
-	{gUrbanPage18, ARRAY_COUNT(gUrbanPage18)}, 
-	{gUrbanPage19, ARRAY_COUNT(gUrbanPage19)}, 
-	{gUrbanPage20, ARRAY_COUNT(gUrbanPage20)}, 
-	{gUrbanPage21, ARRAY_COUNT(gUrbanPage21)}, 
-	{gUrbanPage22, ARRAY_COUNT(gUrbanPage22)}, 
-	{gUrbanPage23, ARRAY_COUNT(gUrbanPage23)}, 
-	{gUrbanPage24, ARRAY_COUNT(gUrbanPage24)}, 
-	{gUrbanPage25, ARRAY_COUNT(gUrbanPage25)}, 
-	{gUrbanPage26, ARRAY_COUNT(gUrbanPage26)}, 
-	{gUrbanPage27, ARRAY_COUNT(gUrbanPage27)}, 
-	{gUrbanPage28, ARRAY_COUNT(gUrbanPage28)}, 
-	{gUrbanPage29, ARRAY_COUNT(gUrbanPage29)}, 
-	{gUrbanPage30, ARRAY_COUNT(gUrbanPage30)}, 
-	{gUrbanPage31, ARRAY_COUNT(gUrbanPage31)}, 
-	{gUrbanPage32, ARRAY_COUNT(gUrbanPage32)}, 
-	{gUrbanPage33, ARRAY_COUNT(gUrbanPage33)}, 
-	{gUrbanPage34, ARRAY_COUNT(gUrbanPage34)}, 
-	{gUrbanPage35, ARRAY_COUNT(gUrbanPage35)}, 
+	{gUrbanPage1, ARRAY_COUNT(gUrbanPage1)},
+	{gUrbanPage2, ARRAY_COUNT(gUrbanPage2)},
+	{gUrbanPage3, ARRAY_COUNT(gUrbanPage3)},
+	{gUrbanPage4, ARRAY_COUNT(gUrbanPage4)},
+	{gUrbanPage5, ARRAY_COUNT(gUrbanPage5)},
+	{gUrbanPage6, ARRAY_COUNT(gUrbanPage6)},
+	{gUrbanPage7, ARRAY_COUNT(gUrbanPage7)},
+	{gUrbanPage8, ARRAY_COUNT(gUrbanPage8)},
+	{gUrbanPage9, ARRAY_COUNT(gUrbanPage9)},
+	{gUrbanPage10, ARRAY_COUNT(gUrbanPage10)},
+	{gUrbanPage11, ARRAY_COUNT(gUrbanPage11)},
+	{gUrbanPage12, ARRAY_COUNT(gUrbanPage12)},
+	{gUrbanPage13, ARRAY_COUNT(gUrbanPage13)},
+	{gUrbanPage14, ARRAY_COUNT(gUrbanPage14)},
+	{gUrbanPage15, ARRAY_COUNT(gUrbanPage15)},
+	{gUrbanPage16, ARRAY_COUNT(gUrbanPage16)},
+	{gUrbanPage17, ARRAY_COUNT(gUrbanPage17)},
+	{gUrbanPage18, ARRAY_COUNT(gUrbanPage18)},
+	{gUrbanPage19, ARRAY_COUNT(gUrbanPage19)},
+	{gUrbanPage20, ARRAY_COUNT(gUrbanPage20)},
+	{gUrbanPage21, ARRAY_COUNT(gUrbanPage21)},
+	{gUrbanPage22, ARRAY_COUNT(gUrbanPage22)},
+	{gUrbanPage23, ARRAY_COUNT(gUrbanPage23)},
+	{gUrbanPage24, ARRAY_COUNT(gUrbanPage24)},
+	{gUrbanPage25, ARRAY_COUNT(gUrbanPage25)},
+	{gUrbanPage26, ARRAY_COUNT(gUrbanPage26)},
+	{gUrbanPage27, ARRAY_COUNT(gUrbanPage27)},
+	{gUrbanPage28, ARRAY_COUNT(gUrbanPage28)},
+	{gUrbanPage29, ARRAY_COUNT(gUrbanPage29)},
+	{gUrbanPage30, ARRAY_COUNT(gUrbanPage30)},
+	{gUrbanPage31, ARRAY_COUNT(gUrbanPage31)},
+	{gUrbanPage32, ARRAY_COUNT(gUrbanPage32)},
+	{gUrbanPage33, ARRAY_COUNT(gUrbanPage33)},
+	{gUrbanPage34, ARRAY_COUNT(gUrbanPage34)},
+	{gUrbanPage35, ARRAY_COUNT(gUrbanPage35)},
 	{gUrbanPage36, ARRAY_COUNT(gUrbanPage36)},
+	{gUrbanPage37, ARRAY_COUNT(gUrbanPage37)},
+	{gUrbanPage38, ARRAY_COUNT(gUrbanPage38)},
+	{gUrbanPage39, ARRAY_COUNT(gUrbanPage39)},
+	{gUrbanPage40, ARRAY_COUNT(gUrbanPage40)},
+	{gUrbanPage41, ARRAY_COUNT(gUrbanPage41)},
+	{gUrbanPage42, ARRAY_COUNT(gUrbanPage42)},
 };
 
 const struct HabitatPage gRarePages[] =
 {
-	{gRarePage1, ARRAY_COUNT(gRarePage1)}, 
-	{gRarePage2, ARRAY_COUNT(gRarePage2)}, 
-	{gRarePage3, ARRAY_COUNT(gRarePage3)}, 
-	{gRarePage4, ARRAY_COUNT(gRarePage4)}, 
-	{gRarePage5, ARRAY_COUNT(gRarePage5)}, 
-	{gRarePage6, ARRAY_COUNT(gRarePage6)}, 
-	{gRarePage7, ARRAY_COUNT(gRarePage7)}, 
-	{gRarePage8, ARRAY_COUNT(gRarePage8)}, 
-	{gRarePage9, ARRAY_COUNT(gRarePage9)}, 
-	{gRarePage10, ARRAY_COUNT(gRarePage10)}, 
-	{gRarePage11, ARRAY_COUNT(gRarePage11)}, 
-	{gRarePage12, ARRAY_COUNT(gRarePage12)}, 
-	{gRarePage13, ARRAY_COUNT(gRarePage13)}, 
-	{gRarePage14, ARRAY_COUNT(gRarePage14)}, 
-	{gRarePage15, ARRAY_COUNT(gRarePage15)}, 
-	{gRarePage16, ARRAY_COUNT(gRarePage16)}, 
-	{gRarePage17, ARRAY_COUNT(gRarePage17)}, 
+	{gRarePage1, ARRAY_COUNT(gRarePage1)},
+	{gRarePage2, ARRAY_COUNT(gRarePage2)},
+	{gRarePage3, ARRAY_COUNT(gRarePage3)},
+	{gRarePage4, ARRAY_COUNT(gRarePage4)},
+	{gRarePage5, ARRAY_COUNT(gRarePage5)},
+	{gRarePage6, ARRAY_COUNT(gRarePage6)},
+	{gRarePage7, ARRAY_COUNT(gRarePage7)},
+	{gRarePage8, ARRAY_COUNT(gRarePage8)},
+	{gRarePage9, ARRAY_COUNT(gRarePage9)},
+	{gRarePage10, ARRAY_COUNT(gRarePage10)},
+	{gRarePage11, ARRAY_COUNT(gRarePage11)},
+	{gRarePage12, ARRAY_COUNT(gRarePage12)},
+	{gRarePage13, ARRAY_COUNT(gRarePage13)},
+	{gRarePage14, ARRAY_COUNT(gRarePage14)},
+	{gRarePage15, ARRAY_COUNT(gRarePage15)},
+	{gRarePage16, ARRAY_COUNT(gRarePage16)},
+	{gRarePage17, ARRAY_COUNT(gRarePage17)},
 	{gRarePage18, ARRAY_COUNT(gRarePage18)},
 	{gRarePage19, ARRAY_COUNT(gRarePage19)},
 	{gRarePage20, ARRAY_COUNT(gRarePage20)},
@@ -3052,9 +3380,23 @@ const struct HabitatPage gRarePages[] =
 	{gRarePage32, ARRAY_COUNT(gRarePage32)},
 	{gRarePage33, ARRAY_COUNT(gRarePage33)},
 	{gRarePage34, ARRAY_COUNT(gRarePage34)},
-	{gRarePage35, ARRAY_COUNT(gRarePage35)},	
+	{gRarePage35, ARRAY_COUNT(gRarePage35)},
 	{gRarePage36, ARRAY_COUNT(gRarePage36)},
 	{gRarePage37, ARRAY_COUNT(gRarePage37)},
+	{gRarePage38, ARRAY_COUNT(gRarePage38)},
+	{gRarePage39, ARRAY_COUNT(gRarePage39)},
+	{gRarePage40, ARRAY_COUNT(gRarePage40)},
+	{gRarePage41, ARRAY_COUNT(gRarePage41)},
+	{gRarePage42, ARRAY_COUNT(gRarePage42)},
+	{gRarePage43, ARRAY_COUNT(gRarePage43)},
+	{gRarePage44, ARRAY_COUNT(gRarePage44)},
+	{gRarePage45, ARRAY_COUNT(gRarePage45)},
+	{gRarePage46, ARRAY_COUNT(gRarePage46)},
+	{gRarePage47, ARRAY_COUNT(gRarePage47)},
+	{gRarePage48, ARRAY_COUNT(gRarePage48)},
+	{gRarePage48, ARRAY_COUNT(gRarePage49)},
+	{gRarePage48, ARRAY_COUNT(gRarePage50)},
+	{gRarePage48, ARRAY_COUNT(gRarePage51)},
 };
 
 const struct Habitat gHabitatPtrsTable[9] =
