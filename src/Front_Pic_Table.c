@@ -1375,7 +1375,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES] =
 	[SPECIES_CETITAN] =              {gFrontSprite1332CetitanTiles, (64 * 64) / 2, SPECIES_CETITAN},
 	[SPECIES_VELUZA] =               {gFrontSprite1333VeluzaTiles, (64 * 64) / 2, SPECIES_VELUZA},
 	[SPECIES_DONDOZO] =              {gFrontSprite1334DondozoTiles, (64 * 64) / 2, SPECIES_DONDOZO},
-	[SPECIES_TATSUGIRI_CURLY] =      {gFrontSprite1335TatsugiriTiles, (64 * 64) / 2, SPECIES_TATSUGIRI_CURLY},
+	[SPECIES_TATSUGIRI_CURLY] =      {gFrontSprite1335TatsugiriCurlyTiles, (64 * 64) / 2, SPECIES_TATSUGIRI_CURLY},
 	[SPECIES_ANNIHILAPE] =           {gFrontSprite1336AnnihilapeTiles, (64 * 64) / 2, SPECIES_ANNIHILAPE},
 	[SPECIES_CLODSIRE] =             {gFrontSprite1337ClodsireTiles, (64 * 64) / 2, SPECIES_CLODSIRE},
 	[SPECIES_FARIGIRAF] =            {gFrontSprite1338FarigirafTiles, (64 * 64) / 2, SPECIES_FARIGIRAF},
@@ -1543,5 +1543,6 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES] =
 	[SPECIES_ROTOM_ROTOMI] =		 {gFrontSpriteExtraRotomiTiles, (64 * 64) / 2, SPECIES_ROTOM_ROTOMI},
 	[SPECIES_STOUTLAND_ETERNAL] =	 {gFrontSpriteExtraStoutlandEternalTiles, (64 * 64) / 2, SPECIES_STOUTLAND_ETERNAL},
 	[SPECIES_CHARIZARD_MONO] =		 {gFrontSpriteExtraCharizardMonoTiles, (64 * 64) / 2, SPECIES_CHARIZARD_MONO},
+	[SPECIES_ROCKRUFF_OWNTEMPO] =    {gFrontSpriteDupeRockruffOwnTempoTiles, (64 * 64) / 2, SPECIES_ROCKRUFF_OWNTEMPO},
  
 };

@@ -1535,6 +1535,7 @@ const u8* const gMonIconTable[NUM_SPECIES] =
 	[SPECIES_TANGROWTH_F] =			 gIconSprite518TangrowthTiles,
 	[SPECIES_MAMOSWINE_F] =			 gIconSprite526MamoswineTiles,
 	[SPECIES_SNEASEL_H_F] =			 gIconSpriteF92SneaselHTiles,
+	[SPECIES_ROCKRUFF_OWNTEMPO] =    gIconSprite961RockruffTiles,
 	[SPECIES_PROTOCEUS] =			 gIconSpriteExtraProtoceusTiles,
 	[SPECIES_MISSINGNO] =			 gIconSpriteExtraMissingnoTiles,
 	[SPECIES_ROTOM_ROTOMI] =		 gIconSpriteExtraRotomiTiles,
