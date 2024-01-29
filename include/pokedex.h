@@ -1140,8 +1140,8 @@ enum
 
 //Extra
 
-#define NATIONAL_DEX_PROTOCEUS 1011
-#define NATIONAL_DEX_MISSINGNO 1012
+#define NATIONAL_DEX_PROTOCEUS 1026
+#define NATIONAL_DEX_MISSINGNO 1027
 
 #define FINAL_DEX_ENTRY NATIONAL_DEX_MISSINGNO //Not +1 b/c used like this for some asm
 #define NATIONAL_DEX_COUNT FINAL_DEX_ENTRY + 1
@@ -1705,6 +1705,7 @@ extern const u8 DEX_ENTRY_ORICORIO_S[];
 extern const u8 DEX_ENTRY_LYCANROC_N[];
 extern const u8 DEX_ENTRY_LYCANROC_DUSK[];
 extern const u8 DEX_ENTRY_WISHIWASHI_S[];
+extern const u8 DEX_ENTRY_MAGEARNA_P[];
 extern const u8 DEX_ENTRY_NECROZMA_DUSK_MANE[];
 extern const u8 DEX_ENTRY_NECROZMA_DAWN_WINGS[];
 extern const u8 DEX_ENTRY_NECROZMA_ULTRA[];
@@ -1748,6 +1749,7 @@ extern const u8 DEX_ENTRY_QWILFISH_H[];
 extern const u8 DEX_ENTRY_SNEASEL_H[];
 extern const u8 DEX_ENTRY_SAMUROTT_H[];
 extern const u8 DEX_ENTRY_LILLIGANT_H[];
+extern const u8 DEX_ENTRY_BASCULIN_WHITE[];
 extern const u8 DEX_ENTRY_ZORUA_H[];
 extern const u8 DEX_ENTRY_ZOROARK_H[];
 extern const u8 DEX_ENTRY_BRAVIARY_H[];
@@ -1863,16 +1865,17 @@ extern const u8 DEX_ENTRY_KORAIDON[];
 extern const u8 DEX_ENTRY_MIRAIDON[];
 
 extern const u8 DEX_ENTRY_WOOPER_P[];
-extern const u8 DEX_ENTRY_TAUROS_P_1[];
-extern const u8 DEX_ENTRY_TAUROS_P_2[];
-extern const u8 DEX_ENTRY_TAUROS_P_3[];
+extern const u8 DEX_ENTRY_TAUROS_P[];
+extern const u8 DEX_ENTRY_TAUROS_P_BLAZE[];
+extern const u8 DEX_ENTRY_TAUROS_P_AQUA[];
+extern const u8 DEX_ENTRY_URSALUNA_BLOODMOON[];
 
 extern const u8 DEX_ENTRY_OINKOLOGNE_FEMALE[];
 extern const u8 DEX_ENTRY_DUDUNSPARCE_THREESEGMENT[];
 extern const u8 DEX_ENTRY_PALAFIN_HERO[];
-extern const u8 DEX_ENTRY_MAUSHOLD_FAMILYOF4[];
-extern const u8 DEX_ENTRY_TATSUGIRI_2[];
-extern const u8 DEX_ENTRY_TATSUGIRI_3[];
+extern const u8 DEX_ENTRY_MAUSHOLD_FAMILYOF3[];
+extern const u8 DEX_ENTRY_TATSUGIRI_DROOPY[];
+extern const u8 DEX_ENTRY_TATSUGIRI_STRETCHY[];
 extern const u8 DEX_ENTRY_SQUAWKABILLY_2[];
 extern const u8 DEX_ENTRY_SQUAWKABILLY_3[];
 extern const u8 DEX_ENTRY_SQUAWKABILLY_4[];
@@ -1887,6 +1890,9 @@ extern const u8 DEX_ENTRY_OKIDOGI[];
 extern const u8 DEX_ENTRY_MUNKIDORI[];
 extern const u8 DEX_ENTRY_FEZANDIPITI[];
 extern const u8 DEX_ENTRY_OGERPON[];
+extern const u8 DEX_ENTRY_OGERPON_WELLSPRING[];
+extern const u8 DEX_ENTRY_OGERPON_HEARTHFLAME[];
+extern const u8 DEX_ENTRY_OGERPON_CORNERSTONE[];
 extern const u8 DEX_ENTRY_ARCHALUDON[];
 extern const u8 DEX_ENTRY_HYDRAPPLE[];
 extern const u8 DEX_ENTRY_GOUGING_FIRE[];
@@ -1900,3 +1906,33 @@ extern const u8 DEX_ENTRY_PECHARUNT[];
 
 extern const u8 DEX_ENTRY_PROTOCEUS[];
 extern const u8 DEX_ENTRY_MISSINGNO[];
+
+//Alternate categories
+
+extern const u8 DEX_CATEGORY_HOOPA_UNBOUND[];
+extern const u8 DEX_CATEGORY_CALYREX_ICE_RIDER[];
+extern const u8 DEX_CATEGORY_CALYREX_SHADOW_RIDER[];
+extern const u8 DEX_CATEGORY_PONYTA_G[];
+extern const u8 DEX_CATEGORY_RAPIDASH_G[];
+extern const u8 DEX_CATEGORY_MR_MIME_G[];
+extern const u8 DEX_CATEGORY_SLOWKING_G[];
+extern const u8 DEX_CATEGORY_ARTICUNO_G[];
+extern const u8 DEX_CATEGORY_ZAPDOS_G[];
+extern const u8 DEX_CATEGORY_MOLTRES_G[];
+extern const u8 DEX_CATEGORY_DARMANITAN_G[];
+extern const u8 DEX_CATEGORY_DARMANITAN_G_ZEN[];
+extern const u8 DEX_CATEGORY_GROWLITHE_H[];
+extern const u8 DEX_CATEGORY_VOLTORB_H[];
+extern const u8 DEX_CATEGORY_ELECTRODE_H[];
+extern const u8 DEX_CATEGORY_TYPHLOSION_H[];
+extern const u8 DEX_CATEGORY_LILLIGANT_H[];
+extern const u8 DEX_CATEGORY_BASCULIN_WHITE[];
+extern const u8 DEX_CATEGORY_ZORUA_H[];
+extern const u8 DEX_CATEGORY_ZOROARK_H[];
+extern const u8 DEX_CATEGORY_BRAVIARY_H[];
+extern const u8 DEX_CATEGORY_SLIGGOO_H[];
+extern const u8 DEX_CATEGORY_GOODRA_H[];
+extern const u8 DEX_CATEGORY_PALAFIN_HERO[];
+extern const u8 DEX_CATEGORY_GIMMIGHOUL_ROAMING[];
+extern const u8 DEX_CATEGORY_WOOPER_P[];
+

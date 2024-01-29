@@ -49,6 +49,11 @@ enum EvolutionMethods
 	EVO_NATURE_LOW, // evolution based on low key nature at a certain level
 	EVO_DAMAGE_LOCATION, // recieve 49+ damage in battle without fainting, walk to specific tile
 	EVO_ITEM_LOCATION, // Stand on a tile with a certain behaviour and use an item on a Pokemon
+	EVO_MOVE_MALE, // Knows a given move and is male. For Basculegion if current method doesn't work
+	EVO_MOVE_FEMALE, // Knows a given move and is female. For Basculegion if current method doesn't work
+	EVO_COINS, // Level up while having a certain amount of coins in the Coin Case
+	EVO_PERSONALITY_100, // Level up while personality % 100 == 0
+	EVO_MAUSHOLD_REGULAR, // Level up while personality % 100 != 0
 };
 
 #define EVO_GIGANTAMAX 0xFD

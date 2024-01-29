@@ -5330,7 +5330,6 @@ const u16 gEggMoves[] =
 
 	EGG_MOVES_TERMINATOR
 
-	EGG_MOVES_TERMINATOR
 };
 
 u32 __attribute__((long_call)) GetMonData(void*, s32, const void *data);

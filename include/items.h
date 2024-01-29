@@ -772,8 +772,8 @@ enum
 
 //New evolution items
 
-#define ITEM_SCROLL_OF_WATERS 0x2D9 //For Single Strike Urshifu
-#define ITEM_SCROLL_OF_DARKNESS 0x2DA //For Rapid Strike Urshifu
+#define ITEM_SCROLL_OF_WATERS 0x2D9 //For Rapid Strike Urshifu
+#define ITEM_SCROLL_OF_DARKNESS 0x2DA //For Single Strike Urshifu
 #define ITEM_REINS_OF_UNITY 0x2DB //Fuses Calyrex to Spectrier and Glastrier
 #define ITEM_ADAMANT_CRYSTAL 0x2DC //transforms Dialga to Origin Form
 #define ITEM_LUSTROUS_GLOBE 0x2DD //transforms Palkia to Origin Form
