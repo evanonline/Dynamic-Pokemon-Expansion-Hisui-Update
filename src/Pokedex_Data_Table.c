@@ -11186,7 +11186,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-
+	
 	[NATIONAL_DEX_DOLLIV] =
 	{
 		.categoryName = {_O, _l, _i, _v, _e, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},

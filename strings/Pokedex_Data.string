@@ -1777,6 +1777,11 @@ It treats Tatsugiri like its boss and\nfollows it loyally. Though\npowerful, Don
 #org @DEX_ENTRY_TATSUGIRI
 This is a small dragon Pok\emon.\nIt feigns weakness to lure in prey,\nthen orders its partner to attack.
 
+#org @DEX_ENTRY_TATSUGIRI_DROOPY
+Tatsugiri changes itself to suit\nthe preferences of the prey it\nlures in, hence its varied colors.
+
+#org @DEX_ENTRY_TATSUGIRI_STRETCHY
+It is one of the most intelligent\ndragon Pok\emon. It inflates its\nthroat sac to camouflage itself.
 #org @DEX_ENTRY_ANNIHILAPE
 This Pok\emon imbues its fists with\nthe power of the rage that it kept\nhidden in its heart.
 
@@ -2161,7 +2166,7 @@ Hard of heart and deft of blade,\nits turbulent blows crash into foes\nlike ceas
 #org @DEX_ENTRY_LILLIGANT_H
 The leaves on its head are highly\nvalued for medicinal purposes when\ndried in the sun and boiled.
 
-#org @DEX_ENTRY_BASCULIN_H
+#org @DEX_ENTRY_BASCULIN_WHITE
 This Basculin differs from others in\nseveral respects, including its\ndemeanor - this one is gentle.
 
 #org @DEX_ENTRY_ZORUA_H
@@ -2286,7 +2291,7 @@ Ghost Flame
 #org @DEX_CATEGORY_LILLIGANT_H
 Spinning
 
-#org @DEX_CATEGORY_BASCULIN_H
+#org @DEX_CATEGORY_BASCULIN_WHITE
 Mellow
 
 #org @DEX_CATEGORY_ZORUA_H

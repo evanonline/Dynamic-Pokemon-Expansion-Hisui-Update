@@ -10927,7 +10927,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_HUMAN_LIKE,
 		.eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-		.ability1 = ABILITY_HUGEPOWER, //ABILITY_PUREPOWER
+		.ability1 = ABILITY_PUREPOWER, //ABILITY_PUREPOWER
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 90,
 		.hiddenAbility = ABILITY_TELEPATHY,
@@ -10960,7 +10960,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_HUMAN_LIKE,
 		.eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-		.ability1 = ABILITY_HUGEPOWER, //ABILITY_PUREPOWER
+		.ability1 = ABILITY_PUREPOWER, //ABILITY_PUREPOWER
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 60,
 		.hiddenAbility = ABILITY_TELEPATHY,
@@ -31387,7 +31387,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_BUG,
 		.eggGroup2 = EGG_GROUP_WATER_3,
-		.ability1 = ABILITY_EMERGENCYEXIT, //ABILITY_WIMP_OUT
+		.ability1 = ABILITY_WIMPOUT,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
@@ -36405,7 +36405,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_SWIFTSWIM,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_STALWART,
+		.hiddenAbility = ABILITY_PROPELLERTAIL,
 		.noFlip = TRUE,
 	},
 	
@@ -36438,7 +36438,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_SWIFTSWIM,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_STALWART,
+		.hiddenAbility = ABILITY_PROPELLERTAIL,
 		.noFlip = TRUE,
 	},
 	
