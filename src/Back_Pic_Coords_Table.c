@@ -6494,7 +6494,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SPRIGATITO] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_FLORAGATO] =
 	{
@@ -6509,22 +6509,22 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_FUECOCO] =
 	{
 		.size = 0x0,
-		.y_offset = 0x8,
+		.y_offset = 0x4,
 	},
 	[SPECIES_CROCALOR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x8,
 	},
 	[SPECIES_SKELEDIRGE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x8,
 	},
 	[SPECIES_QUAXLY] =
 	{
 		.size = 0x0,
-		.y_offset = 0x9,
+		.y_offset = 0x7,
 	},
 	[SPECIES_QUAXWELL] =
 	{
@@ -6534,17 +6534,17 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_QUAQUAVAL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x1,
 	},
 	[SPECIES_LECHONK] =
 	{
 		.size = 0x0,
-		.y_offset = 0xc,
+		.y_offset = 0xB,
 	},
 	[SPECIES_OINKOLOGNE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x8,
 	},
 	[SPECIES_OINKOLOGNE_FEMALE] =
 	{
@@ -6554,7 +6554,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_TAROUNTULA] =
 	{
 		.size = 0x0,
-		.y_offset = 0xa,
+		.y_offset = 0xb,
 	},
 	[SPECIES_SPIDOPS] =
 	{
@@ -6814,7 +6814,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_PALAFIN_HERO] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x1,
 	},
 	[SPECIES_VAROOM] =
 	{
@@ -7019,7 +7019,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_IRON_THORNS] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x1,
 	},
 	[SPECIES_IRON_VALIANT] =
 	{
@@ -7069,22 +7069,22 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_TAUROS_P] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0xD,
 	},
 	[SPECIES_TAUROS_P_BLAZE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0xD,
 	},
 	[SPECIES_TAUROS_P_AQUA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0xD,
 	},
 	[SPECIES_WOOPER_P] =
 	{
 		.size = 0x0,
-		.y_offset = 0x10,
+		.y_offset = 0xC,
 	},
 	[SPECIES_URSALUNA_BLOODMOON] =
 	{
