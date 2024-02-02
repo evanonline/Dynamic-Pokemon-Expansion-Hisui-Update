@@ -3656,8 +3656,8 @@ Slowbro
 #org @NAME_FARFETCHD_G
 Farfetch'd
 
-#org @NAME_KOFFING_G
-Blank
+#org @NAME_ROCKRUFF_OWNTEMPO
+Rockruff
 
 #org @NAME_WEEZING_G
 Weezing
@@ -4207,9 +4207,6 @@ Lechonk
 #org @NAME_OINKOLOGNE
 Oinkologne
 
-#org @NAME_DUDUNSPARCE
-Ddunsparce
-
 #org @NAME_TAROUNTULA
 Tarountula
 
@@ -4222,102 +4219,6 @@ Nymble
 #org @NAME_LOKIX
 Lokix
 
-#org @NAME_RELLOR
-Rellor
-
-#org @NAME_RABSCA
-Rabsca
-
-#org @NAME_GREAVARD
-Greavard
-
-#org @NAME_HOUNDSTONE
-Houndstone
-
-#org @NAME_FLITTLE
-Flittle
-
-#org @NAME_ESPATHRA
-Espathra
-
-#org @NAME_FARIGIRAF
-Farigiraf
-
-#org @NAME_WIGLETT
-Wiglett
-
-#org @NAME_WUGTRIO
-Wugtrio
-
-#org @NAME_DONDOZO
-Dondozo
-
-#org @NAME_VELUZA
-Veluza
-
-#org @NAME_FINIZEN
-Finizen
-
-#org @NAME_PALAFIN
-Palafin
-
-#org @NAME_SMOLIV
-Smoliv
-
-#org @NAME_DOLLIV
-Dolliv
-
-#org @NAME_ARBOLIVA 
-Arboliva
-
-#org @NAME_CAPSAKID
-Capsakid
-
-#org @NAME_SCOVILLAIN
-Scovillain
-
-#org @NAME_TADBULB
-Tadbulb
-
-#org @NAME_BELLIBOLT
-Bellibolt
-
-#org @NAME_VAROOM
-Varoom
-
-#org @NAME_REVAVROOM
-Revavroom
-
-#org @NAME_ORTHWORM
-Orthworm
-
-#org @NAME_TANDEMAUS
-Tandemaus
-
-#org @NAME_MAUSHOLD
-Maushold
-
-#org @NAME_CETODDLE
-Cetoddle
-
-#org @NAME_CETITAN
-Cetitan
-
-#org @NAME_FRIGIBAX
-Frigibax
-
-#org @NAME_ARCTIBAX
-Arctibax
-
-#org @NAME_BAXCALIBUR
-Baxcalibur
-
-#org @NAME_TATSUGIRI
-Tatsugiri
-
-#org @NAME_CYCLIZAR
-Cyclizar
-
 #org @NAME_PAWMI
 Pawmi
 
@@ -4327,128 +4228,104 @@ Pawmo
 #org @NAME_PAWMOT
 Pawmot
 
+#org @NAME_TANDEMAUS
+Tandemaus
+
+#org @NAME_MAUSHOLD
+Maushold
+
+#org @NAME_FIDOUGH
+Fidough
+
+#org @NAME_DACHSBUN
+Dachsbun
+
+#org @NAME_SMOLIV
+Smoliv
+
+#org @NAME_DOLLIV
+Dolliv
+
+#org @NAME_ARBOLIVA
+Arboliva
+
+#org @NAME_SQUAWKABILLY
+Squawkbily
+
+#org @NAME_NACLI
+Nacli
+
+#org @NAME_NACLSTACK
+Naclstack
+
+#org @NAME_GARGANACL
+Garganacl
+
+#org @NAME_CHARCADET
+Charcadet
+
+#org @NAME_ARMAROUGE
+Armarouge
+
+#org @NAME_CERULEDGE
+Ceruledge
+
+#org @NAME_TADBULB
+Tadbulb
+
+#org @NAME_BELLIBOLT
+Bellibolt
+
 #org @NAME_WATTREL
 Wattrel
 
 #org @NAME_KILOWATTREL
-Kilowttrel
-
-#org @NAME_BOMBIRDIER
-
-
-#org @NAME_SQUAWKABILLY
-
-
-#org @NAME_FLAMIGO
-
-
-#org @NAME_KLAWF
-
-
-#org @NAME_NACLI
-
-
-#org @NAME_NACLSTACK
-
-
-#org @NAME_GARGANACL
-
-
-#org @NAME_GLIMMET
-
-
-#org @NAME_GLIMMORA
-
-
-#org @NAME_SHROODLE
-
-
-#org @NAME_GRAFAIAI
-
-
-#org @NAME_FIDOUGH
-
-
-#org @NAME_DACHSBUN
-
+Kilowatrel
 
 #org @NAME_MASCHIFF
-
+Maschiff
 
 #org @NAME_MABOSSTIFF
 Mabosstiff
+
+#org @NAME_SHROODLE
+Shroodle
+
+#org @NAME_GRAFAIAI
+Grafaiai
 
 #org @NAME_BRAMBLIN
 Bramblin
 
 #org @NAME_BRAMBLEGHAST
-Brmblghast
+Bramblgast
 
-#org @NAME_GIMMIGHOUL
-Gimmighoul
+#org @NAME_TOEDSCOOL
+Toedscool
 
-#org @NAME_GHOLDENGO
-Gholdengo
+#org @NAME_TOEDSCRUEL
+Toedscruel
 
-#org @NAME_GREAT_TUSK
-Great Tusk
+#org @NAME_KLAWF
+Klawf
 
-#org @NAME_BRUTE_BONNET
-Br.Bonnet
+#org @NAME_CAPSAKID
+Capsakid
 
-#org @NAME_SANDY_SHOCKS
-Sdy.Shocks
+#org @NAME_SCOVILLAIN
+Scovillain
 
-#org @NAME_SCREAM_TAIL
-Scrm.Tail
+#org @NAME_RELLOR
+Rellor
 
-#org @NAME_FLUTTER_MANE
-Flutr.Mane
+#org @NAME_RABSCA
+Rabsca
 
-#org @NAME_SLITHER_WING
-Slthr.Wing
+#org @NAME_FLITTLE
+Flittle
 
-#org @NAME_ROARING_MOON
-Rrng.Moon
-
-#org @NAME_IRON_TREADS 
-Ir.Treads
-
-#org @NAME_IRON_MOTH
-Iron Moth
-
-#org @NAME_IRON_HANDS
-Iron Hands
-
-#org @NAME_IRON_JUGULIS
-Ir.Jugulis
-
-#org @NAME_IRON_THORNS
-Ir.Thorns
-
-#org @NAME_IRON_BUNDLE
-Ir.Bundle
-
-#org @NAME_IRON_VALIANT
-Ir.Valiant
-
-#org @NAME_TING_LU
-Ting-Lu
-
-#org @NAME_CHIEN_PAO
-Chien-Pao
-
-#org @NAME_WO_CHIEN
-Wo-Chien
-
-#org @NAME_CHI_YU
-Chi-Yu
-
-#org @NAME_KORAIDON
-Koraidon
-
-#org @NAME_MIRAIDON
-Miraidon
+#org @NAME_ESPATHRA
+Espathra
 
 #org @NAME_TINKATINK
 Tinkatink
@@ -4459,44 +4336,158 @@ Tinkatuff
 #org @NAME_TINKATON
 Tinkaton
 
-#org @NAME_CHARCADET 
-Charcadet
+#org @NAME_WIGLETT
+Wiglett
 
-#org @NAME_ARMAROUGE
-Armarouge
+#org @NAME_WUGTRIO
+Wugtrio
 
-#org @NAME_CERULEDGE
-Ceruledge
+#org @NAME_BOMBIRDIER
+Bombirdier
 
-#org @NAME_TOEDSCOOL
-Toedscool
+#org @NAME_FINIZEN
+Finizen
 
-#org @NAME_TOEDSCRUEL
-Toedscruel
+#org @NAME_PALAFIN
+Palafin
 
-#org @NAME_KINGAMBIT
-Kingambit
+#org @NAME_VAROOM
+Varoom
 
-#org @NAME_CLODSIRE
-Clodsire
+#org @NAME_REVAVROOM
+Revavroom
+
+#org @NAME_CYCLIZAR
+Cyclizar
+
+#org @NAME_ORTHWORM
+Orthworm
+
+#org @NAME_GLIMMET
+Glimmet
+
+#org @NAME_GLIMMORA
+Glimmora
+
+#org @NAME_GREAVARD
+Greavard
+
+#org @NAME_HOUNDSTONE
+Houndstone
+
+#org @NAME_FLAMIGO
+Flamigo
+
+#org @NAME_CETODDLE
+Cetoddle
+
+#org @NAME_CETITAN
+Cetitan
+
+#org @NAME_VELUZA
+Veluza
+
+#org @NAME_DONDOZO
+Dondozo
+
+#org @NAME_TATSUGIRI
+Tatsugiri
 
 #org @NAME_ANNIHILAPE
 Annihilape
 
-#org @NAME_TAUROS_P
-Tauros
+#org @NAME_CLODSIRE
+Clodsire
 
-#org @NAME_TAUROS_P_BLAZE
-Tauros
+#org @NAME_FARIGIRAF
+Farigiraf
 
-#org @NAME_TAUROS_P_AQUA
-Tauros
+#org @NAME_DUDUNSPARCE
+Dudunsprce
 
-#org @NAME_WOOPER_P
-Wooper
+#org @NAME_KINGAMBIT
+Kingambit
 
-#org @NAME_URSALUNA_BLOODMOON
-Ursaluna
+#org @NAME_GREAT_TUSK
+Great Tusk
+
+#org @NAME_SCREAM_TAIL
+Scrm. Tail
+
+#org @NAME_BRUTE_BONNET
+Br. Bonnet
+
+#org @NAME_FLUTTER_MANE
+Fltr. Mane
+
+#org @NAME_SLITHER_WING
+Slth. Wing
+
+#org @NAME_SANDY_SHOCKS
+Sd. Shocks
+
+#org @NAME_IRON_TREADS
+Ir. Treads
+
+#org @NAME_IRON_BUNDLE
+Ir. Bundle
+
+#org @NAME_IRON_HANDS
+IronHands
+
+#org @NAME_IRON_JUGULIS
+I. Jugulis
+
+#org @NAME_IRON_MOTH
+Iron Moth
+
+#org @NAME_IRON_THORNS
+Ir. Thorns
+
+#org @NAME_FRIGIBAX
+Frigibax
+
+#org @NAME_ARCTIBAX
+Arctibax
+
+#org @NAME_BAXCALIBUR
+Baxcalibur
+
+#org @NAME_GIMMIGHOUL
+Gimmighoul
+
+#org @NAME_GHOLDENGO
+Gholdengo
+
+#org @NAME_WO_CHIEN
+Wo-Chien
+
+#org @NAME_CHIEN_PAO
+Chien-Pao
+
+#org @NAME_TING_LU
+Ting-Lu
+
+#org @NAME_CHI_YU
+Chi-Yu
+
+#org @NAME_ROARING_MOON
+Rrng. Moon
+
+#org @NAME_IRON_VALIANT
+I. Valiant
+
+#org @NAME_KORAIDON
+Koraidon
+
+#org @NAME_MIRAIDON
+Miraidon
+
+#org @NAME_WALKING_WAKE
+Wlkg. Wake
+
+#org @NAME_IRON_LEAVES
+Ir. Leaves
 
 #org @NAME_DIPPLIN
 Dipplin
@@ -4504,13 +4495,7 @@ Dipplin
 #org @NAME_POLTCHAGEIST
 Polchgeist
 
-#org @NAME_POLTCHAGEIST_ARTISAN
-Polchgeist
-
 #org @NAME_SINISTCHA
-Sinistcha
-
-#org @NAME_SINISTCHA_MASTERPIECE
 Sinistcha
 
 #org @NAME_OKIDOGI
@@ -4524,6 +4509,57 @@ Fezandipti
 
 #org @NAME_OGERPON
 Ogerpon
+
+#org @NAME_WOOPER_P
+Wooper
+
+#org @NAME_TAUROS_P
+Tauros
+
+#org @NAME_TAUROS_P_BLAZE
+Tauros
+
+#org @NAME_TAUROS_P_AQUA
+Tauros
+
+#org @NAME_OINKOLOGNE_FEMALE
+Oinkologne
+
+#org @NAME_DUDUNSPARCE_THREESEGMENT
+Dudunsprce
+
+#org @NAME_PALAFIN_HERO
+Palafin
+
+#org @NAME_MAUSHOLD_FAMILYOF3
+Tatsugiri
+
+#org @NAME_TATSUGIRI_DROOPY
+Tatsugiri
+
+#org @NAME_TATSUGIRI_STRETCHY
+Tatsugiri
+
+#org @NAME_SQUAWKABILLY_2
+Squawkbily
+
+#org @NAME_SQUAWKABILLY_3
+Squawkbily
+
+#org @NAME_SQUAWKABILLY_4
+Squawkbily
+
+#org @NAME_GIMMIGHOUL_ROAMING
+Gimmighoul
+
+#org @NAME_URSALUNA_BLOODMOON
+Ursaluna
+
+#org @NAME_POLTCHAGEIST_ARTISAN
+Polchgeist
+
+#org @NAME_SINISTCHA_MASTERPIECE
+Sinistcha
 
 #org @NAME_OGERPON_WELLSPRING
 Ogerpon
@@ -4541,13 +4577,13 @@ Archaludon
 Hydrapple
 
 #org @NAME_GOUGING_FIRE
-Gging.Fire
+GouginFire
 
 #org @NAME_RAGING_BOLT
-Rgng.Bolt
+RagingBolt
 
 #org @NAME_IRON_BOULDER
-Ir.Boulder
+IronBouldr
 
 #org @NAME_IRON_CROWN
 Iron Crown
@@ -4555,11 +4591,11 @@ Iron Crown
 #org @NAME_TERAPAGOS
 Terapagos
 
+#org @NAME_PECHARUNT
+Pecharunt
+
 #org @NAME_TERAPAGOS_TERASTAL
 Terapagos
 
 #org @NAME_TERAPAGOS_STELLAR
 Terapagos
-
-#org @NAME_PECHARUNT
-Pecharunt
