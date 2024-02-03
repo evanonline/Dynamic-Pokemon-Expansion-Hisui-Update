@@ -6829,7 +6829,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_CYCLIZAR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x3,
+		.y_offset = 0x9,
 	},
 	[SPECIES_ORTHWORM] =
 	{
@@ -6849,12 +6849,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_GREAVARD] =
 	{
 		.size = 0x0,
-		.y_offset = 0xb,
+		.y_offset = 0x4,
 	},
 	[SPECIES_HOUNDSTONE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x7,
 	},
 	[SPECIES_FLAMIGO] =
 	{
@@ -6884,17 +6884,17 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_TATSUGIRI_CURLY] =
 	{
 		.size = 0x0,
-		.y_offset = 0xe,
+		.y_offset = 0x10,
 	},
 	[SPECIES_TATSUGIRI_STRETCHY] =
 	{
 		.size = 0x0,
-		.y_offset = 0xe,
+		.y_offset = 0x10,
 	},
 	[SPECIES_TATSUGIRI_DROOPY] =
 	{
 		.size = 0x0,
-		.y_offset = 0xe,
+		.y_offset = 0x10,
 	},
 	[SPECIES_FRIGIBAX] =
 	{
@@ -6994,7 +6994,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_IRON_TREADS] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x7,
 	},
 	[SPECIES_IRON_BUNDLE] =
 	{
@@ -7039,12 +7039,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_TING_LU] =
 	{
 		.size = 0x0,
-		.y_offset = 0x3,
+		.y_offset = 0x5,
 	},
 	[SPECIES_CHIEN_PAO] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0x5,
 	},
 	[SPECIES_WO_CHIEN] =
 	{
@@ -7054,12 +7054,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_CHI_YU] =
 	{
 		.size = 0x0,
-		.y_offset = 0xb,
+		.y_offset = 0xd,
 	},
 	[SPECIES_KORAIDON] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x2,
 	},
 	[SPECIES_MIRAIDON] =
 	{
@@ -7089,12 +7089,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_URSALUNA_BLOODMOON] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x9,
 	},
 	[SPECIES_DIPPLIN] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x1,
 	},
 	[SPECIES_POLTCHAGEIST] =
 	{
@@ -7119,7 +7119,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_OKIDOGI] =
 	{
 		.size = 0x0,
-		.y_offset = 0x1,
+		.y_offset = 0xF,
 	},
 	[SPECIES_MUNKIDORI] =
 	{
