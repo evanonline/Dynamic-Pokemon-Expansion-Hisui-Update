@@ -6516,17 +6516,17 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SKELEDIRGE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x2,
 	},
 	[SPECIES_QUAXLY] =
 	{
 		.size = 0x0,
-		.y_offset = 0x9,
+		.y_offset = 0x2,
 	},
 	[SPECIES_QUAXWELL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x3,
+		.y_offset = 0x0,
 	},
 	[SPECIES_QUAQUAVAL] =
 	{
@@ -6536,37 +6536,37 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_LECHONK] =
 	{
 		.size = 0x0,
-		.y_offset = 0xc,
+		.y_offset = 0x6,
 	},
 	[SPECIES_OINKOLOGNE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x5,
 	},
 	[SPECIES_OINKOLOGNE_FEMALE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x4,
 	},
 	[SPECIES_TAROUNTULA] =
 	{
 		.size = 0x0,
-		.y_offset = 0xa,
+		.y_offset = 0x6,
 	},
 	[SPECIES_SPIDOPS] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x1,
 	},
 	[SPECIES_NYMBLE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x8,
+		.y_offset = 0x6,
 	},
 	[SPECIES_LOKIX] =
 	{
 		.size = 0x0,
-		.y_offset = 0x3,
+		.y_offset = 0x0,
 	},
 	[SPECIES_PAWMI] =
 	{
@@ -6586,37 +6586,37 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_TANDEMAUS] =
 	{
 		.size = 0x0,
-		.y_offset = 0xf,
+		.y_offset = 0x9,
 	},
 	[SPECIES_MAUSHOLD] =
 	{
 		.size = 0x0,
-		.y_offset = 0xf,
+		.y_offset = 0x9,
 	},
 	[SPECIES_MAUSHOLD_FAMILYOF3] =
 	{
 		.size = 0x0,
-		.y_offset = 0xf,
+		.y_offset = 0x9,
 	},
 	[SPECIES_FIDOUGH] =
 	{
 		.size = 0x0,
-		.y_offset = 0xd,
+		.y_offset = 0xa,
 	},
 	[SPECIES_DACHSBUN] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x4,
 	},
 	[SPECIES_SMOLIV] =
 	{
 		.size = 0x0,
-		.y_offset = 0x10,
+		.y_offset = 0x9,
 	},
 	[SPECIES_DOLLIV] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x4,
 	},
 	[SPECIES_ARBOLIVA] =
 	{
@@ -6626,17 +6626,17 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SQUAWKABILLY] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x3,
 	},
 	[SPECIES_SQUAWKABILLY_2] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x3,
 	},
 	[SPECIES_SQUAWKABILLY_3] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x3,
 	},
 	[SPECIES_SQUAWKABILLY_4] =
 	{
