@@ -6604,7 +6604,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_FIDOUGH] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0xc,
 	},
 	[SPECIES_DACHSBUN] =
 	{
@@ -6649,42 +6649,42 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_NACLI] =
 	{
 		.size = 0x0,
-		.y_offset = 0x9,
+		.y_offset = 0xa,
 	},
 	[SPECIES_NACLSTACK] =
 	{
 		.size = 0x0,
-		.y_offset = 0xd,
+		.y_offset = 0x0,
 	},
 	[SPECIES_GARGANACL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x2,
 	},
 	[SPECIES_CHARCADET] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x3,
 	},
 	[SPECIES_ARMAROUGE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x1,
+		.y_offset = 0x3,
 	},
 	[SPECIES_CERULEDGE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x3,
 	},
 	[SPECIES_TADBULB] =
 	{
 		.size = 0x0,
-		.y_offset = 0xb,
+		.y_offset = 0x8,
 	},
 	[SPECIES_BELLIBOLT] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0xa,
 	},
 	[SPECIES_WATTREL] =
 	{

@@ -6571,7 +6571,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_PAWMI] =
 	{
 		.size = 0x0,
-		.y_offset = 0x10,
+		.y_offset = 0x9,
 	},
 	[SPECIES_PAWMO] =
 	{
@@ -6581,7 +6581,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_PAWMOT] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0x1,
 	},
 	[SPECIES_TANDEMAUS] =
 	{
@@ -6641,32 +6641,32 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SQUAWKABILLY_4] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x3,
 	},
 	[SPECIES_NACLI] =
 	{
 		.size = 0x0,
-		.y_offset = 0x9,
+		.y_offset = 0x6,
 	},
 	[SPECIES_NACLSTACK] =
 	{
 		.size = 0x0,
-		.y_offset = 0xd,
+		.y_offset = 0x7,
 	},
 	[SPECIES_GARGANACL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x2,
 	},
 	[SPECIES_CHARCADET] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x3,
 	},
 	[SPECIES_ARMAROUGE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x1,
+		.y_offset = 0x0,
 	},
 	[SPECIES_CERULEDGE] =
 	{
@@ -6676,12 +6676,12 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_TADBULB] =
 	{
 		.size = 0x0,
-		.y_offset = 0xb,
+		.y_offset = 0x2,
 	},
 	[SPECIES_BELLIBOLT] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0x5,
 	},
 	[SPECIES_WATTREL] =
 	{
