@@ -10,30 +10,30 @@ HOWEVER, I've noticed there are no public branches or forks that I'm aware of wh
 * I've also taken the liberty of adding sprites and entries for an near-identical Rockruff form that can have Own Tempo and thus evolve into Dusk Lycanroc, with the intention of reflecting how Scarlet & Violet handles Own Tempo Rockruff.
 
 #Here's what this repo still needs:
-	* Sprites for these Pokemon:
-		* Iron Bundle
-		* Iron Hands
-		* Iron Jugulis
-		* Iron Moth
-		* Roaring Moon
-		* Iron Valiant
-		* Miraidon
-		* Poltchageist (Unremarkable & Masterpiece)
-		* Sinistcha (Unremarkable & Masterpiece)
-		* Okidogi
-		* Munkidori
-		* Ogerpon (All forms)
-		* Archaludon (Back sprite only, currently using a placeholder)
-		* Hydrapple
-		* Gouging Fire
-		* Raging Bolt
-		* Iron Boulder
-		* Iron Crown
-		* Terapagos (All forms)
-		* Pecharunt
-	* All new Pokemon added to all TM and Tutor files.
-	* Double-checking of movesets, namely Hisui Pokemon, to ensure all the new moves are in their proper learnsets.
-	* Better file ompression of cries.
+* Sprites for these Pokemon:
+	* Iron Bundle
+	* Iron Hands
+	* Iron Jugulis
+	* Iron Moth
+	* Roaring Moon
+	* Iron Valiant
+	* Miraidon
+	* Poltchageist (Unremarkable & Masterpiece)
+	* Sinistcha (Unremarkable & Masterpiece)
+	* Okidogi
+	* Munkidori
+	* Ogerpon (All forms)
+	* Archaludon (Back sprite only, currently using a placeholder)
+	* Hydrapple
+	* Gouging Fire
+	* Raging Bolt
+	* Iron Boulder
+	* Iron Crown
+	* Terapagos (All forms)
+	* Pecharunt
+* All new Pokemon added to all TM and Tutor files.
+* Double-checking of movesets, namely Hisui Pokemon, to ensure all the new moves are in their proper learnsets.
+* Better file ompression of cries.
 	
 	
 Note that DPE doesn't handle things like move and ability effects, or gameplay-related stuff, so all of that will still need to be done in CFRU - this is simply the clerical nitty-gritty to get Pokemon ready for CFRU, which DOES handle that.
