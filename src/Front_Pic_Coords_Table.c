@@ -6896,17 +6896,17 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_FRIGIBAX] =
 	{
 		.size = 0x0,
-		.y_offset = 0xd,
+		.y_offset = 0x6,
 	},
 	[SPECIES_ARCTIBAX] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x4,
 	},
 	[SPECIES_BAXCALIBUR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x1,
+		.y_offset = 0x0,
 	},
 	[SPECIES_GIMMIGHOUL] =
 	{
@@ -6961,7 +6961,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SCREAM_TAIL] =
 	{
 		.size = 0x0,
-		.y_offset = 0xa,
+		.y_offset = 0x8,
 	},
 	[SPECIES_BRUTE_BONNET] =
 	{

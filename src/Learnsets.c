@@ -19650,6 +19650,7 @@ static const struct LevelUpMove sZoroarkHLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(52, MOVE_NASTYPLOT),
 	LEVEL_UP_MOVE(58, MOVE_FOULPLAY),
 	LEVEL_UP_END
+};
 
 static const struct LevelUpMove sBraviaryHLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 0, MOVE_HURRICANE),
