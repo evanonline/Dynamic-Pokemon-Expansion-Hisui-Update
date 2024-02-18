@@ -1,4 +1,5 @@
 #Pokemon Trails and Gen 9 additions
+
 This is the repo branch specific to my own personal romhack: Pokemon Trails. You'll notice stupid gags like Charizard with one horn from the old Ken Sugimori art, or a entries for a smattering of pathetic TCG card moves, or references to Minnesota (where vikings live in the Pokemon world!). There's also a few other odd changes here and there that I've made over vanilla DPE, such as changes to how Pokemon evolve when they have two different regional forms (Mime Jr., Exeggcute etc).
 
 HOWEVER, I've noticed there are no public branches or forks that I'm aware of which feature Gen 9 Pokemon, so I've decided to make my unfinished work on this public with the hopes that CFRU's community can come together to help me finalize this. As such, unlike my Hisui branch, this branch is less "generalized" and will still include stuff specific to my romhack, for the sake of my own personal ease. You can feel free to ignore all of this extraneous stuff I've done, revert it, or use it yourself - but I hope you can understand that it'd be a bit of trouble for me to do it myself right now and my focus is primarily on getting Gen 9 stuff added for the community. It's easier to delete stuff you won't use than to add things, after all.
@@ -15,6 +16,7 @@ HOWEVER, I've noticed there are no public branches or forks that I'm aware of wh
 	* Base_Stats.c (with some double-checking needed).
 
 #Here's what this repo still needs:
+
 	* Sprites for these Pokemon:
 		* Iron Bundle
 		* Iron Hands
