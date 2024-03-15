@@ -370,7 +370,7 @@
 #define ITEM_TEACHY_TV 366
 #define ITEM_TRI_PASS 367
 #define ITEM_RAINBOW_PASS 368
-#define ITEM_TEA 369
+#define ITEM_ENERGY_DRINK 369 //Energy Drink for Erika's gym
 #define ITEM_MYSTIC_TICKET 370
 #define ITEM_AURORA_TICKET 371
 #define ITEM_POWDER_JAR 372
@@ -770,8 +770,6 @@ enum
 #define ITEM_THROAT_SPRAY 0x2D7
 #define ITEM_ABILITY_CAPSULE 0x2D8
 
-//New evolution items
-
 #define ITEM_SCROLL_OF_WATERS 0x2D9 //For Rapid Strike Urshifu
 #define ITEM_SCROLL_OF_DARKNESS 0x2DA //For Single Strike Urshifu
 #define ITEM_REINS_OF_UNITY 0x2DB //Fuses Calyrex to Spectrier and Glastrier
@@ -781,13 +779,10 @@ enum
 
 #define ITEM_BLACK_AUGURITE 0x2DF //Kleavor evo
 #define ITEM_PEAT_BLOCK 0x2E0 //Ursaluna evo
-
 #define ITEM_AUSPICIOUS_ARMOR 0x2E1 //Charcadet -> Armarouge evo item
 #define ITEM_MALICIOUS_ARMOR 0x2E2 //Charcadet -> Ceruledge evo item
-
 #define ITEM_METAL_ALLOY 0x2E3 //Archaludon evo item
 #define ITEM_LEADERS_CREST 0x2E4 //Kingambit evo item
-
 #define ITEM_SYRUPY_APPLE 0x2E5 //Applin -> Dipplin evo item
 #define ITEM_UNREMARKABLE_TEACUP 0x2E6 //Unremarkable Poltchageist evo item 
 #define ITEM_MASTERPIECE_TEACUP 0x2E7 //Masterpiece Poltchageist evo item
@@ -797,15 +792,12 @@ enum
 #define ITEM_CORNERSTONE_MASK 0x2EA //Ogerpon Cornerstone mask
 
 #define ITEM_MELTAN_CANDYJAR 0x2EB //For evolving Meltan
-#define ITEM_GIMMIBANK 0x2EC //Gimmighoul evo item
-
-#define ITEM_LOADED_DICE 0x2EC //"If a Pokémon uses a multistrike move, that move will be more likely to hit more times."
-
+#define ITEM_CHRONO_ORB 0x2EC //For Primal Dialga
 #define ITEM_SWAP_ARMOR 0x2ED //For evolving Karrablast & Accelgor
 
-#define ITEM_CHRONO_ORB 0x2EF //For Primal Dialga
-#define ITEM_ENERBUSTER 0x2F0 //Held item for damaging mega Pokemon
-#define ITEM_GROWTH_TAPPER 0x2F1 //Power booster for Pokemon who have regional forms that further evolve, but cannot evolve themselves.
+#define ITEM_LOADED_DICE 0x2EF //"If a Pokémon uses a multistrike move, that move will be more likely to hit more times."
+#define ITEM_MEGA_BUSTER 0x2F0 //Held item for damaging mega Pokemon
+#define ITEM_GROWTH_TAP 0x2F1 //Power booster for Pokemon who have regional forms that further evolve, but cannot evolve themselves.
 #define ITEM_SPIRIT_MOTOR 0x2F2 //Powers up base Rotom in some way I haven't decided yet
 
 #define ITEMS_COUNT (ITEM_SPIRIT_MOTOR + 1)
